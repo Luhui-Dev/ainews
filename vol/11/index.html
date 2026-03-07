@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html class="light scroll-smooth scroll-pt-24" lang="zh-CN">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>AI 周报 | Vol. 11 | AI Hotlist</title>
+  <meta name="description" content="AI Hotlist Vol. 11（2026-02-28）精选 AI 热点与来源，覆盖模型、产品与产业动态。"/>
+  <meta property="og:title" content="AI 周报 | Vol. 11 | AI Hotlist"/>
+  <meta property="og:description" content="AI Hotlist Vol. 11（2026-02-28）精选 AI 热点与来源，覆盖模型、产品与产业动态。"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:url" content="https://ainews.luhuidev.com/vol/11/"/>
+  <meta property="og:image" content="https://ainews.luhuidev.com/images/social/vol-11.png"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="AI 周报 | Vol. 11 | AI Hotlist"/>
+  <meta name="twitter:description" content="AI Hotlist Vol. 11（2026-02-28）精选 AI 热点与来源，覆盖模型、产品与产业动态。"/>
+  <meta name="twitter:image" content="https://ainews.luhuidev.com/images/social/vol-11.png"/>
+  <link rel="icon" href="/favicon.ico" sizes="any"/>
+  <link rel="canonical" href="https://ainews.luhuidev.com/vol/11/"/>
+  
+  <link rel="alternate" hreflang="zh-CN" href="https://ainews.luhuidev.com/vol/11/"/>
+  
+  <link rel="alternate" hreflang="x-default" href="https://ainews.luhuidev.com/vol/11/"/>
+  
+  
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":"AI 周报 | Vol. 11 | AI Hotlist","description":"AI Hotlist Vol. 11（2026-02-28）精选 AI 热点与来源，覆盖模型、产品与产业动态。","inLanguage":"zh-CN","datePublished":"2026-02-28T00:00:00+08:00","dateModified":"2026-02-28T00:00:00+08:00","author":{"@type":"Person","name":"@Luhui Dev 出品，精选 AI 领域技术发展与产品动态"},"publisher":{"@type":"Organization","name":"AI Hotlist"},"mainEntityOfPage":"https://ainews.luhuidev.com/vol/11/","image":["https://ainews.luhuidev.com/images/social/vol-11.png"],"isPartOf":{"@type":"CreativeWorkSeries","name":"AI Hotlist"}}</script>
+  
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListOrder":"https://schema.org/ItemListOrderAscending","numberOfItems":6,"itemListElement":[{"@type":"ListItem","position":1,"name":"OpenAI 完成 1100 亿美元融资：算力战争进入资本极限扩张阶段","url":"https://x.com/OpenAI/status/2027376050263793814"},{"@type":"ListItem","position":2,"name":"Qwen 3.5 系列发布：用架构优化挑战“参数规模即智能”的传统路径","url":"https://x.com/Alibaba_Qwen/status/2026339351530188939"},{"@type":"ListItem","position":3,"name":"Nano Banana 2 全面接入 Google 生态：实时搜索驱动的生成模型商业闭环形成","url":"https://x.com/Google/status/2027051657163391104"},{"@type":"ListItem","position":4,"name":"Princeton 报告揭示能力—可靠性断层：代理系统稳定性仍远落后于能力增长","url":"https://x.com/steverab/status/2026383575080108436"},{"@type":"ListItem","position":5,"name":"vLLM 在 AMD GPU 上实现 4.4 倍解码加速：推理优化进入系统架构层竞争","url":"https://x.com/vllm_project/status/2027572563547742264"},{"@type":"ListItem","position":6,"name":"Perplexity 开源 Embedding 模型并推出 11.5 万真实查询评测集：强化 RAG 基础设施","url":"https://x.com/perplexity_ai/status/2027094981161410710"}]}</script>
+  
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Hotlist","item":"https://ainews.luhuidev.com/"},{"@type":"ListItem","position":2,"name":"Archive","item":"https://ainews.luhuidev.com/archive/"},{"@type":"ListItem","position":3,"name":"Vol. 11","item":"https://ainews.luhuidev.com/vol/11/"}]}</script>
+  
+  
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+    new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
+    "https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,"script","dataLayer","GTM-P966QWVP");
+  </script>
+  
+
+  <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#f9f506",
+            "background-light": "#f8f8f5",
+            "background-dark": "#23220f",
+            "surface-light": "#ffffff",
+            "surface-dark": "#2d2c1b",
+            "text-main": "#181811",
+            "text-muted": "#8c8b5f",
+          },
+          fontFamily: {
+            "display": ["Spline Sans", "Noto Sans", "sans-serif"],
+            "body": ["Spline Sans", "Noto Sans", "sans-serif"],
+          },
+          borderRadius: {"DEFAULT": "1rem", "lg": "1.5rem", "xl": "2rem", "2xl": "2.5rem", "full": "9999px"},
+        },
+      },
+    }
+  </script>
+
+  <style>
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+    .seo-only-links {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+    .seo-only-links a { pointer-events: none; }
+    body { min-height: max(884px, 100dvh); }
+  </style>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark text-text-main dark:text-white font-display antialiased transition-colors duration-200">
+  
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P966QWVP" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  
+  <div class="relative min-h-screen w-full bg-background-light dark:bg-background-dark md:py-6">
+    <div class="mx-auto flex min-h-screen w-full max-w-6xl flex-col overflow-hidden bg-background-light dark:bg-background-dark shadow-2xl border border-gray-100 dark:border-gray-800/70 rounded-none md:min-h-[calc(100dvh-3rem)] md:rounded-[28px]">
+
+      <div class="sticky top-0 z-50 flex items-center bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-md px-4 md:px-6 lg:px-8 py-3 justify-between border-b border-gray-100 dark:border-gray-800/50">
+        <a class="text-text-main dark:text-white flex size-10 shrink-0 items-center justify-center rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" href="/archive/">
+          <span class="material-symbols-outlined">menu</span>
+        </a>
+        <h2 class="text-text-main dark:text-white text-lg md:text-xl font-bold leading-tight tracking-[-0.015em]">AI Hotlist</h2>
+        <button id="export-button" class="flex size-10 items-center justify-center rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" type="button" aria-label="export">
+          <span class="material-symbols-outlined text-text-muted dark:text-gray-400">ios_share</span>
+        </button>
+      </div>
+
+      <div class="flex flex-col gap-6 p-4 md:p-6 lg:p-8">
+        <div class="flex flex-col gap-3 md:gap-4 px-1 md:px-2 lg:px-3">
+          <div class="inline-flex items-center gap-2">
+            <span class="bg-primary text-black text-xs font-bold px-2 py-1 rounded-full uppercase tracking-wider">2026 | 02.22 - 02.28</span>
+            <span class="text-text-muted text-xs font-medium">Vol. 11</span>
+          </div>
+
+          <h1 class="text-text-main dark:text-white tracking-tight text-[28px] md:text-[34px] lg:text-[38px] font-bold leading-[1.1] text-left">
+            AI一周资讯<span class="relative inline-block ml-1 z-10">精华<span class="absolute bottom-1 left-0 w-full h-3 bg-primary/40 -z-10 rounded-sm"></span></span>
+          </h1>
+
+          <div class="flex items-center gap-2">
+            <h3 class="text-text-muted dark:text-gray-400 text-sm font-medium">@Luhui Dev 出品，精选 AI 领域技术发展与产品动态</h3>
+          </div>
+
+          <nav class="sr-only" aria-label="Issue pager">
+            
+              <a rel="prev" href="/vol/12/">更新一期</a>
+            
+            
+              <a rel="next" href="/vol/10/">更早一期</a>
+            
+          </nav>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-[320px,1fr] gap-6 items-start">
+          <aside class="space-y-4 lg:sticky lg:top-24">
+            <div class="bg-white dark:bg-surface-dark/40 rounded-2xl border border-gray-200 dark:border-gray-800 shadow-sm overflow-hidden flex flex-col">
+              <div class="flex items-center gap-2 px-4 py-3 border-b border-gray-100 dark:border-gray-800/50 bg-gray-50/50 dark:bg-surface-dark/50">
+                <span class="material-symbols-outlined text-sm text-[#b59f05]">format_list_bulleted</span>
+                <span class="text-xs font-bold uppercase tracking-wider text-text-muted">快速浏览</span>
+              </div>
+
+              <div class="overflow-y-auto no-scrollbar">
+                
+                  
+                  <a class="flex items-start gap-3 p-3 hover:bg-gray-100 dark:hover:bg-gray-800/80 transition-colors group active:scale-[0.99]" href="#item-0" data-track="toc_click" data-target-id="item-0" data-target-title="OpenAI 完成 1100 亿美元融资：算力战争进入资本极限扩张阶段">
+                    <span class="font-mono text-xs font-bold mt-[2px] opacity-80" style="color:#b59f05;">01</span>
+                    <span class="text-sm font-medium text-text-main dark:text-white leading-snug transition-colors">
+                      OpenAI 完成 1100 亿美元融资：算力战争进入资本极限扩张阶段
+                    </span>
+                  </a>
+                
+                  
+                  <a class="flex items-start gap-3 p-3 hover:bg-gray-100 dark:hover:bg-gray-800/80 transition-colors group active:scale-[0.99]" href="#item-1" data-track="toc_click" data-target-id="item-1" data-target-title="Qwen 3.5 系列发布：用架构优化挑战“参数规模即智能”的传统路径">
+                    <span class="font-mono text-xs font-bold mt-[2px] opacity-80" style="color:#b59f05;">02</span>
+                    <span class="text-sm font-medium text-text-main dark:text-white leading-snug transition-colors">
+                      Qwen 3.5 系列发布：用架构优化挑战“参数规模即智能”的传统路径
+                    </span>
+                  </a>
+                
+                  
+                  <a class="flex items-start gap-3 p-3 hover:bg-gray-100 dark:hover:bg-gray-800/80 transition-colors group active:scale-[0.99]" href="#item-2" data-track="toc_click" data-target-id="item-2" data-target-title="Nano Banana 2 全面接入 Google 生态：实时搜索驱动的生成模型商业闭环形成">
+                    <span class="font-mono text-xs font-bold mt-[2px] opacity-80" style="color:#b59f05;">03</span>
+                    <span class="text-sm font-medium text-text-main dark:text-white leading-snug transition-colors">
+                      Nano Banana 2 全面接入 Google 生态：实时搜索驱动的生成模型商业闭环形成
+                    </span>
+                  </a>
+                
+                  
+                  <a class="flex items-start gap-3 p-3 hover:bg-gray-100 dark:hover:bg-gray-800/80 transition-colors group active:scale-[0.99]" href="#item-3" data-track="toc_click" data-target-id="item-3" data-target-title="Princeton 报告揭示能力—可靠性断层：代理系统稳定性仍远落后于能力增长">
+                    <span class="font-mono text-xs font-bold mt-[2px] opacity-80" style="color:#b59f05;">04</span>
+                    <span class="text-sm font-medium text-text-main dark:text-white leading-snug transition-colors">
+                      Princeton 报告揭示能力—可靠性断层：代理系统稳定性仍远落后于能力增长
+                    </span>
+                  </a>
+                
+                  
+                  <a class="flex items-start gap-3 p-3 hover:bg-gray-100 dark:hover:bg-gray-800/80 transition-colors group active:scale-[0.99]" href="#item-4" data-track="toc_click" data-target-id="item-4" data-target-title="vLLM 在 AMD GPU 上实现 4.4 倍解码加速：推理优化进入系统架构层竞争">
+                    <span class="font-mono text-xs font-bold mt-[2px] opacity-80" style="color:#b59f05;">05</span>
+                    <span class="text-sm font-medium text-text-main dark:text-white leading-snug transition-colors">
+                      vLLM 在 AMD GPU 上实现 4.4 倍解码加速：推理优化进入系统架构层竞争
+                    </span>
+                  </a>
+                
+                  
+                  <a class="flex items-start gap-3 p-3 hover:bg-gray-100 dark:hover:bg-gray-800/80 transition-colors group active:scale-[0.99]" href="#item-5" data-track="toc_click" data-target-id="item-5" data-target-title="Perplexity 开源 Embedding 模型并推出 11.5 万真实查询评测集：强化 RAG 基础设施">
+                    <span class="font-mono text-xs font-bold mt-[2px] opacity-80" style="color:#b59f05;">06</span>
+                    <span class="text-sm font-medium text-text-main dark:text-white leading-snug transition-colors">
+                      Perplexity 开源 Embedding 模型并推出 11.5 万真实查询评测集：强化 RAG 基础设施
+                    </span>
+                  </a>
+                
+              </div>
+            </div>
+          </aside>
+
+          <main class="flex flex-col gap-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6">
+              
+                
+                <a href="https://x.com/OpenAI/status/2027376050263793814" target="_blank" rel="noopener noreferrer" class="group relative flex h-full flex-col gap-3 rounded-xl bg-surface-light dark:bg-surface-dark p-5 shadow-sm border border-gray-100 dark:border-gray-800 transition-all active:scale-[0.99] hover:-translate-y-[2px] focus:outline-none focus:ring-2 focus:ring-primary/60" id="item-0" data-track="news_item_click" data-item-title="OpenAI 完成 1100 亿美元融资：算力战争进入资本极限扩张阶段" data-item-media="OpenAI" data-item-index="1">
+
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-2">
+                      
+                        <span class="flex items-center justify-center px-2.5 py-1 rounded-md bg-primary text-black text-[10px] font-bold uppercase tracking-wide">OpenAI</span>
+                      
+                      <span class="text-xs text-text-muted dark:text-gray-500 font-medium">2026-02-28</span>
+                    </div>
+                  </div>
+
+                  
+
+                  <h3 class="text-xl font-bold text-text-main dark:text-white leading-tight">OpenAI 完成 1100 亿美元融资：算力战争进入资本极限扩张阶段</h3>
+
+                  
+                    <p class="text-sm leading-relaxed text-text-main/80 dark:text-gray-300">OpenAI 宣布 1100 亿美元融资，投资方包括 Amazon、NVIDIA 与 SoftBank。该融资规模接近历史总融资额的数倍扩张，用于基础设施与算力建设。结合未来现金消耗预测，此轮融资几乎锁定未来数年扩张节奏，标志 AI 竞争已成为基础设施与资本主导的长期博弈。</p>
+                  
+
+                  <span class="mt-auto inline-flex items-center text-xs font-semibold text-text-main dark:text-white gap-1">
+                    <span class="group-hover:underline decoration-primary decoration-2 underline-offset-4">Read Source</span>
+                    <span class="material-symbols-outlined text-[16px] align-middle">arrow_forward</span>
+                  </span>
+
+                </a>
+              
+                
+                <a href="https://x.com/Alibaba_Qwen/status/2026339351530188939" target="_blank" rel="noopener noreferrer" class="group relative flex h-full flex-col gap-3 rounded-xl bg-surface-light dark:bg-surface-dark p-5 shadow-sm border border-gray-100 dark:border-gray-800 transition-all active:scale-[0.99] hover:-translate-y-[2px] focus:outline-none focus:ring-2 focus:ring-primary/60" id="item-1" data-track="news_item_click" data-item-title="Qwen 3.5 系列发布：用架构优化挑战“参数规模即智能”的传统路径" data-item-media="Alibaba_Qwen" data-item-index="2">
+
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-2">
+                      
+                        <span class="flex items-center justify-center px-2.5 py-1 rounded-md bg-primary text-black text-[10px] font-bold uppercase tracking-wide">Alibaba_Qwen</span>
+                      
+                      <span class="text-xs text-text-muted dark:text-gray-500 font-medium">2026-02-25</span>
+                    </div>
+                  </div>
+
+                  
+
+                  <h3 class="text-xl font-bold text-text-main dark:text-white leading-tight">Qwen 3.5 系列发布：用架构优化挑战“参数规模即智能”的传统路径</h3>
+
+                  
+                    <p class="text-sm leading-relaxed text-text-main/80 dark:text-gray-300">阿里发布 Qwen3.5-Flash、35B-A3B、122B-A10B 等模型，强调通过 MoE 架构与 RL 提升“单位算力智能密度”。Flash 默认支持 100 万上下文窗口，并快速接入主流部署生态。该发布兼具商业可部署性与架构层面创新意义。</p>
+                  
+
+                  <span class="mt-auto inline-flex items-center text-xs font-semibold text-text-main dark:text-white gap-1">
+                    <span class="group-hover:underline decoration-primary decoration-2 underline-offset-4">Read Source</span>
+                    <span class="material-symbols-outlined text-[16px] align-middle">arrow_forward</span>
+                  </span>
+
+                </a>
+              
+                
+                <a href="https://x.com/Google/status/2027051657163391104" target="_blank" rel="noopener noreferrer" class="group relative flex h-full flex-col gap-3 rounded-xl bg-surface-light dark:bg-surface-dark p-5 shadow-sm border border-gray-100 dark:border-gray-800 transition-all active:scale-[0.99] hover:-translate-y-[2px] focus:outline-none focus:ring-2 focus:ring-primary/60" id="item-2" data-track="news_item_click" data-item-title="Nano Banana 2 全面接入 Google 生态：实时搜索驱动的生成模型商业闭环形成" data-item-media="Google" data-item-index="3">
+
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-2">
+                      
+                        <span class="flex items-center justify-center px-2.5 py-1 rounded-md bg-primary text-black text-[10px] font-bold uppercase tracking-wide">Google</span>
+                      
+                      <span class="text-xs text-text-muted dark:text-gray-500 font-medium">2026-02-27</span>
+                    </div>
+                  </div>
+
+                  
+
+                  <h3 class="text-xl font-bold text-text-main dark:text-white leading-tight">Nano Banana 2 全面接入 Google 生态：实时搜索驱动的生成模型商业闭环形成</h3>
+
+                  
+                    <p class="text-sm leading-relaxed text-text-main/80 dark:text-gray-300">Google 发布 Nano Banana 2（Gemini 3.1 Flash Image Preview），并同步接入 Gemini App、Search、Google Ads、Vertex AI 等核心产品。模型强调实时搜索增强、4K 输出与多角色一致性。其价值不仅在技术升级，更在于生成模型首次深度嵌入搜索与广告主系统。</p>
+                  
+
+                  <span class="mt-auto inline-flex items-center text-xs font-semibold text-text-main dark:text-white gap-1">
+                    <span class="group-hover:underline decoration-primary decoration-2 underline-offset-4">Read Source</span>
+                    <span class="material-symbols-outlined text-[16px] align-middle">arrow_forward</span>
+                  </span>
+
+                </a>
+              
+                
+                <a href="https://x.com/steverab/status/2026383575080108436" target="_blank" rel="noopener noreferrer" class="group relative flex h-full flex-col gap-3 rounded-xl bg-surface-light dark:bg-surface-dark p-5 shadow-sm border border-gray-100 dark:border-gray-800 transition-all active:scale-[0.99] hover:-translate-y-[2px] focus:outline-none focus:ring-2 focus:ring-primary/60" id="item-3" data-track="news_item_click" data-item-title="Princeton 报告揭示能力—可靠性断层：代理系统稳定性仍远落后于能力增长" data-item-media="Princeton Research" data-item-index="4">
+
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-2">
+                      
+                        <span class="flex items-center justify-center px-2.5 py-1 rounded-md bg-primary text-black text-[10px] font-bold uppercase tracking-wide">Princeton Research</span>
+                      
+                      <span class="text-xs text-text-muted dark:text-gray-500 font-medium">2026-02-25</span>
+                    </div>
+                  </div>
+
+                  
+
+                  <h3 class="text-xl font-bold text-text-main dark:text-white leading-tight">Princeton 报告揭示能力—可靠性断层：代理系统稳定性仍远落后于能力增长</h3>
+
+                  
+                    <p class="text-sm leading-relaxed text-text-main/80 dark:text-gray-300">一项研究系统拆解 AI 可靠性为 12 个维度，指出能力增长远快于可靠性提升。该研究为 Agent 长任务失败、系统不稳定提供定量框架，具有长期研究意义，也对商业化部署提出现实挑战。</p>
+                  
+
+                  <span class="mt-auto inline-flex items-center text-xs font-semibold text-text-main dark:text-white gap-1">
+                    <span class="group-hover:underline decoration-primary decoration-2 underline-offset-4">Read Source</span>
+                    <span class="material-symbols-outlined text-[16px] align-middle">arrow_forward</span>
+                  </span>
+
+                </a>
+              
+                
+                <a href="https://x.com/vllm_project/status/2027572563547742264" target="_blank" rel="noopener noreferrer" class="group relative flex h-full flex-col gap-3 rounded-xl bg-surface-light dark:bg-surface-dark p-5 shadow-sm border border-gray-100 dark:border-gray-800 transition-all active:scale-[0.99] hover:-translate-y-[2px] focus:outline-none focus:ring-2 focus:ring-primary/60" id="item-4" data-track="news_item_click" data-item-title="vLLM 在 AMD GPU 上实现 4.4 倍解码加速：推理优化进入系统架构层竞争" data-item-media="vLLM" data-item-index="5">
+
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-2">
+                      
+                        <span class="flex items-center justify-center px-2.5 py-1 rounded-md bg-primary text-black text-[10px] font-bold uppercase tracking-wide">vLLM</span>
+                      
+                      <span class="text-xs text-text-muted dark:text-gray-500 font-medium">2026-02-28</span>
+                    </div>
+                  </div>
+
+                  
+
+                  <h3 class="text-xl font-bold text-text-main dark:text-white leading-tight">vLLM 在 AMD GPU 上实现 4.4 倍解码加速：推理优化进入系统架构层竞争</h3>
+
+                  
+                    <p class="text-sm leading-relaxed text-text-main/80 dark:text-gray-300">vLLM 发布 ROCm 后端优化与 KV-cache 布局改进，在 MI300X 系列 GPU 上实现最高 4.4 倍解码提升。显示 AI 竞争正从模型参数扩展到系统架构与内存调度层面，具有深远技术意义与商业成本影响。</p>
+                  
+
+                  <span class="mt-auto inline-flex items-center text-xs font-semibold text-text-main dark:text-white gap-1">
+                    <span class="group-hover:underline decoration-primary decoration-2 underline-offset-4">Read Source</span>
+                    <span class="material-symbols-outlined text-[16px] align-middle">arrow_forward</span>
+                  </span>
+
+                </a>
+              
+                
+                <a href="https://x.com/perplexity_ai/status/2027094981161410710" target="_blank" rel="noopener noreferrer" class="group relative flex h-full flex-col gap-3 rounded-xl bg-surface-light dark:bg-surface-dark p-5 shadow-sm border border-gray-100 dark:border-gray-800 transition-all active:scale-[0.99] hover:-translate-y-[2px] focus:outline-none focus:ring-2 focus:ring-primary/60" id="item-5" data-track="news_item_click" data-item-title="Perplexity 开源 Embedding 模型并推出 11.5 万真实查询评测集：强化 RAG 基础设施" data-item-media="Perplexity" data-item-index="6">
+
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-2">
+                      
+                        <span class="flex items-center justify-center px-2.5 py-1 rounded-md bg-primary text-black text-[10px] font-bold uppercase tracking-wide">Perplexity</span>
+                      
+                      <span class="text-xs text-text-muted dark:text-gray-500 font-medium">2026-02-27</span>
+                    </div>
+                  </div>
+
+                  
+
+                  <h3 class="text-xl font-bold text-text-main dark:text-white leading-tight">Perplexity 开源 Embedding 模型并推出 11.5 万真实查询评测集：强化 RAG 基础设施</h3>
+
+                  
+                    <p class="text-sm leading-relaxed text-text-main/80 dark:text-gray-300">Perplexity 发布 MIT 许可嵌入模型（0.6B / 4B）及真实查询评测数据集，主打文档级语义理解与检索增强生成优化。该发布强化其搜索产品底层能力，也为 RAG 生态提供可复现基础模型资源。</p>
+                  
+
+                  <span class="mt-auto inline-flex items-center text-xs font-semibold text-text-main dark:text-white gap-1">
+                    <span class="group-hover:underline decoration-primary decoration-2 underline-offset-4">Read Source</span>
+                    <span class="material-symbols-outlined text-[16px] align-middle">arrow_forward</span>
+                  </span>
+
+                </a>
+              
+            </div>
+
+            <section class="seo-only-links rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-surface-dark/50 p-4 md:p-5" aria-label="Related pages for SEO">
+              <h3 class="text-sm font-bold uppercase tracking-wider text-text-muted mb-3">Related Pages</h3>
+              <div class="flex flex-col gap-2">
+                
+                  <a href="/archive/" class="text-sm font-semibold hover:underline decoration-primary decoration-2 underline-offset-4" data-track="internal_link_click" data-link-label="查看 AI 一周资讯历史归档" data-link-href="https://ainews.luhuidev.com/archive/">
+                    查看 AI 一周资讯历史归档
+                  </a>
+                
+                  <a href="/" class="text-sm font-semibold hover:underline decoration-primary decoration-2 underline-offset-4" data-track="internal_link_click" data-link-label="回到 AI Hotlist 最新一期" data-link-href="https://ainews.luhuidev.com/">
+                    回到 AI Hotlist 最新一期
+                  </a>
+                
+                  <a href="/vol/12/" class="text-sm font-semibold hover:underline decoration-primary decoration-2 underline-offset-4" data-track="internal_link_click" data-link-label="阅读最新一期（Vol. 12）" data-link-href="https://ainews.luhuidev.com/vol/12/">
+                    阅读最新一期（Vol. 12）
+                  </a>
+                
+              </div>
+            </section>
+
+            <div class="flex flex-col items-center justify-center pb-6 pt-2 opacity-60">
+              <div class="h-1 w-1 rounded-full bg-text-muted mb-2"></div>
+              <div class="h-1 w-1 rounded-full bg-text-muted mb-2"></div>
+              <div class="h-1 w-1 rounded-full bg-text-muted mb-4"></div>
+              <p class="text-xs font-medium text-text-muted uppercase tracking-widest">End of Brief</p>
+              <p class="text-[10px] mt-2 text-text-muted">See you next week</p>
+            </div>
+          </main>
+        </div>
+      </div>
+
+      <a class="fixed bottom-6 right-6 z-40 size-12 rounded-full bg-primary text-black shadow-lg shadow-primary/30 flex items-center justify-center hover:scale-110 transition-transform active:scale-90" href="#">
+        <span class="material-symbols-outlined">vertical_align_top</span>
+      </a>
+
+    </div>
+  </div>
+<script>
+  function pushDataLayer(eventName, payload) {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push(Object.assign({ event: eventName }, payload || {}));
+  }
+
+  (function attachTracking() {
+    pushDataLayer("hotlist_page_view", {
+      page_type: "issue_detail",
+      issue_vol: "Vol. 11",
+      issue_date: "2026-02-28"
+    });
+
+    document.addEventListener("click", (event) => {
+      const anchor = event.target.closest("a[href]");
+      if (!anchor) return;
+
+      const trackType = anchor.dataset.track;
+      if (trackType === "news_item_click") {
+        pushDataLayer("news_item_click", {
+          item_title: anchor.dataset.itemTitle || "",
+          item_media: anchor.dataset.itemMedia || "",
+          item_index: Number(anchor.dataset.itemIndex || "0"),
+          href: anchor.href
+        });
+        return;
+      }
+
+      if (trackType === "toc_click") {
+        pushDataLayer("toc_click", {
+          target_id: anchor.dataset.targetId || "",
+          target_title: anchor.dataset.targetTitle || ""
+        });
+        return;
+      }
+
+      if (trackType === "internal_link_click") {
+        pushDataLayer("internal_link_click", {
+          link_label: anchor.dataset.linkLabel || "",
+          href: anchor.dataset.linkHref || anchor.href
+        });
+      }
+    });
+  })();
+
+  (function attachExportEasterEgg() {
+    const button = document.getElementById("export-button");
+    if (!button) return;
+
+    let tapCount = 0;
+    let hideToastTimer = null;
+
+    function showToast(message) {
+      let toast = document.getElementById("export-easter-egg-toast");
+      if (!toast) {
+        toast = document.createElement("div");
+        toast.id = "export-easter-egg-toast";
+        toast.className = "fixed bottom-24 left-1/2 -translate-x-1/2 z-[60] px-4 py-2 rounded-full bg-text-main text-white text-xs font-semibold shadow-lg shadow-black/20 opacity-0 pointer-events-none transition-opacity duration-200";
+        document.body.appendChild(toast);
+      }
+
+      toast.textContent = message;
+      toast.classList.remove("opacity-0");
+      toast.classList.add("opacity-100");
+
+      if (hideToastTimer) {
+        clearTimeout(hideToastTimer);
+      }
+      hideToastTimer = setTimeout(() => {
+        toast.classList.remove("opacity-100");
+        toast.classList.add("opacity-0");
+      }, 1400);
+    }
+
+    button.addEventListener("click", () => {
+      tapCount += 1;
+      pushDataLayer("export_button_click", {
+        tap_count: tapCount,
+        issue_vol: "Vol. 11",
+        issue_date: "2026-02-28"
+      });
+
+      if (tapCount >= 5) {
+        showToast("彩蛋解锁: Export Wizard 正在召唤中...");
+        tapCount = 0;
+      } else if (tapCount >= 3) {
+        showToast("再点两下，解锁隐藏台词");
+      } else {
+        showToast("导出功能开发中，先看个彩蛋");
+      }
+
+      button.animate(
+        [
+          { transform: "scale(1) rotate(0deg)" },
+          { transform: "scale(1.08) rotate(-8deg)" },
+          { transform: "scale(1.05) rotate(8deg)" },
+          { transform: "scale(1) rotate(0deg)" },
+        ],
+        { duration: 320, easing: "ease-out" },
+      );
+    });
+  })();
+</script>
+</body>
+</html>

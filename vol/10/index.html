@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html class="light scroll-smooth scroll-pt-24" lang="zh-CN">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>AI 周报 | Vol. 10 | AI Hotlist</title>
+  <meta name="description" content="AI Hotlist Vol. 10（2026-02-21）精选 AI 热点与来源，覆盖模型、产品与产业动态。"/>
+  <meta property="og:title" content="AI 周报 | Vol. 10 | AI Hotlist"/>
+  <meta property="og:description" content="AI Hotlist Vol. 10（2026-02-21）精选 AI 热点与来源，覆盖模型、产品与产业动态。"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:url" content="https://ainews.luhuidev.com/vol/10/"/>
+  <meta property="og:image" content="https://ainews.luhuidev.com/images/social/vol-10.png"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="AI 周报 | Vol. 10 | AI Hotlist"/>
+  <meta name="twitter:description" content="AI Hotlist Vol. 10（2026-02-21）精选 AI 热点与来源，覆盖模型、产品与产业动态。"/>
+  <meta name="twitter:image" content="https://ainews.luhuidev.com/images/social/vol-10.png"/>
+  <link rel="icon" href="/favicon.ico" sizes="any"/>
+  <link rel="canonical" href="https://ainews.luhuidev.com/vol/10/"/>
+  
+  <link rel="alternate" hreflang="zh-CN" href="https://ainews.luhuidev.com/vol/10/"/>
+  
+  <link rel="alternate" hreflang="x-default" href="https://ainews.luhuidev.com/vol/10/"/>
+  
+  
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":"AI 周报 | Vol. 10 | AI Hotlist","description":"AI Hotlist Vol. 10（2026-02-21）精选 AI 热点与来源，覆盖模型、产品与产业动态。","inLanguage":"zh-CN","datePublished":"2026-02-21T00:00:00+08:00","dateModified":"2026-02-21T00:00:00+08:00","author":{"@type":"Person","name":"@Luhui Dev 出品，精选 AI 领域技术发展与产品动态"},"publisher":{"@type":"Organization","name":"AI Hotlist"},"mainEntityOfPage":"https://ainews.luhuidev.com/vol/10/","image":["https://ainews.luhuidev.com/images/social/vol-10.png"],"isPartOf":{"@type":"CreativeWorkSeries","name":"AI Hotlist"}}</script>
+  
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListOrder":"https://schema.org/ItemListOrderAscending","numberOfItems":6,"itemListElement":[{"@type":"ListItem","position":1,"name":"Anthropic 发布 Claude Sonnet 4.6：百万上下文与代码库级重构能力强化 Agent 与编程场景","url":"https://mp.weixin.qq.com/s/WxLGbUCv0peRR6LY7yQnbQ"},{"@type":"ListItem","position":2,"name":"Context Arena测试显示Gemini 3.1 Pro Preview多针检索能力接近GPT-5.2","url":"https://x.com/DillonUzar/status/2024655613293215855"},{"@type":"ListItem","position":3,"name":"阿里通义千问发布 Qwen3.5：原生多模态 + 稀疏 MoE，大幅提升推理效率直指顶级模型竞争","url":"https://mp.weixin.qq.com/s/AAanKh5uiCuvFVMAP4nIvw"},{"@type":"ListItem","position":4,"name":"OpenAI 招募 OpenClaw 创始人并支持其进入开源基金会：押注“个人 AI Agent 平台”生态","url":"https://www.reuters.com/business/openclaw-founder-steinberger-joins-openai-open-source-bot-becomes-foundation-2026-02-15/"},{"@type":"ListItem","position":5,"name":"Anthropic发布AI代理自主性研究并登陆Arena搜索模态排行榜","url":"https://x.com/arena/status/2024144830209966142"},{"@type":"ListItem","position":6,"name":"智谱AI发布GLM-5技术报告提出异步代理强化学习架构","url":"https://x.com/scaling01/status/2024050011164520683"}]}</script>
+  
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Hotlist","item":"https://ainews.luhuidev.com/"},{"@type":"ListItem","position":2,"name":"Archive","item":"https://ainews.luhuidev.com/archive/"},{"@type":"ListItem","position":3,"name":"Vol. 10","item":"https://ainews.luhuidev.com/vol/10/"}]}</script>
+  
+  
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+    new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
+    "https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,"script","dataLayer","GTM-P966QWVP");
+  </script>
+  
+
+  <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#f9f506",
+            "background-light": "#f8f8f5",
+            "background-dark": "#23220f",
+            "surface-light": "#ffffff",
+            "surface-dark": "#2d2c1b",
+            "text-main": "#181811",
+            "text-muted": "#8c8b5f",
+          },
+          fontFamily: {
+            "display": ["Spline Sans", "Noto Sans", "sans-serif"],
+            "body": ["Spline Sans", "Noto Sans", "sans-serif"],
+          },
+          borderRadius: {"DEFAULT": "1rem", "lg": "1.5rem", "xl": "2rem", "2xl": "2.5rem", "full": "9999px"},
+        },
+      },
+    }
+  </script>
+
+  <style>
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+    .seo-only-links {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+    .seo-only-links a { pointer-events: none; }
+    body { min-height: max(884px, 100dvh); }
+  </style>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark text-text-main dark:text-white font-display antialiased transition-colors duration-200">
+  
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P966QWVP" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  
+  <div class="relative min-h-screen w-full bg-background-light dark:bg-background-dark md:py-6">
+    <div class="mx-auto flex min-h-screen w-full max-w-6xl flex-col overflow-hidden bg-background-light dark:bg-background-dark shadow-2xl border border-gray-100 dark:border-gray-800/70 rounded-none md:min-h-[calc(100dvh-3rem)] md:rounded-[28px]">
+
+      <div class="sticky top-0 z-50 flex items-center bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-md px-4 md:px-6 lg:px-8 py-3 justify-between border-b border-gray-100 dark:border-gray-800/50">
+        <a class="text-text-main dark:text-white flex size-10 shrink-0 items-center justify-center rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" href="/archive/">
+          <span class="material-symbols-outlined">menu</span>
+        </a>
+        <h2 class="text-text-main dark:text-white text-lg md:text-xl font-bold leading-tight tracking-[-0.015em]">AI Hotlist</h2>
+        <button id="export-button" class="flex size-10 items-center justify-center rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" type="button" aria-label="export">
+          <span class="material-symbols-outlined text-text-muted dark:text-gray-400">ios_share</span>
+        </button>
+      </div>
+
+      <div class="flex flex-col gap-6 p-4 md:p-6 lg:p-8">
+        <div class="flex flex-col gap-3 md:gap-4 px-1 md:px-2 lg:px-3">
+          <div class="inline-flex items-center gap-2">
+            <span class="bg-primary text-black text-xs font-bold px-2 py-1 rounded-full uppercase tracking-wider">2026 | 02.15 - 02.21</span>
+            <span class="text-text-muted text-xs font-medium">Vol. 10</span>
+          </div>
+
+          <h1 class="text-text-main dark:text-white tracking-tight text-[28px] md:text-[34px] lg:text-[38px] font-bold leading-[1.1] text-left">
+            AI一周资讯<span class="relative inline-block ml-1 z-10">精华<span class="absolute bottom-1 left-0 w-full h-3 bg-primary/40 -z-10 rounded-sm"></span></span>
+          </h1>
+
+          <div class="flex items-center gap-2">
+            <h3 class="text-text-muted dark:text-gray-400 text-sm font-medium">@Luhui Dev 出品，精选 AI 领域技术发展与产品动态</h3>
+          </div>
+
+          <nav class="sr-only" aria-label="Issue pager">
+            
+              <a rel="prev" href="/vol/11/">更新一期</a>
+            
+            
+              <a rel="next" href="/vol/9/">更早一期</a>
+            
+          </nav>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-[320px,1fr] gap-6 items-start">
+          <aside class="space-y-4 lg:sticky lg:top-24">
+            <div class="bg-white dark:bg-surface-dark/40 rounded-2xl border border-gray-200 dark:border-gray-800 shadow-sm overflow-hidden flex flex-col">
+              <div class="flex items-center gap-2 px-4 py-3 border-b border-gray-100 dark:border-gray-800/50 bg-gray-50/50 dark:bg-surface-dark/50">
+                <span class="material-symbols-outlined text-sm text-[#b59f05]">format_list_bulleted</span>
+                <span class="text-xs font-bold uppercase tracking-wider text-text-muted">快速浏览</span>
+              </div>
+
+              <div class="overflow-y-auto no-scrollbar">
+                
+                  
+                  <a class="flex items-start gap-3 p-3 hover:bg-gray-100 dark:hover:bg-gray-800/80 transition-colors group active:scale-[0.99]" href="#item-0" data-track="toc_click" data-target-id="item-0" data-target-title="Anthropic 发布 Claude Sonnet 4.6：百万上下文与代码库级重构能力强化 Agent 与编程场景">
+                    <span class="font-mono text-xs font-bold mt-[2px] opacity-80" style="color:#b59f05;">01</span>
+                    <span class="text-sm font-medium text-text-main dark:text-white leading-snug transition-colors">
+                      Anthropic 发布 Claude Sonnet 4.6：百万上下文与代码库级重构能力强化 Agent 与编程场景
+                    </span>
+                  </a>
+                
+                  
+                  <a class="flex items-start gap-3 p-3 hover:bg-gray-100 dark:hover:bg-gray-800/80 transition-colors group active:scale-[0.99]" href="#item-1" data-track="toc_click" data-target-id="item-1" data-target-title="Context Arena测试显示Gemini 3.1 Pro Preview多针检索能力接近GPT-5.2">
+                    <span class="font-mono text-xs font-bold mt-[2px] opacity-80" style="color:#b59f05;">02</span>
+                    <span class="text-sm font-medium text-text-main dark:text-white leading-snug transition-colors">
+                      Context Arena测试显示Gemini 3.1 Pro Preview多针检索能力接近GPT-5.2
+                    </span>
+                  </a>
+                
+                  
+                  <a class="flex items-start gap-3 p-3 hover:bg-gray-100 dark:hover:bg-gray-800/80 transition-colors group active:scale-[0.99]" href="#item-2" data-track="toc_click" data-target-id="item-2" data-target-title="阿里通义千问发布 Qwen3.5：原生多模态 + 稀疏 MoE，大幅提升推理效率直指顶级模型竞争">
+                    <span class="font-mono text-xs font-bold mt-[2px] opacity-80" style="color:#b59f05;">03</span>
+                    <span class="text-sm font-medium text-text-main dark:text-white leading-snug transition-colors">
+                      阿里通义千问发布 Qwen3.5：原生多模态 + 稀疏 MoE，大幅提升推理效率直指顶级模型竞争
+                    </span>
+                  </a>
+                
+                  
+                  <a class="flex items-start gap-3 p-3 hover:bg-gray-100 dark:hover:bg-gray-800/80 transition-colors group active:scale-[0.99]" href="#item-3" data-track="toc_click" data-target-id="item-3" data-target-title="OpenAI 招募 OpenClaw 创始人并支持其进入开源基金会：押注“个人 AI Agent 平台”生态">
+                    <span class="font-mono text-xs font-bold mt-[2px] opacity-80" style="color:#b59f05;">04</span>
+                    <span class="text-sm font-medium text-text-main dark:text-white leading-snug transition-colors">
+                      OpenAI 招募 OpenClaw 创始人并支持其进入开源基金会：押注“个人 AI Agent 平台”生态
+                    </span>
+                  </a>
+                
+                  
+                  <a class="flex items-start gap-3 p-3 hover:bg-gray-100 dark:hover:bg-gray-800/80 transition-colors group active:scale-[0.99]" href="#item-4" data-track="toc_click" data-target-id="item-4" data-target-title="Anthropic发布AI代理自主性研究并登陆Arena搜索模态排行榜">
+                    <span class="font-mono text-xs font-bold mt-[2px] opacity-80" style="color:#b59f05;">05</span>
+                    <span class="text-sm font-medium text-text-main dark:text-white leading-snug transition-colors">
+                      Anthropic发布AI代理自主性研究并登陆Arena搜索模态排行榜
+                    </span>
+                  </a>
+                
+                  
+                  <a class="flex items-start gap-3 p-3 hover:bg-gray-100 dark:hover:bg-gray-800/80 transition-colors group active:scale-[0.99]" href="#item-5" data-track="toc_click" data-target-id="item-5" data-target-title="智谱AI发布GLM-5技术报告提出异步代理强化学习架构">
+                    <span class="font-mono text-xs font-bold mt-[2px] opacity-80" style="color:#b59f05;">06</span>
+                    <span class="text-sm font-medium text-text-main dark:text-white leading-snug transition-colors">
+                      智谱AI发布GLM-5技术报告提出异步代理强化学习架构
+                    </span>
+                  </a>
+                
+              </div>
+            </div>
+          </aside>
+
+          <main class="flex flex-col gap-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6">
+              
+                
+                <a href="https://mp.weixin.qq.com/s/WxLGbUCv0peRR6LY7yQnbQ" target="_blank" rel="noopener noreferrer" class="group relative flex h-full flex-col gap-3 rounded-xl bg-surface-light dark:bg-surface-dark p-5 shadow-sm border border-gray-100 dark:border-gray-800 transition-all active:scale-[0.99] hover:-translate-y-[2px] focus:outline-none focus:ring-2 focus:ring-primary/60" id="item-0" data-track="news_item_click" data-item-title="Anthropic 发布 Claude Sonnet 4.6：百万上下文与代码库级重构能力强化 Agent 与编程场景" data-item-media="智东西" data-item-index="1">
+
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-2">
+                      
+                        <span class="flex items-center justify-center px-2.5 py-1 rounded-md bg-primary text-black text-[10px] font-bold uppercase tracking-wide">智东西</span>
+                      
+                      <span class="text-xs text-text-muted dark:text-gray-500 font-medium">2026-02-18</span>
+                    </div>
+                  </div>
+
+                  
+
+                  <h3 class="text-xl font-bold text-text-main dark:text-white leading-tight">Anthropic 发布 Claude Sonnet 4.6：百万上下文与代码库级重构能力强化 Agent 与编程场景</h3>
+
+                  
+                    <p class="text-sm leading-relaxed text-text-main/80 dark:text-gray-300">Anthropic 推出 Claude Sonnet 4.6，在编程、Agent 规划与计算机操作能力上显著提升，性能接近甚至超越 Opus 4.6，并提供 100 万 token 上下文窗口，可单次调用处理完整代码库，价格保持不变并已上线 Claude 与 AWS，进一步强化企业生产力场景竞争。</p>
+                  
+
+                  <span class="mt-auto inline-flex items-center text-xs font-semibold text-text-main dark:text-white gap-1">
+                    <span class="group-hover:underline decoration-primary decoration-2 underline-offset-4">Read Source</span>
+                    <span class="material-symbols-outlined text-[16px] align-middle">arrow_forward</span>
+                  </span>
+
+                </a>
+              
+                
+                <a href="https://x.com/DillonUzar/status/2024655613293215855" target="_blank" rel="noopener noreferrer" class="group relative flex h-full flex-col gap-3 rounded-xl bg-surface-light dark:bg-surface-dark p-5 shadow-sm border border-gray-100 dark:border-gray-800 transition-all active:scale-[0.99] hover:-translate-y-[2px] focus:outline-none focus:ring-2 focus:ring-primary/60" id="item-1" data-track="news_item_click" data-item-title="Context Arena测试显示Gemini 3.1 Pro Preview多针检索能力接近GPT-5.2" data-item-media="DillonUzar" data-item-index="2">
+
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-2">
+                      
+                        <span class="flex items-center justify-center px-2.5 py-1 rounded-md bg-primary text-black text-[10px] font-bold uppercase tracking-wide">DillonUzar</span>
+                      
+                      <span class="text-xs text-text-muted dark:text-gray-500 font-medium">2026-02-21</span>
+                    </div>
+                  </div>
+
+                  
+
+                  <h3 class="text-xl font-bold text-text-main dark:text-white leading-tight">Context Arena测试显示Gemini 3.1 Pro Preview多针检索能力接近GPT-5.2</h3>
+
+                  
+                    <p class="text-sm leading-relaxed text-text-main/80 dark:text-gray-300">Context Arena更新MRCR（多针上下文检索）测试结果，显示Google的Gemini 3.1 Pro Preview在简单检索任务（2针AUC 99.6%对99.8%）上接近GPT-5.2（thinking:xhigh），在更具挑战性的多针检索任务（8针AUC）上表现明显更强。</p>
+                  
+
+                  <span class="mt-auto inline-flex items-center text-xs font-semibold text-text-main dark:text-white gap-1">
+                    <span class="group-hover:underline decoration-primary decoration-2 underline-offset-4">Read Source</span>
+                    <span class="material-symbols-outlined text-[16px] align-middle">arrow_forward</span>
+                  </span>
+
+                </a>
+              
+                
+                <a href="https://mp.weixin.qq.com/s/AAanKh5uiCuvFVMAP4nIvw" target="_blank" rel="noopener noreferrer" class="group relative flex h-full flex-col gap-3 rounded-xl bg-surface-light dark:bg-surface-dark p-5 shadow-sm border border-gray-100 dark:border-gray-800 transition-all active:scale-[0.99] hover:-translate-y-[2px] focus:outline-none focus:ring-2 focus:ring-primary/60" id="item-2" data-track="news_item_click" data-item-title="阿里通义千问发布 Qwen3.5：原生多模态 + 稀疏 MoE，大幅提升推理效率直指顶级模型竞争" data-item-media="通义千问团队" data-item-index="3">
+
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-2">
+                      
+                        <span class="flex items-center justify-center px-2.5 py-1 rounded-md bg-primary text-black text-[10px] font-bold uppercase tracking-wide">通义千问团队</span>
+                      
+                      <span class="text-xs text-text-muted dark:text-gray-500 font-medium">2026-02-16</span>
+                    </div>
+                  </div>
+
+                  
+
+                  <h3 class="text-xl font-bold text-text-main dark:text-white leading-tight">阿里通义千问发布 Qwen3.5：原生多模态 + 稀疏 MoE，大幅提升推理效率直指顶级模型竞争</h3>
+
+                  
+                    <p class="text-sm leading-relaxed text-text-main/80 dark:text-gray-300">阿里通义千问发布新一代 Qwen3.5 系列，旗舰 Qwen3.5-397B-A17B 采用混合注意力与稀疏 MoE 架构，实现数倍推理效率提升，并在指令遵循、视觉语言、空间智能与视频理解等多项基准中对标 GPT-5.2、Claude 4.5 与 Gemini 3 Pro，显示出全面竞争力，标志国内大模型在多模态与效率层面的重要进展。</p>
+                  
+
+                  <span class="mt-auto inline-flex items-center text-xs font-semibold text-text-main dark:text-white gap-1">
+                    <span class="group-hover:underline decoration-primary decoration-2 underline-offset-4">Read Source</span>
+                    <span class="material-symbols-outlined text-[16px] align-middle">arrow_forward</span>
+                  </span>
+
+                </a>
+              
+                
+                <a href="https://www.reuters.com/business/openclaw-founder-steinberger-joins-openai-open-source-bot-becomes-foundation-2026-02-15/" target="_blank" rel="noopener noreferrer" class="group relative flex h-full flex-col gap-3 rounded-xl bg-surface-light dark:bg-surface-dark p-5 shadow-sm border border-gray-100 dark:border-gray-800 transition-all active:scale-[0.99] hover:-translate-y-[2px] focus:outline-none focus:ring-2 focus:ring-primary/60" id="item-3" data-track="news_item_click" data-item-title="OpenAI 招募 OpenClaw 创始人并支持其进入开源基金会：押注“个人 AI Agent 平台”生态" data-item-media="Reuters" data-item-index="4">
+
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-2">
+                      
+                        <span class="flex items-center justify-center px-2.5 py-1 rounded-md bg-primary text-black text-[10px] font-bold uppercase tracking-wide">Reuters</span>
+                      
+                      <span class="text-xs text-text-muted dark:text-gray-500 font-medium">2026-02-15</span>
+                    </div>
+                  </div>
+
+                  
+
+                  <h3 class="text-xl font-bold text-text-main dark:text-white leading-tight">OpenAI 招募 OpenClaw 创始人并支持其进入开源基金会：押注“个人 AI Agent 平台”生态</h3>
+
+                  
+                    <p class="text-sm leading-relaxed text-text-main/80 dark:text-gray-300">OpenAI 并未收购 OpenClaw，而是吸纳其创始人加入公司开发下一代个人 AI Agent。OpenClaw 项目将进入基金会并保持开源，由 OpenAI 提供支持。这一举动被视为从聊天模型竞争转向代理执行能力竞争的重要信号，意味着未来 AI 产品形态将更偏向可操作的软件代理生态。</p>
+                  
+
+                  <span class="mt-auto inline-flex items-center text-xs font-semibold text-text-main dark:text-white gap-1">
+                    <span class="group-hover:underline decoration-primary decoration-2 underline-offset-4">Read Source</span>
+                    <span class="material-symbols-outlined text-[16px] align-middle">arrow_forward</span>
+                  </span>
+
+                </a>
+              
+                
+                <a href="https://x.com/arena/status/2024144830209966142" target="_blank" rel="noopener noreferrer" class="group relative flex h-full flex-col gap-3 rounded-xl bg-surface-light dark:bg-surface-dark p-5 shadow-sm border border-gray-100 dark:border-gray-800 transition-all active:scale-[0.99] hover:-translate-y-[2px] focus:outline-none focus:ring-2 focus:ring-primary/60" id="item-4" data-track="news_item_click" data-item-title="Anthropic发布AI代理自主性研究并登陆Arena搜索模态排行榜" data-item-media="arena" data-item-index="5">
+
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-2">
+                      
+                        <span class="flex items-center justify-center px-2.5 py-1 rounded-md bg-primary text-black text-[10px] font-bold uppercase tracking-wide">arena</span>
+                      
+                      <span class="text-xs text-text-muted dark:text-gray-500 font-medium">2026-02-19</span>
+                    </div>
+                  </div>
+
+                  
+
+                  <h3 class="text-xl font-bold text-text-main dark:text-white leading-tight">Anthropic发布AI代理自主性研究并登陆Arena搜索模态排行榜</h3>
+
+                  
+                    <p class="text-sm leading-relaxed text-text-main/80 dark:text-gray-300">Arena平台将Opus和Sonnet 4.6添加到搜索模态排行榜。同期，Anthropic发布《实践中测量AI代理自主性》研究报告，基于数百万次工具使用交互分析发现，约73%的工具调用表面看似由人类发起，实际可能涉及自动化代理行为。</p>
+                  
+
+                  <span class="mt-auto inline-flex items-center text-xs font-semibold text-text-main dark:text-white gap-1">
+                    <span class="group-hover:underline decoration-primary decoration-2 underline-offset-4">Read Source</span>
+                    <span class="material-symbols-outlined text-[16px] align-middle">arrow_forward</span>
+                  </span>
+
+                </a>
+              
+                
+                <a href="https://x.com/scaling01/status/2024050011164520683" target="_blank" rel="noopener noreferrer" class="group relative flex h-full flex-col gap-3 rounded-xl bg-surface-light dark:bg-surface-dark p-5 shadow-sm border border-gray-100 dark:border-gray-800 transition-all active:scale-[0.99] hover:-translate-y-[2px] focus:outline-none focus:ring-2 focus:ring-primary/60" id="item-5" data-track="news_item_click" data-item-title="智谱AI发布GLM-5技术报告提出异步代理强化学习架构" data-item-media="scaling01" data-item-index="6">
+
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-2">
+                      
+                        <span class="flex items-center justify-center px-2.5 py-1 rounded-md bg-primary text-black text-[10px] font-bold uppercase tracking-wide">scaling01</span>
+                      
+                      <span class="text-xs text-text-muted dark:text-gray-500 font-medium">2026-02-19</span>
+                    </div>
+                  </div>
+
+                  
+
+                  <h3 class="text-xl font-bold text-text-main dark:text-white leading-tight">智谱AI发布GLM-5技术报告提出异步代理强化学习架构</h3>
+
+                  
+                    <p class="text-sm leading-relaxed text-text-main/80 dark:text-gray-300">GLM-5技术报告正式发布，提出从vibe-coding向代理工程转变的技术路线，特色包括解耦生成与训练的异步代理强化学习机制，并引入新架构组件以支持更复杂的异步代理行为与工程化应用。</p>
+                  
+
+                  <span class="mt-auto inline-flex items-center text-xs font-semibold text-text-main dark:text-white gap-1">
+                    <span class="group-hover:underline decoration-primary decoration-2 underline-offset-4">Read Source</span>
+                    <span class="material-symbols-outlined text-[16px] align-middle">arrow_forward</span>
+                  </span>
+
+                </a>
+              
+            </div>
+
+            <section class="seo-only-links rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-surface-dark/50 p-4 md:p-5" aria-label="Related pages for SEO">
+              <h3 class="text-sm font-bold uppercase tracking-wider text-text-muted mb-3">Related Pages</h3>
+              <div class="flex flex-col gap-2">
+                
+                  <a href="/archive/" class="text-sm font-semibold hover:underline decoration-primary decoration-2 underline-offset-4" data-track="internal_link_click" data-link-label="查看 AI 一周资讯历史归档" data-link-href="https://ainews.luhuidev.com/archive/">
+                    查看 AI 一周资讯历史归档
+                  </a>
+                
+                  <a href="/" class="text-sm font-semibold hover:underline decoration-primary decoration-2 underline-offset-4" data-track="internal_link_click" data-link-label="回到 AI Hotlist 最新一期" data-link-href="https://ainews.luhuidev.com/">
+                    回到 AI Hotlist 最新一期
+                  </a>
+                
+                  <a href="/vol/12/" class="text-sm font-semibold hover:underline decoration-primary decoration-2 underline-offset-4" data-track="internal_link_click" data-link-label="阅读最新一期（Vol. 12）" data-link-href="https://ainews.luhuidev.com/vol/12/">
+                    阅读最新一期（Vol. 12）
+                  </a>
+                
+              </div>
+            </section>
+
+            <div class="flex flex-col items-center justify-center pb-6 pt-2 opacity-60">
+              <div class="h-1 w-1 rounded-full bg-text-muted mb-2"></div>
+              <div class="h-1 w-1 rounded-full bg-text-muted mb-2"></div>
+              <div class="h-1 w-1 rounded-full bg-text-muted mb-4"></div>
+              <p class="text-xs font-medium text-text-muted uppercase tracking-widest">End of Brief</p>
+              <p class="text-[10px] mt-2 text-text-muted">See you next week</p>
+            </div>
+          </main>
+        </div>
+      </div>
+
+      <a class="fixed bottom-6 right-6 z-40 size-12 rounded-full bg-primary text-black shadow-lg shadow-primary/30 flex items-center justify-center hover:scale-110 transition-transform active:scale-90" href="#">
+        <span class="material-symbols-outlined">vertical_align_top</span>
+      </a>
+
+    </div>
+  </div>
+<script>
+  function pushDataLayer(eventName, payload) {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push(Object.assign({ event: eventName }, payload || {}));
+  }
+
+  (function attachTracking() {
+    pushDataLayer("hotlist_page_view", {
+      page_type: "issue_detail",
+      issue_vol: "Vol. 10",
+      issue_date: "2026-02-21"
+    });
+
+    document.addEventListener("click", (event) => {
+      const anchor = event.target.closest("a[href]");
+      if (!anchor) return;
+
+      const trackType = anchor.dataset.track;
+      if (trackType === "news_item_click") {
+        pushDataLayer("news_item_click", {
+          item_title: anchor.dataset.itemTitle || "",
+          item_media: anchor.dataset.itemMedia || "",
+          item_index: Number(anchor.dataset.itemIndex || "0"),
+          href: anchor.href
+        });
+        return;
+      }
+
+      if (trackType === "toc_click") {
+        pushDataLayer("toc_click", {
+          target_id: anchor.dataset.targetId || "",
+          target_title: anchor.dataset.targetTitle || ""
+        });
+        return;
+      }
+
+      if (trackType === "internal_link_click") {
+        pushDataLayer("internal_link_click", {
+          link_label: anchor.dataset.linkLabel || "",
+          href: anchor.dataset.linkHref || anchor.href
+        });
+      }
+    });
+  })();
+
+  (function attachExportEasterEgg() {
+    const button = document.getElementById("export-button");
+    if (!button) return;
+
+    let tapCount = 0;
+    let hideToastTimer = null;
+
+    function showToast(message) {
+      let toast = document.getElementById("export-easter-egg-toast");
+      if (!toast) {
+        toast = document.createElement("div");
+        toast.id = "export-easter-egg-toast";
+        toast.className = "fixed bottom-24 left-1/2 -translate-x-1/2 z-[60] px-4 py-2 rounded-full bg-text-main text-white text-xs font-semibold shadow-lg shadow-black/20 opacity-0 pointer-events-none transition-opacity duration-200";
+        document.body.appendChild(toast);
+      }
+
+      toast.textContent = message;
+      toast.classList.remove("opacity-0");
+      toast.classList.add("opacity-100");
+
+      if (hideToastTimer) {
+        clearTimeout(hideToastTimer);
+      }
+      hideToastTimer = setTimeout(() => {
+        toast.classList.remove("opacity-100");
+        toast.classList.add("opacity-0");
+      }, 1400);
+    }
+
+    button.addEventListener("click", () => {
+      tapCount += 1;
+      pushDataLayer("export_button_click", {
+        tap_count: tapCount,
+        issue_vol: "Vol. 10",
+        issue_date: "2026-02-21"
+      });
+
+      if (tapCount >= 5) {
+        showToast("彩蛋解锁: Export Wizard 正在召唤中...");
+        tapCount = 0;
+      } else if (tapCount >= 3) {
+        showToast("再点两下，解锁隐藏台词");
+      } else {
+        showToast("导出功能开发中，先看个彩蛋");
+      }
+
+      button.animate(
+        [
+          { transform: "scale(1) rotate(0deg)" },
+          { transform: "scale(1.08) rotate(-8deg)" },
+          { transform: "scale(1.05) rotate(8deg)" },
+          { transform: "scale(1) rotate(0deg)" },
+        ],
+        { duration: 320, easing: "ease-out" },
+      );
+    });
+  })();
+</script>
+</body>
+</html>
