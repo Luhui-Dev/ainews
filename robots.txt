@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ainews.luhuidev.com/sitemap.xml
