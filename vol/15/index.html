@@ -1,0 +1,1770 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="classic">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>AI 周报 | Vol. 15 | AI Hotlist</title>
+  <meta name="description" content="AI Hotlist Vol. 15（2026-03-28）精选 AI 热点与来源，覆盖模型、产品与产业动态。"/>
+  <meta property="og:title" content="AI 周报 | Vol. 15 | AI Hotlist"/>
+  <meta property="og:description" content="AI Hotlist Vol. 15（2026-03-28）精选 AI 热点与来源，覆盖模型、产品与产业动态。"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:url" content="https://ainews.luhuidev.com/vol/15/"/>
+  <meta property="og:image" content="https://ainews.luhuidev.com/images/social/vol-15.png"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="AI 周报 | Vol. 15 | AI Hotlist"/>
+  <meta name="twitter:description" content="AI Hotlist Vol. 15（2026-03-28）精选 AI 热点与来源，覆盖模型、产品与产业动态。"/>
+  <meta name="twitter:image" content="https://ainews.luhuidev.com/images/social/vol-15.png"/>
+  <link rel="icon" href="/favicon.ico" sizes="any"/>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+  <link rel="canonical" href="https://ainews.luhuidev.com/vol/15/"/>
+  
+  <link rel="alternate" hreflang="zh-CN" href="https://ainews.luhuidev.com/vol/15/"/>
+  
+  <link rel="alternate" hreflang="x-default" href="https://ainews.luhuidev.com/vol/15/"/>
+  
+  
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":"AI 周报 | Vol. 15 | AI Hotlist","description":"AI Hotlist Vol. 15（2026-03-28）精选 AI 热点与来源，覆盖模型、产品与产业动态。","inLanguage":"zh-CN","datePublished":"2026-03-28T00:00:00+08:00","dateModified":"2026-03-28T00:00:00+08:00","author":{"@type":"Person","name":"@Luhui Dev 出品，精选 AI 领域技术发展与产品动态，提供一份连续阅读的周度观察。"},"publisher":{"@type":"Organization","name":"AI Hotlist"},"mainEntityOfPage":"https://ainews.luhuidev.com/vol/15/","image":["https://ainews.luhuidev.com/images/social/vol-15.png"],"isPartOf":{"@type":"CreativeWorkSeries","name":"AI Hotlist"}}</script>
+  
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListOrder":"https://schema.org/ItemListOrderAscending","numberOfItems":20,"itemListElement":[{"@type":"ListItem","position":1,"name":"LiteLLM 供应链遭入侵：恶意 .pth 可在 Python 启动时静默执行代码，生产环境需立即轮换密钥","url":"https://github.com/BerriAI/litellm/issues/24512"},{"@type":"ListItem","position":2,"name":"Anthropic 新层级“Capybara”泄露：据称能力高于 Opus，前沿模型竞争重新回到算力与成本门槛","url":"https://x.com/M1Astra/status/2037377109472018444"},{"@type":"ListItem","position":3,"name":"OpenAI 被曝收缩 Sora、集中资源押注下一代基础模型与核心生产力产品","url":"https://x.com/sama/status/2036488680769241223"},{"@type":"ListItem","position":4,"name":"Gemini 3.1 Flash Live 发布：Google 把实时语音与视觉 Agent 推到更低延迟、更长记忆的新阶段","url":"https://x.com/OfficialLoganK/status/2037187750005240307"},{"@type":"ListItem","position":5,"name":"Hermes Agent 继续加速：从开源 Agent 项目进化为可接入 OpenAI 兼容接口的个人代理运行时","url":"https://x.com/Teknium/status/2036473305025356023"},{"@type":"ListItem","position":6,"name":"Cline Kanban 把多代理编码工作流产品化：隔离 worktree、任务依赖、Diff 审核开始变成标准界面","url":"https://x.com/cline/status/2037182739695493399"},{"@type":"ListItem","position":7,"name":"Figma MCP 开放 Beta：设计画布第一次真正成为 AI 可直接操作的生产界面","url":"https://x.com/figma/status/2036434766661296602"},{"@type":"ListItem","position":8,"name":"Anthropic 把“电脑操作权”交给 Claude：桌面级 Computer Use 正在从浏览器扩展到完整应用环境","url":"https://x.com/claudeai/status/2036195789601374705"},{"@type":"ListItem","position":9,"name":"Sakana AI 宣布 AI Scientist 达到 Nature 级里程碑：更强基础模型正在直接推高自动科研系统上限","url":"https://x.com/SakanaAILabs/status/2036999652298678630"},{"@type":"ListItem","position":10,"name":"Artificial Analysis 推出 AA-AgentPerf：Agent 基准开始从跑分转向真实部署吞吐与并发成本","url":"https://x.com/ArtificialAnlys/status/2037562417836929315"},{"@type":"ListItem","position":11,"name":"MiniMax 开源 Office Skills：AI 终于开始认真补“文档生成能用但不好用”这块短板","url":"https://mp.weixin.qq.com/s/JKkdMqnHQUnpt0UYRsLTTA"},{"@type":"ListItem","position":12,"name":"Open agent 生态开始成型：MolmoWeb、OpenReward、ZClawBench 把环境、评测、任务集补成一整层","url":"https://x.com/allen_ai/status/2036460260936814915"},{"@type":"ListItem","position":13,"name":"Mistral Voxtral TTS 与 Cohere Transcribe 同周上线：开源语音栈正在从可用走向可商用","url":"https://x.com/MistralAI/status/2037183026539483288"},{"@type":"ListItem","position":14,"name":"GLM-5.1 面向 Coding Plan 用户全面开放：中文阵营对高端代码模型的压迫感继续增强","url":"https://x.com/Zai_org/status/2037490078126084514"},{"@type":"ListItem","position":15,"name":"vLLM 与 Transformers 同时报出推理提速：大模型基础设施竞争开始卷到内核、内存与调度细节","url":"https://x.com/vllm_project/status/2036389182579642544"},{"@type":"ListItem","position":16,"name":"TurboQuant 与 Moreau 同周出圈：大模型性能红利正在从“更大模型”转向“更强系统层优化”","url":"https://x.com/opt_intellect/status/2036485190646735291"},{"@type":"ListItem","position":17,"name":"Google + LlamaIndex 把复杂金融 PDF 解析做成系统层能力：文档理解正在从工具功能升级为 Agent 基础设施","url":"https://x.com/googledevs/status/2036101456239939750"},{"@type":"ListItem","position":18,"name":"Cursor Instant Grep 发布：面向百万级文件仓库的毫秒级搜索，正在成为编码 Agent 的关键底座","url":"https://x.com/cursor_ai/status/2036122609931165985"},{"@type":"ListItem","position":19,"name":"SAM 3.1 提供多目标单次前向加速：视频分割基础设施继续朝更实用的吞吐效率演进","url":"https://x.com/AIatMeta/status/2037582117375553924"},{"@type":"ListItem","position":20,"name":"MiniMax Token Plan 把多模态 API 统一订阅化：当模型越来越多，定价本身也开始成为产品竞争力","url":"https://x.com/MiniMax_AI/status/2036123727373672910"}]}</script>
+  
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Hotlist","item":"https://ainews.luhuidev.com/"},{"@type":"ListItem","position":2,"name":"Archive","item":"https://ainews.luhuidev.com/archive/"},{"@type":"ListItem","position":3,"name":"Vol. 15","item":"https://ainews.luhuidev.com/vol/15/"}]}</script>
+  
+  
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+    new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
+    "https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,"script","dataLayer","GTM-P966QWVP");
+  </script>
+  
+
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans:wght@400;500;700&family=Noto+Serif+SC:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+  <style>
+        :root {
+      color-scheme: light;
+      --page-bg: #f8f8f5;
+      --page-gradient: linear-gradient(180deg, #f8f8f5 0%, #f8f8f5 100%);
+      --shell-bg: #f8f8f5;
+      --shell-border: #ecebe1;
+      --header-bg: rgba(248, 248, 245, 0.92);
+      --surface: #ffffff;
+      --surface-alt: rgba(249, 245, 6, 0.08);
+      --text-main: #181811;
+      --text-muted: #8c8b5f;
+      --accent: #f9f506;
+      --accent-soft: rgba(249, 245, 6, 0.16);
+      --button-text: #000000;
+      --shadow: 0 24px 64px rgba(24, 24, 17, 0.08);
+      --headline-font: "Manrope", "Noto Sans", sans-serif;
+      --body-font: "Manrope", "Noto Sans", sans-serif;
+      --radius-shell: 28px;
+      --radius-card: 20px;
+      --highlight: rgba(249, 245, 6, 0.4);
+      --number-color: #b59f05;
+    }
+
+    html[data-theme="medium"] {
+      --page-bg: #f6f1e8;
+      --page-gradient: linear-gradient(180deg, #f9f6f0 0%, #f2ece2 100%);
+      --shell-bg: #fffdf9;
+      --shell-border: rgba(26, 26, 26, 0.12);
+      --header-bg: rgba(255, 253, 249, 0.94);
+      --surface: #fffdf9;
+      --surface-alt: #f5f0e7;
+      --text-main: #1d1a17;
+      --text-muted: #6a6258;
+      --accent: #1d1a17;
+      --accent-soft: rgba(29, 26, 23, 0.06);
+      --button-text: #ffffff;
+      --shadow: 0 22px 60px rgba(29, 26, 23, 0.07);
+      --headline-font: "Source Serif 4", "Noto Serif SC", serif;
+      --body-font: "Source Serif 4", "Noto Serif SC", serif;
+      --radius-shell: 18px;
+      --radius-card: 8px;
+      --highlight: rgba(29, 26, 23, 0.08);
+      --number-color: #1d1a17;
+    }
+
+    html[data-theme="signal"] {
+      --page-bg: #fff5e8;
+      --page-gradient: radial-gradient(circle at top left, rgba(255, 140, 66, 0.24), transparent 28%), radial-gradient(circle at top right, rgba(36, 101, 255, 0.12), transparent 30%), linear-gradient(180deg, #fff9f1 0%, #fff1df 100%);
+      --shell-bg: rgba(255, 251, 246, 0.96);
+      --shell-border: rgba(50, 31, 17, 0.12);
+      --header-bg: rgba(255, 250, 243, 0.92);
+      --surface: #fffdf9;
+      --surface-alt: #fff0db;
+      --text-main: #23160d;
+      --text-muted: #7a5c45;
+      --accent: #ff8c42;
+      --accent-soft: rgba(255, 140, 66, 0.18);
+      --button-text: #ffffff;
+      --shadow: 0 28px 76px rgba(103, 61, 27, 0.13);
+      --headline-font: "Space Grotesk", "Noto Sans", sans-serif;
+      --body-font: "Manrope", "Noto Sans", sans-serif;
+      --radius-shell: 30px;
+      --radius-card: 24px;
+      --highlight: rgba(255, 140, 66, 0.24);
+      --number-color: #ff8c42;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-height: 100dvh;
+      background: var(--page-gradient), var(--page-bg);
+      color: var(--text-main);
+      font-family: var(--body-font);
+      transition: background-color 200ms ease, color 200ms ease;
+    }
+    a { color: inherit; }
+    .hl-icon {
+      display: inline-block;
+      flex-shrink: 0;
+      vertical-align: -3px;
+      color: inherit;
+    }
+    .sr-only,
+    .seo-only-links {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+    .seo-only-links a { pointer-events: none; }
+    .issue-shell {
+      background: var(--shell-bg);
+      border: 1px solid var(--shell-border);
+      border-radius: var(--radius-shell);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+    .issue-header {
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 14px 18px;
+      border-bottom: 1px solid var(--shell-border);
+      background: var(--header-bg);
+      backdrop-filter: blur(14px);
+    }
+    .issue-icon-button,
+    .issue-theme-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      border: 0;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: transform 180ms ease, background-color 180ms ease;
+    }
+    .issue-icon-button {
+      width: 40px;
+      height: 40px;
+      background: transparent;
+      color: var(--text-main);
+    }
+    .issue-icon-button:hover { background: var(--accent-soft); }
+    .issue-theme-button {
+      padding: 10px 14px;
+      background: var(--accent);
+      color: var(--button-text);
+      font-size: 14px;
+      font-weight: 700;
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+    }
+    .issue-theme-button:hover { transform: translateY(-1px); }
+    .issue-hero {
+      padding: 24px 20px 8px;
+    }
+    .issue-badge {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      padding: 6px 12px;
+      background: var(--accent);
+      color: var(--button-text);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+    .issue-meta {
+      color: var(--text-muted);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+    .issue-headline {
+      margin: 18px 0 0;
+      color: var(--text-main);
+      font-family: var(--headline-font);
+      font-size: clamp(2rem, 5vw, 4rem);
+      font-weight: 700;
+      line-height: 0.98;
+      letter-spacing: -0.04em;
+    }
+    .issue-highlight {
+      background: linear-gradient(180deg, transparent 58%, var(--highlight) 58%);
+      padding: 0 0.08em;
+    }
+    .issue-author {
+      display: none;
+      margin-top: 18px;
+      color: var(--text-muted);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+    html[data-theme="classic"] .issue-author {
+      display: block;
+    }
+    .theme-panel { display: none; }
+    html[data-theme="classic"] .theme-panel-classic,
+    html[data-theme="medium"] .theme-panel-medium,
+    html[data-theme="signal"] .theme-panel-signal {
+      display: block;
+    }
+    .issue-end {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px 0 28px;
+      color: var(--text-muted);
+      opacity: 0.72;
+    }
+    .issue-end-dot {
+      width: 4px;
+      height: 4px;
+      margin-bottom: 8px;
+      border-radius: 999px;
+      background: var(--text-muted);
+    }
+    .theme-toast {
+      background: var(--text-main);
+      color: var(--surface);
+    }
+    .issue-footer {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 24px 20px 32px;
+      border-top: 1px solid var(--shell-border);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      color: var(--text-muted);
+    }
+    .issue-footer-brand {
+      font-weight: 800;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--text-main);
+    }
+    .issue-footer-links {
+      display: inline-flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .issue-footer-links a,
+    .issue-footer-version a {
+      color: var(--text-muted);
+      text-decoration: none;
+      border-bottom: 1px dotted var(--text-muted);
+      padding-bottom: 1px;
+    }
+    .issue-footer-links a:hover,
+    .issue-footer-version a:hover {
+      color: var(--text-main);
+      border-bottom-color: var(--text-main);
+    }
+
+        .classic-layout {
+      padding: 16px 20px 28px;
+    }
+    .classic-grid {
+      display: grid;
+      grid-template-columns: 300px minmax(0, 1fr);
+      gap: 24px;
+      align-items: start;
+    }
+    .classic-sidebar {
+      position: sticky;
+      top: 84px;
+      border: 1px solid var(--shell-border);
+      border-radius: var(--radius-card);
+      background: var(--surface);
+      overflow: hidden;
+    }
+    .classic-sidebar-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 11px 14px;
+      border-bottom: 1px solid var(--shell-border);
+      background: var(--surface-alt);
+      color: var(--text-muted);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+    .classic-toc-link {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 6px 14px;
+      text-decoration: none;
+      transition: background-color 180ms ease;
+    }
+    .classic-toc-link:hover { background: var(--accent-soft); }
+    .classic-toc-num {
+      color: var(--number-color);
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 11px;
+      font-weight: 800;
+      line-height: 1.4;
+      flex: 0 0 auto;
+    }
+    .classic-card-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+    .classic-card {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      padding: 20px;
+      border: 1px solid var(--shell-border);
+      border-radius: var(--radius-card);
+      background: var(--surface);
+      text-decoration: none;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.03);
+      transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
+    }
+    .classic-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 16px 34px rgba(0, 0, 0, 0.08);
+      background: var(--accent-soft);
+    }
+    .classic-card-title {
+      font-size: 24px;
+      line-height: 1.12;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+    }
+    .classic-card-summary {
+      color: var(--text-muted);
+      font-size: 14px;
+      line-height: 1.8;
+    }
+    .classic-card-footer {
+      margin-top: auto;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+        .medium-layout {
+      padding: 20px 24px 44px;
+    }
+    .medium-topstrip {
+      display: block;
+      padding: 0 0 18px;
+      border-bottom: 1px solid var(--shell-border);
+    }
+    .medium-story-label {
+      color: var(--text-muted);
+      font-family: "Manrope", "Noto Sans", sans-serif;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .medium-dek {
+      margin: 2px 0 0;
+      max-width: 46rem;
+      color: var(--text-muted);
+      font-size: 18px;
+      line-height: 1.95;
+    }
+    .medium-main {
+      display: grid;
+      grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr);
+      gap: 28px;
+      margin-top: 26px;
+      align-items: start;
+    }
+    .medium-lead-stack {
+      display: grid;
+      gap: 22px;
+    }
+    .medium-story {
+      color: inherit;
+      text-decoration: none;
+      border-top: 1px solid var(--shell-border);
+      padding-top: 18px;
+      transition: transform 180ms ease, opacity 180ms ease;
+    }
+    .medium-story:first-child {
+      border-top: 0;
+      padding-top: 0;
+    }
+    .medium-story:hover {
+      transform: translateY(-2px);
+    }
+    .medium-story-title {
+      margin: 8px 0 0;
+      font-family: "Noto Serif SC", "Source Serif 4", serif;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+      text-decoration: underline;
+      text-decoration-color: transparent;
+      text-decoration-thickness: 1.5px;
+      text-underline-offset: 0.16em;
+      transition: text-decoration-color 180ms ease;
+    }
+    .medium-story:hover .medium-story-title {
+      text-decoration-color: rgba(29, 26, 23, 0.45);
+    }
+    .medium-story-body {
+      margin: 12px 0 0;
+      color: var(--text-main);
+      font-size: 16px;
+      line-height: 1.95;
+    }
+    .medium-lead .medium-story-title {
+      font-size: clamp(2rem, 3.6vw, 3.2rem);
+      line-height: 1.14;
+    }
+    .medium-lead .medium-story-body {
+      font-size: 17px;
+      line-height: 2;
+    }
+    .medium-rail {
+      display: grid;
+      gap: 18px;
+      padding-left: 24px;
+      border-left: 1px solid var(--shell-border);
+    }
+    .medium-rail .medium-story-title {
+      font-size: 28px;
+      line-height: 1.18;
+    }
+    .medium-rail .medium-story-body {
+      font-size: 15px;
+      line-height: 1.9;
+    }
+    .medium-briefs {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 20px 28px;
+      margin-top: 34px;
+      padding-top: 24px;
+      border-top: 1px solid var(--shell-border);
+    }
+    .medium-brief .medium-story-title {
+      font-size: 24px;
+      line-height: 1.2;
+    }
+    .medium-brief .medium-story-body {
+      font-size: 15px;
+      line-height: 1.86;
+    }
+
+        .signal-layout {
+      padding: 20px 20px 28px;
+    }
+    .signal-intro {
+      padding: 0 0 18px;
+      border-bottom: 1px solid var(--shell-border);
+    }
+    .signal-intro p {
+      margin: 10px 0 0;
+      max-width: 40rem;
+      color: var(--text-muted);
+      font-size: 15px;
+      line-height: 1.78;
+    }
+    .signal-caption {
+      color: var(--text-muted);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+    .signal-list {
+      display: grid;
+      gap: 0;
+      margin-top: 18px;
+    }
+    .signal-item {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 72px;
+      gap: 16px;
+      align-items: start;
+      padding: 18px 0;
+      border-top: 1px solid var(--shell-border);
+      text-decoration: none;
+      transition: transform 180ms ease;
+    }
+    .signal-item:first-child {
+      border-top: 0;
+      padding-top: 0;
+    }
+    .signal-item:hover {
+      transform: translateY(-2px);
+    }
+    .signal-item-index {
+      color: var(--accent);
+      font-family: "Space Grotesk", "Noto Sans", sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 1;
+      letter-spacing: -0.04em;
+      text-align: right;
+    }
+    .signal-item-copy {
+      display: grid;
+      gap: 8px;
+    }
+    .signal-item-title {
+      margin: 0;
+      font-family: "Space Grotesk", "Noto Sans", sans-serif;
+      font-size: 20px;
+      line-height: 1.24;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      text-decoration: underline;
+      text-decoration-color: transparent;
+      text-decoration-thickness: 1.5px;
+      text-underline-offset: 0.15em;
+      transition: text-decoration-color 180ms ease;
+    }
+    .signal-item:hover .signal-item-title {
+      text-decoration-color: rgba(255, 140, 66, 0.55);
+    }
+    .signal-micro {
+      color: var(--text-muted);
+      font-size: 13px;
+      line-height: 1.72;
+    }
+
+        @media (max-width: 1024px) {
+      .classic-grid {
+        grid-template-columns: 1fr;
+      }
+      .classic-sidebar {
+        position: static;
+      }
+      .classic-card-grid,
+      .medium-main,
+      .medium-briefs {
+        grid-template-columns: 1fr;
+      }
+      .medium-rail {
+        padding-left: 0;
+        border-left: 0;
+        border-top: 1px solid var(--shell-border);
+        padding-top: 20px;
+      }
+      .signal-item {
+        grid-template-columns: minmax(0, 1fr) 56px;
+        gap: 14px;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .issue-shell { border-radius: 0; }
+      .issue-header { padding: 12px 14px; }
+      .issue-theme-button { padding: 9px 12px; font-size: 13px; }
+      .issue-hero,
+      .classic-layout,
+      .medium-layout,
+      .signal-layout { padding-left: 14px; padding-right: 14px; }
+      .signal-item {
+        grid-template-columns: minmax(0, 1fr) 48px;
+        gap: 12px;
+      }
+      .signal-item-index {
+        font-size: 20px;
+      }
+      .signal-item-title {
+        font-size: 18px;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+  
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P966QWVP" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  
+  <div class="min-h-screen px-0 md:px-6 md:py-6">
+    <div class="issue-shell mx-auto min-h-screen w-full max-w-6xl md:min-h-[calc(100dvh-3rem)]">
+      <div class="issue-header">
+        <a class="issue-icon-button" href="/home/" aria-label="home">
+          <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 11 L12 4 L20.5 11"/><path d="M5.5 10 L5.5 20 L18.5 20 L18.5 10"/><path d="M10 20 L10 14 L14 14 L14 20"/></svg>
+        </a>
+        <div class="min-w-0 px-2 text-center">
+          <h2 class="truncate text-base font-semibold md:text-lg">AI Hotlist</h2>
+        </div>
+        <button id="theme-toggle" class="issue-theme-button" type="button" aria-label="切换主题">
+          <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="8" cy="9" r="1.4" fill="currentColor" stroke="none"/><circle cx="12" cy="7.5" r="1.4" fill="currentColor" stroke="none"/><circle cx="16" cy="9" r="1.4" fill="currentColor" stroke="none"/><circle cx="9" cy="14.8" r="1.4" fill="currentColor" stroke="none"/><circle cx="14.6" cy="15.2" r="1.4" fill="currentColor" stroke="none"/></svg>
+          <span id="theme-toggle-label">Classic</span>
+        </button>
+      </div>
+
+      <header class="issue-hero">
+        <div class="flex flex-wrap items-center gap-2">
+          <span class="issue-badge">2026 | 03.22 - 03.28</span>
+          <span class="issue-meta">Vol. 15</span>
+        </div>
+        <h1 class="issue-headline">AI一周资讯 <span class="issue-highlight">精华</span></h1>
+        <div class="issue-author">@Luhui Dev 出品，精选 AI 领域技术发展与产品动态，提供一份连续阅读的周度观察。</div>
+        <nav class="sr-only" aria-label="Issue pager">
+          
+            <a rel="prev" href="/vol/16/">更新一期</a>
+          
+          
+            <a rel="next" href="/vol/14/">更早一期</a>
+          
+        </nav>
+      </header>
+
+      <section class="theme-panel theme-panel-classic">
+  <div class="classic-layout">
+    <div class="classic-grid">
+      <aside class="classic-sidebar">
+        <div class="classic-sidebar-header">
+          <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6 H20"/><path d="M8 12 H20"/><path d="M8 18 H20"/><circle cx="4" cy="6" r="1.4" fill="currentColor" stroke="none"/><circle cx="4" cy="12" r="1.4" fill="currentColor" stroke="none"/><circle cx="4" cy="18" r="1.4" fill="currentColor" stroke="none"/></svg>
+          <span>快速浏览</span>
+        </div>
+        <div>
+          
+            
+            <a class="classic-toc-link" href="#item-0" data-track="toc_click" data-target-id="item-0" data-target-title="LiteLLM 供应链遭入侵：恶意 .pth 可在 Python 启动时静默执行代码，生产环境需立即轮换密钥">
+              <span class="classic-toc-num">01</span>
+              <span class="text-sm font-medium leading-5">LiteLLM 供应链遭入侵：恶意 .pth 可在 Python 启动时静默执行代码，生产环境需立即轮换密钥</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-1" data-track="toc_click" data-target-id="item-1" data-target-title="Anthropic 新层级“Capybara”泄露：据称能力高于 Opus，前沿模型竞争重新回到算力与成本门槛">
+              <span class="classic-toc-num">02</span>
+              <span class="text-sm font-medium leading-5">Anthropic 新层级“Capybara”泄露：据称能力高于 Opus，前沿模型竞争重新回到算力与成本门槛</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-2" data-track="toc_click" data-target-id="item-2" data-target-title="OpenAI 被曝收缩 Sora、集中资源押注下一代基础模型与核心生产力产品">
+              <span class="classic-toc-num">03</span>
+              <span class="text-sm font-medium leading-5">OpenAI 被曝收缩 Sora、集中资源押注下一代基础模型与核心生产力产品</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-3" data-track="toc_click" data-target-id="item-3" data-target-title="Gemini 3.1 Flash Live 发布：Google 把实时语音与视觉 Agent 推到更低延迟、更长记忆的新阶段">
+              <span class="classic-toc-num">04</span>
+              <span class="text-sm font-medium leading-5">Gemini 3.1 Flash Live 发布：Google 把实时语音与视觉 Agent 推到更低延迟、更长记忆的新阶段</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-4" data-track="toc_click" data-target-id="item-4" data-target-title="Hermes Agent 继续加速：从开源 Agent 项目进化为可接入 OpenAI 兼容接口的个人代理运行时">
+              <span class="classic-toc-num">05</span>
+              <span class="text-sm font-medium leading-5">Hermes Agent 继续加速：从开源 Agent 项目进化为可接入 OpenAI 兼容接口的个人代理运行时</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-5" data-track="toc_click" data-target-id="item-5" data-target-title="Cline Kanban 把多代理编码工作流产品化：隔离 worktree、任务依赖、Diff 审核开始变成标准界面">
+              <span class="classic-toc-num">06</span>
+              <span class="text-sm font-medium leading-5">Cline Kanban 把多代理编码工作流产品化：隔离 worktree、任务依赖、Diff 审核开始变成标准界面</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-6" data-track="toc_click" data-target-id="item-6" data-target-title="Figma MCP 开放 Beta：设计画布第一次真正成为 AI 可直接操作的生产界面">
+              <span class="classic-toc-num">07</span>
+              <span class="text-sm font-medium leading-5">Figma MCP 开放 Beta：设计画布第一次真正成为 AI 可直接操作的生产界面</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-7" data-track="toc_click" data-target-id="item-7" data-target-title="Anthropic 把“电脑操作权”交给 Claude：桌面级 Computer Use 正在从浏览器扩展到完整应用环境">
+              <span class="classic-toc-num">08</span>
+              <span class="text-sm font-medium leading-5">Anthropic 把“电脑操作权”交给 Claude：桌面级 Computer Use 正在从浏览器扩展到完整应用环境</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-8" data-track="toc_click" data-target-id="item-8" data-target-title="Sakana AI 宣布 AI Scientist 达到 Nature 级里程碑：更强基础模型正在直接推高自动科研系统上限">
+              <span class="classic-toc-num">09</span>
+              <span class="text-sm font-medium leading-5">Sakana AI 宣布 AI Scientist 达到 Nature 级里程碑：更强基础模型正在直接推高自动科研系统上限</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-9" data-track="toc_click" data-target-id="item-9" data-target-title="Artificial Analysis 推出 AA-AgentPerf：Agent 基准开始从跑分转向真实部署吞吐与并发成本">
+              <span class="classic-toc-num">10</span>
+              <span class="text-sm font-medium leading-5">Artificial Analysis 推出 AA-AgentPerf：Agent 基准开始从跑分转向真实部署吞吐与并发成本</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-10" data-track="toc_click" data-target-id="item-10" data-target-title="MiniMax 开源 Office Skills：AI 终于开始认真补“文档生成能用但不好用”这块短板">
+              <span class="classic-toc-num">11</span>
+              <span class="text-sm font-medium leading-5">MiniMax 开源 Office Skills：AI 终于开始认真补“文档生成能用但不好用”这块短板</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-11" data-track="toc_click" data-target-id="item-11" data-target-title="Open agent 生态开始成型：MolmoWeb、OpenReward、ZClawBench 把环境、评测、任务集补成一整层">
+              <span class="classic-toc-num">12</span>
+              <span class="text-sm font-medium leading-5">Open agent 生态开始成型：MolmoWeb、OpenReward、ZClawBench 把环境、评测、任务集补成一整层</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-12" data-track="toc_click" data-target-id="item-12" data-target-title="Mistral Voxtral TTS 与 Cohere Transcribe 同周上线：开源语音栈正在从可用走向可商用">
+              <span class="classic-toc-num">13</span>
+              <span class="text-sm font-medium leading-5">Mistral Voxtral TTS 与 Cohere Transcribe 同周上线：开源语音栈正在从可用走向可商用</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-13" data-track="toc_click" data-target-id="item-13" data-target-title="GLM-5.1 面向 Coding Plan 用户全面开放：中文阵营对高端代码模型的压迫感继续增强">
+              <span class="classic-toc-num">14</span>
+              <span class="text-sm font-medium leading-5">GLM-5.1 面向 Coding Plan 用户全面开放：中文阵营对高端代码模型的压迫感继续增强</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-14" data-track="toc_click" data-target-id="item-14" data-target-title="vLLM 与 Transformers 同时报出推理提速：大模型基础设施竞争开始卷到内核、内存与调度细节">
+              <span class="classic-toc-num">15</span>
+              <span class="text-sm font-medium leading-5">vLLM 与 Transformers 同时报出推理提速：大模型基础设施竞争开始卷到内核、内存与调度细节</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-15" data-track="toc_click" data-target-id="item-15" data-target-title="TurboQuant 与 Moreau 同周出圈：大模型性能红利正在从“更大模型”转向“更强系统层优化”">
+              <span class="classic-toc-num">16</span>
+              <span class="text-sm font-medium leading-5">TurboQuant 与 Moreau 同周出圈：大模型性能红利正在从“更大模型”转向“更强系统层优化”</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-16" data-track="toc_click" data-target-id="item-16" data-target-title="Google + LlamaIndex 把复杂金融 PDF 解析做成系统层能力：文档理解正在从工具功能升级为 Agent 基础设施">
+              <span class="classic-toc-num">17</span>
+              <span class="text-sm font-medium leading-5">Google + LlamaIndex 把复杂金融 PDF 解析做成系统层能力：文档理解正在从工具功能升级为 Agent 基础设施</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-17" data-track="toc_click" data-target-id="item-17" data-target-title="Cursor Instant Grep 发布：面向百万级文件仓库的毫秒级搜索，正在成为编码 Agent 的关键底座">
+              <span class="classic-toc-num">18</span>
+              <span class="text-sm font-medium leading-5">Cursor Instant Grep 发布：面向百万级文件仓库的毫秒级搜索，正在成为编码 Agent 的关键底座</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-18" data-track="toc_click" data-target-id="item-18" data-target-title="SAM 3.1 提供多目标单次前向加速：视频分割基础设施继续朝更实用的吞吐效率演进">
+              <span class="classic-toc-num">19</span>
+              <span class="text-sm font-medium leading-5">SAM 3.1 提供多目标单次前向加速：视频分割基础设施继续朝更实用的吞吐效率演进</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-19" data-track="toc_click" data-target-id="item-19" data-target-title="MiniMax Token Plan 把多模态 API 统一订阅化：当模型越来越多，定价本身也开始成为产品竞争力">
+              <span class="classic-toc-num">20</span>
+              <span class="text-sm font-medium leading-5">MiniMax Token Plan 把多模态 API 统一订阅化：当模型越来越多，定价本身也开始成为产品竞争力</span>
+            </a>
+          
+        </div>
+      </aside>
+
+      <main>
+        <div class="classic-card-grid">
+          
+            
+            <a href="https://github.com/BerriAI/litellm/issues/24512" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-0" data-track="news_item_click" data-item-title="LiteLLM 供应链遭入侵：恶意 .pth 可在 Python 启动时静默执行代码，生产环境需立即轮换密钥" data-item-media="GitHub" data-item-index="1">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">GitHub</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-03-25</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">LiteLLM 供应链遭入侵：恶意 .pth 可在 Python 启动时静默执行代码，生产环境需立即轮换密钥</h3>
+              
+                <p class="classic-card-summary">本周最需要立刻响应的安全事件之一。LiteLLM 1.82.7/1.82.8 被植入恶意负载，攻击利用 .pth 文件在解释器启动阶段执行代码，极难通过常规代码审查发现。对所有接入多模型路由、代理编排、CI/CD 的团队来说，这不是单点漏洞，而是整条 AI 基础设施链路的信任问题。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://x.com/M1Astra/status/2037377109472018444" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-1" data-track="news_item_click" data-item-title="Anthropic 新层级“Capybara”泄露：据称能力高于 Opus，前沿模型竞争重新回到算力与成本门槛" data-item-media="M1Astra" data-item-index="2">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">M1Astra</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-03-28</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">Anthropic 新层级“Capybara”泄露：据称能力高于 Opus，前沿模型竞争重新回到算力与成本门槛</h3>
+              
+                <p class="classic-card-summary">围绕 Anthropic 新旗舰层级的泄露信息在本周热度极高。多方转述称 Capybara 在代码、学术推理和安全测试上明显优于现有 Opus，但成本和安全约束使其暂时无法大规模开放。这件事值得关注，不只是因为模型更强，而是再次证明顶级模型竞争正在从“谁有更好算法”转向“谁能承受更高的算力和部署成本”。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://x.com/sama/status/2036488680769241223" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-2" data-track="news_item_click" data-item-title="OpenAI 被曝收缩 Sora、集中资源押注下一代基础模型与核心生产力产品" data-item-media="sama" data-item-index="3">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">sama</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-03-25</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">OpenAI 被曝收缩 Sora、集中资源押注下一代基础模型与核心生产力产品</h3>
+              
+                <p class="classic-card-summary">这条消息的意义不在八卦，而在战略信号。市场解读显示，OpenAI 正把算力和组织资源进一步向下一代主力模型与企业生产力方向倾斜，边缘型项目让路。对创业公司和开发者来说，这意味着 OpenAI 未来的产品重心可能更偏工作流、编码、企业集成，而不是分散在多个消费级副线产品上。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://x.com/OfficialLoganK/status/2037187750005240307" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-3" data-track="news_item_click" data-item-title="Gemini 3.1 Flash Live 发布：Google 把实时语音与视觉 Agent 推到更低延迟、更长记忆的新阶段" data-item-media="OfficialLoganK" data-item-index="4">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">OfficialLoganK</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-03-27</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">Gemini 3.1 Flash Live 发布：Google 把实时语音与视觉 Agent 推到更低延迟、更长记忆的新阶段</h3>
+              
+                <p class="classic-card-summary">Google 的这次更新不是常规版本迭代，而是在实时多模态交互上继续抢占基础设施位。新模型主打更低延迟、函数调用、更强噪音环境表现和更长会话记忆，覆盖 Gemini Live、Search Live、AI Studio 等场景。对语音助手、客服、实时演示、移动端 Agent 来说，这是一条非常实用的能力升级线。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://x.com/Teknium/status/2036473305025356023" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-4" data-track="news_item_click" data-item-title="Hermes Agent 继续加速：从开源 Agent 项目进化为可接入 OpenAI 兼容接口的个人代理运行时" data-item-media="Teknium" data-item-index="5">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">Teknium</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-03-25</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">Hermes Agent 继续加速：从开源 Agent 项目进化为可接入 OpenAI 兼容接口的个人代理运行时</h3>
+              
+                <p class="classic-card-summary">Hermes 本周的价值不在单个功能，而在产品形态越来越完整。它开始具备可复用记忆、后台自我改进、消息集成、上下文压缩和标准化 API 接口，意味着它不再只是一个极客玩具，而是在向“个人 Agent 操作系统”靠近。对于想做长期运行代理、消息驱动自动化和本地/云混合部署的人，这条线非常值得盯。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://x.com/cline/status/2037182739695493399" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-5" data-track="news_item_click" data-item-title="Cline Kanban 把多代理编码工作流产品化：隔离 worktree、任务依赖、Diff 审核开始变成标准界面" data-item-media="cline" data-item-index="6">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">cline</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-03-27</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">Cline Kanban 把多代理编码工作流产品化：隔离 worktree、任务依赖、Diff 审核开始变成标准界面</h3>
+              
+                <p class="classic-card-summary">这类产品重要，不是因为又多了一个 AI 编码工具，而是它把“多个代理并行干活”的混乱现场整理成了可管理的看板式工作流。隔离分支、任务依赖、统一审查和并行执行，正逐步成为多 Agent 软件开发的默认 UX。对团队协作和真实工程落地，比单次生成代码更关键。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://x.com/figma/status/2036434766661296602" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-6" data-track="news_item_click" data-item-title="Figma MCP 开放 Beta：设计画布第一次真正成为 AI 可直接操作的生产界面" data-item-media="figma" data-item-index="7">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">figma</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-03-25</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">Figma MCP 开放 Beta：设计画布第一次真正成为 AI 可直接操作的生产界面</h3>
+              
+                <p class="classic-card-summary">这不是简单的“AI 帮你画图”，而是设计工具原生进入 MCP / Agent 生态。Figma 画布可被代理直接编辑，GitHub、Cursor 等也在跟进衔接设计系统和前端生成。这意味着设计稿、组件库、工程代码之间的链路开始被打通，设计工具不再只是人手操作软件，而是 Agent 工作流的一部分。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://x.com/claudeai/status/2036195789601374705" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-7" data-track="news_item_click" data-item-title="Anthropic 把“电脑操作权”交给 Claude：桌面级 Computer Use 正在从浏览器扩展到完整应用环境" data-item-media="claudeai" data-item-index="8">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">claudeai</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-03-24</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">Anthropic 把“电脑操作权”交给 Claude：桌面级 Computer Use 正在从浏览器扩展到完整应用环境</h3>
+              
+                <p class="classic-card-summary">这一变化值得重视，因为它把 Agent 的操作面从 API 和网页进一步扩展到了完整桌面。模型开始能直接操控鼠标、键盘和屏幕，与真实软件环境交互。短期看它仍然慢且脆弱，但长期看，这是一条很强的过渡路线：在 API 不完备的世界里，Agent 先用“会操作电脑”补齐自动化空缺。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://x.com/SakanaAILabs/status/2036999652298678630" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-8" data-track="news_item_click" data-item-title="Sakana AI 宣布 AI Scientist 达到 Nature 级里程碑：更强基础模型正在直接推高自动科研系统上限" data-item-media="SakanaAILabs" data-item-index="9">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">SakanaAILabs</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-03-27</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">Sakana AI 宣布 AI Scientist 达到 Nature 级里程碑：更强基础模型正在直接推高自动科研系统上限</h3>
+              
+                <p class="classic-card-summary">这是本周学术价值最高的一批动态之一。Sakana 不只是又发了个“AI 做科研”的故事，而是给出了一个更硬的判断：更强基础模型会系统性地产生更强科研论文，并且这种能力还会随着推理算力继续上升。它把“自动科研”从概念秀，往可测量、可扩展的研究系统推进了一步。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://x.com/ArtificialAnlys/status/2037562417836929315" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-9" data-track="news_item_click" data-item-title="Artificial Analysis 推出 AA-AgentPerf：Agent 基准开始从跑分转向真实部署吞吐与并发成本" data-item-media="ArtificialAnlys" data-item-index="10">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">ArtificialAnlys</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-03-28</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">Artificial Analysis 推出 AA-AgentPerf：Agent 基准开始从跑分转向真实部署吞吐与并发成本</h3>
+              
+                <p class="classic-card-summary">这是一个很有方向感的信号。过去大家比的是 token、MMLU、单任务成功率；现在开始直接比 coding-agent 真实轨迹、长上下文吞吐、每加速卡并发、每千瓦和每美元的效率。对真正要上线 Agent 服务的团队来说，这种基准比传统榜单更接近生意现实。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://mp.weixin.qq.com/s/JKkdMqnHQUnpt0UYRsLTTA" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-10" data-track="news_item_click" data-item-title="MiniMax 开源 Office Skills：AI 终于开始认真补“文档生成能用但不好用”这块短板" data-item-media="MiniMax 稀宇科技" data-item-index="11">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">MiniMax 稀宇科技</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-03-25</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">MiniMax 开源 Office Skills：AI 终于开始认真补“文档生成能用但不好用”这块短板</h3>
+              
+                <p class="classic-card-summary">这不是一个普通开源仓库，而是一套面向 Word、Excel、PDF、PPT 的生产级文档引擎。它解决的是真实办公场景里最烦的那部分：公式、排版、透视表、结构保真。对企业文档自动化、AI 办公助手、报告生成产品来说，这类底层能力比再做一个聊天壳子更有商业含金量。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://x.com/allen_ai/status/2036460260936814915" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-11" data-track="news_item_click" data-item-title="Open agent 生态开始成型：MolmoWeb、OpenReward、ZClawBench 把环境、评测、任务集补成一整层" data-item-media="allen_ai" data-item-index="12">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">allen_ai</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-03-25</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">Open agent 生态开始成型：MolmoWeb、OpenReward、ZClawBench 把环境、评测、任务集补成一整层</h3>
+              
+                <p class="classic-card-summary">过去开源 Agent 常常停留在 demo，这周更值得注意的是配套基础设施开始补齐。AI2 的浏览器 Agent、RL 环境平台和真实任务基准一起出现，说明开源侧正从“能跑起来”进入“能稳定比较、能持续训练、能复现实验”的阶段。这对整个 Agent 生态是底层利好。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://x.com/MistralAI/status/2037183026539483288" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-12" data-track="news_item_click" data-item-title="Mistral Voxtral TTS 与 Cohere Transcribe 同周上线：开源语音栈正在从可用走向可商用" data-item-media="MistralAI" data-item-index="13">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">MistralAI</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-03-27</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">Mistral Voxtral TTS 与 Cohere Transcribe 同周上线：开源语音栈正在从可用走向可商用</h3>
+              
+                <p class="classic-card-summary">语音是这一轮开源模型里最健康的赛道之一。Mistral 推出面向生产环境的 TTS，Cohere 发布 Apache 2.0 的语音识别模型，还配套了 vLLM 侧的推理优化。更关键的是，这些发布都不是论文秀，而是明显奔着产品接入、低延迟和吞吐成本去的。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://x.com/Zai_org/status/2037490078126084514" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-13" data-track="news_item_click" data-item-title="GLM-5.1 面向 Coding Plan 用户全面开放：中文阵营对高端代码模型的压迫感继续增强" data-item-media="Zai_org" data-item-index="14">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">Zai_org</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-03-28</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">GLM-5.1 面向 Coding Plan 用户全面开放：中文阵营对高端代码模型的压迫感继续增强</h3>
+              
+                <p class="classic-card-summary">这条值得关注，是因为它不是单点模型发布，而是国内代码模型在真实用户侧持续逼近闭源头部产品的一个信号。社区讨论普遍认为，中高端中文和开源/半开源代码模型与海外闭源的差距正在快速缩小。对中国本土开发工具和 Agent 产品来说，这是很现实的机会窗口。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://x.com/vllm_project/status/2036389182579642544" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-14" data-track="news_item_click" data-item-title="vLLM 与 Transformers 同时报出推理提速：大模型基础设施竞争开始卷到内核、内存与调度细节" data-item-media="vllm_project" data-item-index="15">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">vllm_project</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-03-25</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">vLLM 与 Transformers 同时报出推理提速：大模型基础设施竞争开始卷到内核、内存与调度细节</h3>
+              
+                <p class="classic-card-summary">这周很明显的一条主线是，真正有价值的进步越来越多来自系统层而不是模型参数层。vLLM 强化了多模态吞吐和内存管理，Transformers 一侧也在逼近 vLLM 的高吞吐表现。对于推理平台、私有部署和 Agent 服务商来说，这些优化直接关系成本结构。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://x.com/opt_intellect/status/2036485190646735291" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-15" data-track="news_item_click" data-item-title="TurboQuant 与 Moreau 同周出圈：大模型性能红利正在从“更大模型”转向“更强系统层优化”" data-item-media="opt_intellect" data-item-index="16">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">opt_intellect</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-03-25</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">TurboQuant 与 Moreau 同周出圈：大模型性能红利正在从“更大模型”转向“更强系统层优化”</h3>
+              
+                <p class="classic-card-summary">Google 的 TurboQuant 主打 KV Cache 压缩与加速，CVXPY 团队的 Moreau 则把 GPU 原生优化求解器推上台面。它们共同说明一个趋势：高价值增益越来越多来自内存、量化、缓存、求解器和运行时，而不是盲目堆更大模型。这会深刻影响推理成本和产品毛利。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://x.com/googledevs/status/2036101456239939750" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-16" data-track="news_item_click" data-item-title="Google + LlamaIndex 把复杂金融 PDF 解析做成系统层能力：文档理解正在从工具功能升级为 Agent 基础设施" data-item-media="googledevs" data-item-index="17">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">googledevs</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-03-24</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">Google + LlamaIndex 把复杂金融 PDF 解析做成系统层能力：文档理解正在从工具功能升级为 Agent 基础设施</h3>
+              
+                <p class="classic-card-summary">金融表格、账单、复杂 PDF 一直是自动化里最难啃的一块。这次组合方案强调的是可结构化抽取、复杂表格解析和成本更低的轻量解析路径。对财务自动化、企业文档处理、研报结构化和智能助手来说，这类能力越成熟，Agent 真正接入业务流程的门槛就越低。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://x.com/cursor_ai/status/2036122609931165985" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-17" data-track="news_item_click" data-item-title="Cursor Instant Grep 发布：面向百万级文件仓库的毫秒级搜索，正在成为编码 Agent 的关键底座" data-item-media="cursor_ai" data-item-index="18">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">cursor_ai</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-03-24</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">Cursor Instant Grep 发布：面向百万级文件仓库的毫秒级搜索，正在成为编码 Agent 的关键底座</h3>
+              
+                <p class="classic-card-summary">很多人盯着模型能力，但对真实工程来说，仓库搜索速度直接决定 Agent 能不能高效工作。Cursor 这次做的不是花哨功能，而是把大仓库检索变成高性能基础能力。越是大型项目、代码资产复杂的团队，越能感受到这种底层提速带来的复利。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://x.com/AIatMeta/status/2037582117375553924" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-18" data-track="news_item_click" data-item-title="SAM 3.1 提供多目标单次前向加速：视频分割基础设施继续朝更实用的吞吐效率演进" data-item-media="AIatMeta" data-item-index="19">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">AIatMeta</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-03-28</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">SAM 3.1 提供多目标单次前向加速：视频分割基础设施继续朝更实用的吞吐效率演进</h3>
+              
+                <p class="classic-card-summary">Meta 这次更新的重点不是再刷一遍精度，而是把对象复用和吞吐做得更适合真实视频处理场景。单次前向支持更多目标，对视频标注、内容理解和后续多模态流水线都更有实用意义。很多视觉能力最后拼的其实就是这种工程可用性。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://x.com/MiniMax_AI/status/2036123727373672910" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-19" data-track="news_item_click" data-item-title="MiniMax Token Plan 把多模态 API 统一订阅化：当模型越来越多，定价本身也开始成为产品竞争力" data-item-media="MiniMax_AI" data-item-index="20">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">MiniMax_AI</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-03-24</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">MiniMax Token Plan 把多模态 API 统一订阅化：当模型越来越多，定价本身也开始成为产品竞争力</h3>
+              
+                <p class="classic-card-summary">不少团队已经意识到，真正让多模态落地变麻烦的，不只是模型效果，而是调用计费太碎、太难管。MiniMax 这次把文本、语音、音乐、视频、图像打成一套订阅计划，本质是在解决企业接入和预算管理问题。对 API 平台来说，这种产品化动作不花哨，但很有商业味道。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+        </div>
+      </main>
+    </div>
+  </div>
+</section>
+
+      <section class="theme-panel theme-panel-medium">
+  <div class="medium-layout">
+    
+    
+    
+    <div class="medium-topstrip">
+      <div>
+        <p class="medium-dek">@Luhui Dev 出品，精选 AI 领域技术发展与产品动态，提供一份连续阅读的周度观察。</p>
+      </div>
+    </div>
+
+    <div class="medium-main">
+      <div class="medium-lead-stack">
+        
+          <a href="https://github.com/BerriAI/litellm/issues/24512" target="_blank" rel="noopener noreferrer" class="medium-story medium-lead" data-track="news_item_click" data-item-title="LiteLLM 供应链遭入侵：恶意 .pth 可在 Python 启动时静默执行代码，生产环境需立即轮换密钥" data-item-media="GitHub" data-item-index="1">
+            <div class="medium-story-label">01 · GitHub · 2026-03-25</div>
+            <h3 class="medium-story-title">LiteLLM 供应链遭入侵：恶意 .pth 可在 Python 启动时静默执行代码，生产环境需立即轮换密钥</h3>
+            
+              <p class="medium-story-body">本周最需要立刻响应的安全事件之一。LiteLLM 1.82.7/1.82.8 被植入恶意负载，攻击利用 .pth 文件在解释器启动阶段执行代码，极难通过常规代码审查发现。对所有接入多模型路由、代理编排、CI/CD 的团队来说，这不是单点漏洞，而是整条 AI 基础设施链路的信任问题。</p>
+            
+          </a>
+        
+          <a href="https://x.com/M1Astra/status/2037377109472018444" target="_blank" rel="noopener noreferrer" class="medium-story medium-lead" data-track="news_item_click" data-item-title="Anthropic 新层级“Capybara”泄露：据称能力高于 Opus，前沿模型竞争重新回到算力与成本门槛" data-item-media="M1Astra" data-item-index="2">
+            <div class="medium-story-label">02 · M1Astra · 2026-03-28</div>
+            <h3 class="medium-story-title">Anthropic 新层级“Capybara”泄露：据称能力高于 Opus，前沿模型竞争重新回到算力与成本门槛</h3>
+            
+              <p class="medium-story-body">围绕 Anthropic 新旗舰层级的泄露信息在本周热度极高。多方转述称 Capybara 在代码、学术推理和安全测试上明显优于现有 Opus，但成本和安全约束使其暂时无法大规模开放。这件事值得关注，不只是因为模型更强，而是再次证明顶级模型竞争正在从“谁有更好算法”转向“谁能承受更高的算力和部署成本”。</p>
+            
+          </a>
+        
+      </div>
+
+      <aside class="medium-rail">
+        
+          
+          
+          <a href="https://x.com/sama/status/2036488680769241223" target="_blank" rel="noopener noreferrer" class="medium-story" data-track="news_item_click" data-item-title="OpenAI 被曝收缩 Sora、集中资源押注下一代基础模型与核心生产力产品" data-item-media="sama" data-item-index="3">
+            <div class="medium-story-label">03 · sama · 2026-03-25</div>
+            <h3 class="medium-story-title">OpenAI 被曝收缩 Sora、集中资源押注下一代基础模型与核心生产力产品</h3>
+            
+              <p class="medium-story-body">这条消息的意义不在八卦，而在战略信号。市场解读显示，OpenAI 正把算力和组织资源进一步向下一代主力模型与企业生产力方向倾斜，边缘型项目让路。对创业公司和开发者来说，这意味着 OpenAI 未来的产品重心可能更偏工作流、编码、企业集成，而不是分散在多个消费级副线产品上。</p>
+            
+          </a>
+        
+          
+          
+          <a href="https://x.com/OfficialLoganK/status/2037187750005240307" target="_blank" rel="noopener noreferrer" class="medium-story" data-track="news_item_click" data-item-title="Gemini 3.1 Flash Live 发布：Google 把实时语音与视觉 Agent 推到更低延迟、更长记忆的新阶段" data-item-media="OfficialLoganK" data-item-index="4">
+            <div class="medium-story-label">04 · OfficialLoganK · 2026-03-27</div>
+            <h3 class="medium-story-title">Gemini 3.1 Flash Live 发布：Google 把实时语音与视觉 Agent 推到更低延迟、更长记忆的新阶段</h3>
+            
+              <p class="medium-story-body">Google 的这次更新不是常规版本迭代，而是在实时多模态交互上继续抢占基础设施位。新模型主打更低延迟、函数调用、更强噪音环境表现和更长会话记忆，覆盖 Gemini Live、Search Live、AI Studio 等场景。对语音助手、客服、实时演示、移动端 Agent 来说…</p>
+            
+          </a>
+        
+          
+          
+          <a href="https://x.com/Teknium/status/2036473305025356023" target="_blank" rel="noopener noreferrer" class="medium-story" data-track="news_item_click" data-item-title="Hermes Agent 继续加速：从开源 Agent 项目进化为可接入 OpenAI 兼容接口的个人代理运行时" data-item-media="Teknium" data-item-index="5">
+            <div class="medium-story-label">05 · Teknium · 2026-03-25</div>
+            <h3 class="medium-story-title">Hermes Agent 继续加速：从开源 Agent 项目进化为可接入 OpenAI 兼容接口的个人代理运行时</h3>
+            
+              <p class="medium-story-body">Hermes 本周的价值不在单个功能，而在产品形态越来越完整。它开始具备可复用记忆、后台自我改进、消息集成、上下文压缩和标准化 API 接口，意味着它不再只是一个极客玩具，而是在向“个人 Agent 操作系统”靠近。对于想做长期运行代理、消息驱动自动化和本地/云混合部署的人，这条…</p>
+            
+          </a>
+        
+          
+          
+          <a href="https://x.com/cline/status/2037182739695493399" target="_blank" rel="noopener noreferrer" class="medium-story" data-track="news_item_click" data-item-title="Cline Kanban 把多代理编码工作流产品化：隔离 worktree、任务依赖、Diff 审核开始变成标准界面" data-item-media="cline" data-item-index="6">
+            <div class="medium-story-label">06 · cline · 2026-03-27</div>
+            <h3 class="medium-story-title">Cline Kanban 把多代理编码工作流产品化：隔离 worktree、任务依赖、Diff 审核开始变成标准界面</h3>
+            
+              <p class="medium-story-body">这类产品重要，不是因为又多了一个 AI 编码工具，而是它把“多个代理并行干活”的混乱现场整理成了可管理的看板式工作流。隔离分支、任务依赖、统一审查和并行执行，正逐步成为多 Agent 软件开发的默认 UX。对团队协作和真实工程落地，比单次生成代码更关键。</p>
+            
+          </a>
+        
+      </aside>
+    </div>
+
+    <div class="medium-briefs">
+      
+        
+        
+        
+        <a href="https://x.com/figma/status/2036434766661296602" target="_blank" rel="noopener noreferrer" class="medium-story medium-brief" data-track="news_item_click" data-item-title="Figma MCP 开放 Beta：设计画布第一次真正成为 AI 可直接操作的生产界面" data-item-media="figma" data-item-index="7">
+          <div class="medium-story-label">07 · figma · 2026-03-25</div>
+          <h3 class="medium-story-title">Figma MCP 开放 Beta：设计画布第一次真正成为 AI 可直接操作的生产界面</h3>
+          
+            <p class="medium-story-body">这不是简单的“AI 帮你画图”，而是设计工具原生进入 MCP / Agent 生态。Figma 画布可被代理直接编辑，GitHub、Cursor 等也在跟进衔接设计系统和前端生成。这意味着设计稿、组件库、工程代码之间的链…</p>
+          
+        </a>
+      
+        
+        
+        
+        <a href="https://x.com/claudeai/status/2036195789601374705" target="_blank" rel="noopener noreferrer" class="medium-story medium-brief" data-track="news_item_click" data-item-title="Anthropic 把“电脑操作权”交给 Claude：桌面级 Computer Use 正在从浏览器扩展到完整应用环境" data-item-media="claudeai" data-item-index="8">
+          <div class="medium-story-label">08 · claudeai · 2026-03-24</div>
+          <h3 class="medium-story-title">Anthropic 把“电脑操作权”交给 Claude：桌面级 Computer Use 正在从浏览器扩展到完整应用环境</h3>
+          
+            <p class="medium-story-body">这一变化值得重视，因为它把 Agent 的操作面从 API 和网页进一步扩展到了完整桌面。模型开始能直接操控鼠标、键盘和屏幕，与真实软件环境交互。短期看它仍然慢且脆弱，但长期看，这是一条很强的过渡路线：在 API 不完备…</p>
+          
+        </a>
+      
+        
+        
+        
+        <a href="https://x.com/SakanaAILabs/status/2036999652298678630" target="_blank" rel="noopener noreferrer" class="medium-story medium-brief" data-track="news_item_click" data-item-title="Sakana AI 宣布 AI Scientist 达到 Nature 级里程碑：更强基础模型正在直接推高自动科研系统上限" data-item-media="SakanaAILabs" data-item-index="9">
+          <div class="medium-story-label">09 · SakanaAILabs · 2026-03-27</div>
+          <h3 class="medium-story-title">Sakana AI 宣布 AI Scientist 达到 Nature 级里程碑：更强基础模型正在直接推高自动科研系统上限</h3>
+          
+            <p class="medium-story-body">这是本周学术价值最高的一批动态之一。Sakana 不只是又发了个“AI 做科研”的故事，而是给出了一个更硬的判断：更强基础模型会系统性地产生更强科研论文，并且这种能力还会随着推理算力继续上升。它把“自动科研”从概念秀，往…</p>
+          
+        </a>
+      
+        
+        
+        
+        <a href="https://x.com/ArtificialAnlys/status/2037562417836929315" target="_blank" rel="noopener noreferrer" class="medium-story medium-brief" data-track="news_item_click" data-item-title="Artificial Analysis 推出 AA-AgentPerf：Agent 基准开始从跑分转向真实部署吞吐与并发成本" data-item-media="ArtificialAnlys" data-item-index="10">
+          <div class="medium-story-label">10 · ArtificialAnlys · 2026-03-28</div>
+          <h3 class="medium-story-title">Artificial Analysis 推出 AA-AgentPerf：Agent 基准开始从跑分转向真实部署吞吐与并发成本</h3>
+          
+            <p class="medium-story-body">这是一个很有方向感的信号。过去大家比的是 token、MMLU、单任务成功率；现在开始直接比 coding-agent 真实轨迹、长上下文吞吐、每加速卡并发、每千瓦和每美元的效率。对真正要上线 Agent 服务的团队来说…</p>
+          
+        </a>
+      
+        
+        
+        
+        <a href="https://mp.weixin.qq.com/s/JKkdMqnHQUnpt0UYRsLTTA" target="_blank" rel="noopener noreferrer" class="medium-story medium-brief" data-track="news_item_click" data-item-title="MiniMax 开源 Office Skills：AI 终于开始认真补“文档生成能用但不好用”这块短板" data-item-media="MiniMax 稀宇科技" data-item-index="11">
+          <div class="medium-story-label">11 · MiniMax 稀宇科技 · 2026-03-25</div>
+          <h3 class="medium-story-title">MiniMax 开源 Office Skills：AI 终于开始认真补“文档生成能用但不好用”这块短板</h3>
+          
+            <p class="medium-story-body">这不是一个普通开源仓库，而是一套面向 Word、Excel、PDF、PPT 的生产级文档引擎。它解决的是真实办公场景里最烦的那部分：公式、排版、透视表、结构保真。对企业文档自动化、AI 办公助手、报告生成产品来说，这类底…</p>
+          
+        </a>
+      
+        
+        
+        
+        <a href="https://x.com/allen_ai/status/2036460260936814915" target="_blank" rel="noopener noreferrer" class="medium-story medium-brief" data-track="news_item_click" data-item-title="Open agent 生态开始成型：MolmoWeb、OpenReward、ZClawBench 把环境、评测、任务集补成一整层" data-item-media="allen_ai" data-item-index="12">
+          <div class="medium-story-label">12 · allen_ai · 2026-03-25</div>
+          <h3 class="medium-story-title">Open agent 生态开始成型：MolmoWeb、OpenReward、ZClawBench 把环境、评测、任务集补成一整层</h3>
+          
+            <p class="medium-story-body">过去开源 Agent 常常停留在 demo，这周更值得注意的是配套基础设施开始补齐。AI2 的浏览器 Agent、RL 环境平台和真实任务基准一起出现，说明开源侧正从“能跑起来”进入“能稳定比较、能持续训练、能复现实验”…</p>
+          
+        </a>
+      
+        
+        
+        
+        <a href="https://x.com/MistralAI/status/2037183026539483288" target="_blank" rel="noopener noreferrer" class="medium-story medium-brief" data-track="news_item_click" data-item-title="Mistral Voxtral TTS 与 Cohere Transcribe 同周上线：开源语音栈正在从可用走向可商用" data-item-media="MistralAI" data-item-index="13">
+          <div class="medium-story-label">13 · MistralAI · 2026-03-27</div>
+          <h3 class="medium-story-title">Mistral Voxtral TTS 与 Cohere Transcribe 同周上线：开源语音栈正在从可用走向可商用</h3>
+          
+            <p class="medium-story-body">语音是这一轮开源模型里最健康的赛道之一。Mistral 推出面向生产环境的 TTS，Cohere 发布 Apache 2.0 的语音识别模型，还配套了 vLLM 侧的推理优化。更关键的是，这些发布都不是论文秀，而是明显奔…</p>
+          
+        </a>
+      
+        
+        
+        
+        <a href="https://x.com/Zai_org/status/2037490078126084514" target="_blank" rel="noopener noreferrer" class="medium-story medium-brief" data-track="news_item_click" data-item-title="GLM-5.1 面向 Coding Plan 用户全面开放：中文阵营对高端代码模型的压迫感继续增强" data-item-media="Zai_org" data-item-index="14">
+          <div class="medium-story-label">14 · Zai_org · 2026-03-28</div>
+          <h3 class="medium-story-title">GLM-5.1 面向 Coding Plan 用户全面开放：中文阵营对高端代码模型的压迫感继续增强</h3>
+          
+            <p class="medium-story-body">这条值得关注，是因为它不是单点模型发布，而是国内代码模型在真实用户侧持续逼近闭源头部产品的一个信号。社区讨论普遍认为，中高端中文和开源/半开源代码模型与海外闭源的差距正在快速缩小。对中国本土开发工具和 Agent 产品来…</p>
+          
+        </a>
+      
+        
+        
+        
+        <a href="https://x.com/vllm_project/status/2036389182579642544" target="_blank" rel="noopener noreferrer" class="medium-story medium-brief" data-track="news_item_click" data-item-title="vLLM 与 Transformers 同时报出推理提速：大模型基础设施竞争开始卷到内核、内存与调度细节" data-item-media="vllm_project" data-item-index="15">
+          <div class="medium-story-label">15 · vllm_project · 2026-03-25</div>
+          <h3 class="medium-story-title">vLLM 与 Transformers 同时报出推理提速：大模型基础设施竞争开始卷到内核、内存与调度细节</h3>
+          
+            <p class="medium-story-body">这周很明显的一条主线是，真正有价值的进步越来越多来自系统层而不是模型参数层。vLLM 强化了多模态吞吐和内存管理，Transformers 一侧也在逼近 vLLM 的高吞吐表现。对于推理平台、私有部署和 Agent 服务…</p>
+          
+        </a>
+      
+        
+        
+        
+        <a href="https://x.com/opt_intellect/status/2036485190646735291" target="_blank" rel="noopener noreferrer" class="medium-story medium-brief" data-track="news_item_click" data-item-title="TurboQuant 与 Moreau 同周出圈：大模型性能红利正在从“更大模型”转向“更强系统层优化”" data-item-media="opt_intellect" data-item-index="16">
+          <div class="medium-story-label">16 · opt_intellect · 2026-03-25</div>
+          <h3 class="medium-story-title">TurboQuant 与 Moreau 同周出圈：大模型性能红利正在从“更大模型”转向“更强系统层优化”</h3>
+          
+            <p class="medium-story-body">Google 的 TurboQuant 主打 KV Cache 压缩与加速，CVXPY 团队的 Moreau 则把 GPU 原生优化求解器推上台面。它们共同说明一个趋势：高价值增益越来越多来自内存、量化、缓存、求解器和运…</p>
+          
+        </a>
+      
+        
+        
+        
+        <a href="https://x.com/googledevs/status/2036101456239939750" target="_blank" rel="noopener noreferrer" class="medium-story medium-brief" data-track="news_item_click" data-item-title="Google + LlamaIndex 把复杂金融 PDF 解析做成系统层能力：文档理解正在从工具功能升级为 Agent 基础设施" data-item-media="googledevs" data-item-index="17">
+          <div class="medium-story-label">17 · googledevs · 2026-03-24</div>
+          <h3 class="medium-story-title">Google + LlamaIndex 把复杂金融 PDF 解析做成系统层能力：文档理解正在从工具功能升级为 Agent 基础设施</h3>
+          
+            <p class="medium-story-body">金融表格、账单、复杂 PDF 一直是自动化里最难啃的一块。这次组合方案强调的是可结构化抽取、复杂表格解析和成本更低的轻量解析路径。对财务自动化、企业文档处理、研报结构化和智能助手来说，这类能力越成熟，Agent 真正接入…</p>
+          
+        </a>
+      
+        
+        
+        
+        <a href="https://x.com/cursor_ai/status/2036122609931165985" target="_blank" rel="noopener noreferrer" class="medium-story medium-brief" data-track="news_item_click" data-item-title="Cursor Instant Grep 发布：面向百万级文件仓库的毫秒级搜索，正在成为编码 Agent 的关键底座" data-item-media="cursor_ai" data-item-index="18">
+          <div class="medium-story-label">18 · cursor_ai · 2026-03-24</div>
+          <h3 class="medium-story-title">Cursor Instant Grep 发布：面向百万级文件仓库的毫秒级搜索，正在成为编码 Agent 的关键底座</h3>
+          
+            <p class="medium-story-body">很多人盯着模型能力，但对真实工程来说，仓库搜索速度直接决定 Agent 能不能高效工作。Cursor 这次做的不是花哨功能，而是把大仓库检索变成高性能基础能力。越是大型项目、代码资产复杂的团队，越能感受到这种底层提速带来…</p>
+          
+        </a>
+      
+        
+        
+        
+        <a href="https://x.com/AIatMeta/status/2037582117375553924" target="_blank" rel="noopener noreferrer" class="medium-story medium-brief" data-track="news_item_click" data-item-title="SAM 3.1 提供多目标单次前向加速：视频分割基础设施继续朝更实用的吞吐效率演进" data-item-media="AIatMeta" data-item-index="19">
+          <div class="medium-story-label">19 · AIatMeta · 2026-03-28</div>
+          <h3 class="medium-story-title">SAM 3.1 提供多目标单次前向加速：视频分割基础设施继续朝更实用的吞吐效率演进</h3>
+          
+            <p class="medium-story-body">Meta 这次更新的重点不是再刷一遍精度，而是把对象复用和吞吐做得更适合真实视频处理场景。单次前向支持更多目标，对视频标注、内容理解和后续多模态流水线都更有实用意义。很多视觉能力最后拼的其实就是这种工程可用性。</p>
+          
+        </a>
+      
+        
+        
+        
+        <a href="https://x.com/MiniMax_AI/status/2036123727373672910" target="_blank" rel="noopener noreferrer" class="medium-story medium-brief" data-track="news_item_click" data-item-title="MiniMax Token Plan 把多模态 API 统一订阅化：当模型越来越多，定价本身也开始成为产品竞争力" data-item-media="MiniMax_AI" data-item-index="20">
+          <div class="medium-story-label">20 · MiniMax_AI · 2026-03-24</div>
+          <h3 class="medium-story-title">MiniMax Token Plan 把多模态 API 统一订阅化：当模型越来越多，定价本身也开始成为产品竞争力</h3>
+          
+            <p class="medium-story-body">不少团队已经意识到，真正让多模态落地变麻烦的，不只是模型效果，而是调用计费太碎、太难管。MiniMax 这次把文本、语音、音乐、视频、图像打成一套订阅计划，本质是在解决企业接入和预算管理问题。对 API 平台来说，这种产…</p>
+          
+        </a>
+      
+    </div>
+  </div>
+</section>
+
+      <section class="theme-panel theme-panel-signal">
+  <div class="signal-layout">
+    <div class="signal-intro">
+      <p>@Luhui Dev 出品，精选 AI 领域技术发展与产品动态，提供一份连续阅读的周度观察。</p>
+    </div>
+
+    <div class="signal-list">
+      
+        <a href="https://github.com/BerriAI/litellm/issues/24512" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="LiteLLM 供应链遭入侵：恶意 .pth 可在 Python 启动时静默执行代码，生产环境需立即轮换密钥" data-item-media="GitHub" data-item-index="1">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">LiteLLM 供应链遭入侵：恶意 .pth 可在 Python 启动时静默执行代码，生产环境需立即轮换密钥</h3>
+            
+              <p class="signal-micro">本周最需要立刻响应的安全事件之一。LiteLLM 1.82.7/1.82.8 被植入恶意负载，攻击利用 .pth 文件在解释器启动阶段执行代码，极难通过常规代码审查发现。对所有接入多模型路由、代理编排、CI/CD 的团队来说，这不是单点漏洞，而是整条 AI 基础设施链路的信任问题。</p>
+            
+          </div>
+          <div class="signal-item-index">01</div>
+        </a>
+      
+        <a href="https://x.com/M1Astra/status/2037377109472018444" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="Anthropic 新层级“Capybara”泄露：据称能力高于 Opus，前沿模型竞争重新回到算力与成本门槛" data-item-media="M1Astra" data-item-index="2">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">Anthropic 新层级“Capybara”泄露：据称能力高于 Opus，前沿模型竞争重新回到算力与成本门槛</h3>
+            
+              <p class="signal-micro">围绕 Anthropic 新旗舰层级的泄露信息在本周热度极高。多方转述称 Capybara 在代码、学术推理和安全测试上明显优于现有 Opus，但成本和安全约束使其暂时无法大规模开放。这件事值得关注，不只是因为模型更强，而是再次证明顶级模型竞争正在从“谁有更好算法”转向“谁能承受更高的算力和部署成本”。</p>
+            
+          </div>
+          <div class="signal-item-index">02</div>
+        </a>
+      
+        <a href="https://x.com/sama/status/2036488680769241223" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="OpenAI 被曝收缩 Sora、集中资源押注下一代基础模型与核心生产力产品" data-item-media="sama" data-item-index="3">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">OpenAI 被曝收缩 Sora、集中资源押注下一代基础模型与核心生产力产品</h3>
+            
+              <p class="signal-micro">这条消息的意义不在八卦，而在战略信号。市场解读显示，OpenAI 正把算力和组织资源进一步向下一代主力模型与企业生产力方向倾斜，边缘型项目让路。对创业公司和开发者来说，这意味着 OpenAI 未来的产品重心可能更偏工作流、编码、企业集成，而不是分散在多个消费级副线产品上。</p>
+            
+          </div>
+          <div class="signal-item-index">03</div>
+        </a>
+      
+        <a href="https://x.com/OfficialLoganK/status/2037187750005240307" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="Gemini 3.1 Flash Live 发布：Google 把实时语音与视觉 Agent 推到更低延迟、更长记忆的新阶段" data-item-media="OfficialLoganK" data-item-index="4">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">Gemini 3.1 Flash Live 发布：Google 把实时语音与视觉 Agent 推到更低延迟、更长记忆的新阶段</h3>
+            
+              <p class="signal-micro">Google 的这次更新不是常规版本迭代，而是在实时多模态交互上继续抢占基础设施位。新模型主打更低延迟、函数调用、更强噪音环境表现和更长会话记忆，覆盖 Gemini Live、Search Live、AI Studio 等场景。对语音助手、客服、实时演示、移动端 Agent 来说，这是一条非常实用的能力升级线。</p>
+            
+          </div>
+          <div class="signal-item-index">04</div>
+        </a>
+      
+        <a href="https://x.com/Teknium/status/2036473305025356023" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="Hermes Agent 继续加速：从开源 Agent 项目进化为可接入 OpenAI 兼容接口的个人代理运行时" data-item-media="Teknium" data-item-index="5">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">Hermes Agent 继续加速：从开源 Agent 项目进化为可接入 OpenAI 兼容接口的个人代理运行时</h3>
+            
+              <p class="signal-micro">Hermes 本周的价值不在单个功能，而在产品形态越来越完整。它开始具备可复用记忆、后台自我改进、消息集成、上下文压缩和标准化 API 接口，意味着它不再只是一个极客玩具，而是在向“个人 Agent 操作系统”靠近。对于想做长期运行代理、消息驱动自动化和本地/云混合部署的人，这条线非常值得盯。</p>
+            
+          </div>
+          <div class="signal-item-index">05</div>
+        </a>
+      
+        <a href="https://x.com/cline/status/2037182739695493399" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="Cline Kanban 把多代理编码工作流产品化：隔离 worktree、任务依赖、Diff 审核开始变成标准界面" data-item-media="cline" data-item-index="6">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">Cline Kanban 把多代理编码工作流产品化：隔离 worktree、任务依赖、Diff 审核开始变成标准界面</h3>
+            
+              <p class="signal-micro">这类产品重要，不是因为又多了一个 AI 编码工具，而是它把“多个代理并行干活”的混乱现场整理成了可管理的看板式工作流。隔离分支、任务依赖、统一审查和并行执行，正逐步成为多 Agent 软件开发的默认 UX。对团队协作和真实工程落地，比单次生成代码更关键。</p>
+            
+          </div>
+          <div class="signal-item-index">06</div>
+        </a>
+      
+        <a href="https://x.com/figma/status/2036434766661296602" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="Figma MCP 开放 Beta：设计画布第一次真正成为 AI 可直接操作的生产界面" data-item-media="figma" data-item-index="7">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">Figma MCP 开放 Beta：设计画布第一次真正成为 AI 可直接操作的生产界面</h3>
+            
+              <p class="signal-micro">这不是简单的“AI 帮你画图”，而是设计工具原生进入 MCP / Agent 生态。Figma 画布可被代理直接编辑，GitHub、Cursor 等也在跟进衔接设计系统和前端生成。这意味着设计稿、组件库、工程代码之间的链路开始被打通，设计工具不再只是人手操作软件，而是 Agent 工作流的一部分。</p>
+            
+          </div>
+          <div class="signal-item-index">07</div>
+        </a>
+      
+        <a href="https://x.com/claudeai/status/2036195789601374705" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="Anthropic 把“电脑操作权”交给 Claude：桌面级 Computer Use 正在从浏览器扩展到完整应用环境" data-item-media="claudeai" data-item-index="8">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">Anthropic 把“电脑操作权”交给 Claude：桌面级 Computer Use 正在从浏览器扩展到完整应用环境</h3>
+            
+              <p class="signal-micro">这一变化值得重视，因为它把 Agent 的操作面从 API 和网页进一步扩展到了完整桌面。模型开始能直接操控鼠标、键盘和屏幕，与真实软件环境交互。短期看它仍然慢且脆弱，但长期看，这是一条很强的过渡路线：在 API 不完备的世界里，Agent 先用“会操作电脑”补齐自动化空缺。</p>
+            
+          </div>
+          <div class="signal-item-index">08</div>
+        </a>
+      
+        <a href="https://x.com/SakanaAILabs/status/2036999652298678630" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="Sakana AI 宣布 AI Scientist 达到 Nature 级里程碑：更强基础模型正在直接推高自动科研系统上限" data-item-media="SakanaAILabs" data-item-index="9">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">Sakana AI 宣布 AI Scientist 达到 Nature 级里程碑：更强基础模型正在直接推高自动科研系统上限</h3>
+            
+              <p class="signal-micro">这是本周学术价值最高的一批动态之一。Sakana 不只是又发了个“AI 做科研”的故事，而是给出了一个更硬的判断：更强基础模型会系统性地产生更强科研论文，并且这种能力还会随着推理算力继续上升。它把“自动科研”从概念秀，往可测量、可扩展的研究系统推进了一步。</p>
+            
+          </div>
+          <div class="signal-item-index">09</div>
+        </a>
+      
+        <a href="https://x.com/ArtificialAnlys/status/2037562417836929315" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="Artificial Analysis 推出 AA-AgentPerf：Agent 基准开始从跑分转向真实部署吞吐与并发成本" data-item-media="ArtificialAnlys" data-item-index="10">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">Artificial Analysis 推出 AA-AgentPerf：Agent 基准开始从跑分转向真实部署吞吐与并发成本</h3>
+            
+              <p class="signal-micro">这是一个很有方向感的信号。过去大家比的是 token、MMLU、单任务成功率；现在开始直接比 coding-agent 真实轨迹、长上下文吞吐、每加速卡并发、每千瓦和每美元的效率。对真正要上线 Agent 服务的团队来说，这种基准比传统榜单更接近生意现实。</p>
+            
+          </div>
+          <div class="signal-item-index">10</div>
+        </a>
+      
+        <a href="https://mp.weixin.qq.com/s/JKkdMqnHQUnpt0UYRsLTTA" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="MiniMax 开源 Office Skills：AI 终于开始认真补“文档生成能用但不好用”这块短板" data-item-media="MiniMax 稀宇科技" data-item-index="11">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">MiniMax 开源 Office Skills：AI 终于开始认真补“文档生成能用但不好用”这块短板</h3>
+            
+              <p class="signal-micro">这不是一个普通开源仓库，而是一套面向 Word、Excel、PDF、PPT 的生产级文档引擎。它解决的是真实办公场景里最烦的那部分：公式、排版、透视表、结构保真。对企业文档自动化、AI 办公助手、报告生成产品来说，这类底层能力比再做一个聊天壳子更有商业含金量。</p>
+            
+          </div>
+          <div class="signal-item-index">11</div>
+        </a>
+      
+        <a href="https://x.com/allen_ai/status/2036460260936814915" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="Open agent 生态开始成型：MolmoWeb、OpenReward、ZClawBench 把环境、评测、任务集补成一整层" data-item-media="allen_ai" data-item-index="12">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">Open agent 生态开始成型：MolmoWeb、OpenReward、ZClawBench 把环境、评测、任务集补成一整层</h3>
+            
+              <p class="signal-micro">过去开源 Agent 常常停留在 demo，这周更值得注意的是配套基础设施开始补齐。AI2 的浏览器 Agent、RL 环境平台和真实任务基准一起出现，说明开源侧正从“能跑起来”进入“能稳定比较、能持续训练、能复现实验”的阶段。这对整个 Agent 生态是底层利好。</p>
+            
+          </div>
+          <div class="signal-item-index">12</div>
+        </a>
+      
+        <a href="https://x.com/MistralAI/status/2037183026539483288" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="Mistral Voxtral TTS 与 Cohere Transcribe 同周上线：开源语音栈正在从可用走向可商用" data-item-media="MistralAI" data-item-index="13">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">Mistral Voxtral TTS 与 Cohere Transcribe 同周上线：开源语音栈正在从可用走向可商用</h3>
+            
+              <p class="signal-micro">语音是这一轮开源模型里最健康的赛道之一。Mistral 推出面向生产环境的 TTS，Cohere 发布 Apache 2.0 的语音识别模型，还配套了 vLLM 侧的推理优化。更关键的是，这些发布都不是论文秀，而是明显奔着产品接入、低延迟和吞吐成本去的。</p>
+            
+          </div>
+          <div class="signal-item-index">13</div>
+        </a>
+      
+        <a href="https://x.com/Zai_org/status/2037490078126084514" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="GLM-5.1 面向 Coding Plan 用户全面开放：中文阵营对高端代码模型的压迫感继续增强" data-item-media="Zai_org" data-item-index="14">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">GLM-5.1 面向 Coding Plan 用户全面开放：中文阵营对高端代码模型的压迫感继续增强</h3>
+            
+              <p class="signal-micro">这条值得关注，是因为它不是单点模型发布，而是国内代码模型在真实用户侧持续逼近闭源头部产品的一个信号。社区讨论普遍认为，中高端中文和开源/半开源代码模型与海外闭源的差距正在快速缩小。对中国本土开发工具和 Agent 产品来说，这是很现实的机会窗口。</p>
+            
+          </div>
+          <div class="signal-item-index">14</div>
+        </a>
+      
+        <a href="https://x.com/vllm_project/status/2036389182579642544" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="vLLM 与 Transformers 同时报出推理提速：大模型基础设施竞争开始卷到内核、内存与调度细节" data-item-media="vllm_project" data-item-index="15">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">vLLM 与 Transformers 同时报出推理提速：大模型基础设施竞争开始卷到内核、内存与调度细节</h3>
+            
+              <p class="signal-micro">这周很明显的一条主线是，真正有价值的进步越来越多来自系统层而不是模型参数层。vLLM 强化了多模态吞吐和内存管理，Transformers 一侧也在逼近 vLLM 的高吞吐表现。对于推理平台、私有部署和 Agent 服务商来说，这些优化直接关系成本结构。</p>
+            
+          </div>
+          <div class="signal-item-index">15</div>
+        </a>
+      
+        <a href="https://x.com/opt_intellect/status/2036485190646735291" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="TurboQuant 与 Moreau 同周出圈：大模型性能红利正在从“更大模型”转向“更强系统层优化”" data-item-media="opt_intellect" data-item-index="16">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">TurboQuant 与 Moreau 同周出圈：大模型性能红利正在从“更大模型”转向“更强系统层优化”</h3>
+            
+              <p class="signal-micro">Google 的 TurboQuant 主打 KV Cache 压缩与加速，CVXPY 团队的 Moreau 则把 GPU 原生优化求解器推上台面。它们共同说明一个趋势：高价值增益越来越多来自内存、量化、缓存、求解器和运行时，而不是盲目堆更大模型。这会深刻影响推理成本和产品毛利。</p>
+            
+          </div>
+          <div class="signal-item-index">16</div>
+        </a>
+      
+        <a href="https://x.com/googledevs/status/2036101456239939750" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="Google + LlamaIndex 把复杂金融 PDF 解析做成系统层能力：文档理解正在从工具功能升级为 Agent 基础设施" data-item-media="googledevs" data-item-index="17">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">Google + LlamaIndex 把复杂金融 PDF 解析做成系统层能力：文档理解正在从工具功能升级为 Agent 基础设施</h3>
+            
+              <p class="signal-micro">金融表格、账单、复杂 PDF 一直是自动化里最难啃的一块。这次组合方案强调的是可结构化抽取、复杂表格解析和成本更低的轻量解析路径。对财务自动化、企业文档处理、研报结构化和智能助手来说，这类能力越成熟，Agent 真正接入业务流程的门槛就越低。</p>
+            
+          </div>
+          <div class="signal-item-index">17</div>
+        </a>
+      
+        <a href="https://x.com/cursor_ai/status/2036122609931165985" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="Cursor Instant Grep 发布：面向百万级文件仓库的毫秒级搜索，正在成为编码 Agent 的关键底座" data-item-media="cursor_ai" data-item-index="18">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">Cursor Instant Grep 发布：面向百万级文件仓库的毫秒级搜索，正在成为编码 Agent 的关键底座</h3>
+            
+              <p class="signal-micro">很多人盯着模型能力，但对真实工程来说，仓库搜索速度直接决定 Agent 能不能高效工作。Cursor 这次做的不是花哨功能，而是把大仓库检索变成高性能基础能力。越是大型项目、代码资产复杂的团队，越能感受到这种底层提速带来的复利。</p>
+            
+          </div>
+          <div class="signal-item-index">18</div>
+        </a>
+      
+        <a href="https://x.com/AIatMeta/status/2037582117375553924" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="SAM 3.1 提供多目标单次前向加速：视频分割基础设施继续朝更实用的吞吐效率演进" data-item-media="AIatMeta" data-item-index="19">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">SAM 3.1 提供多目标单次前向加速：视频分割基础设施继续朝更实用的吞吐效率演进</h3>
+            
+              <p class="signal-micro">Meta 这次更新的重点不是再刷一遍精度，而是把对象复用和吞吐做得更适合真实视频处理场景。单次前向支持更多目标，对视频标注、内容理解和后续多模态流水线都更有实用意义。很多视觉能力最后拼的其实就是这种工程可用性。</p>
+            
+          </div>
+          <div class="signal-item-index">19</div>
+        </a>
+      
+        <a href="https://x.com/MiniMax_AI/status/2036123727373672910" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="MiniMax Token Plan 把多模态 API 统一订阅化：当模型越来越多，定价本身也开始成为产品竞争力" data-item-media="MiniMax_AI" data-item-index="20">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">MiniMax Token Plan 把多模态 API 统一订阅化：当模型越来越多，定价本身也开始成为产品竞争力</h3>
+            
+              <p class="signal-micro">不少团队已经意识到，真正让多模态落地变麻烦的，不只是模型效果，而是调用计费太碎、太难管。MiniMax 这次把文本、语音、音乐、视频、图像打成一套订阅计划，本质是在解决企业接入和预算管理问题。对 API 平台来说，这种产品化动作不花哨，但很有商业味道。</p>
+            
+          </div>
+          <div class="signal-item-index">20</div>
+        </a>
+      
+    </div>
+  </div>
+</section>
+
+
+      <section class="seo-only-links" aria-label="Related pages for SEO">
+        
+          <a href="/home/" data-track="internal_link_click" data-link-label="查看 AI 一周资讯历史归档" data-link-href="https://ainews.luhuidev.com/home/">查看 AI 一周资讯历史归档</a>
+        
+          <a href="/archive/" data-track="internal_link_click" data-link-label="回到 AI Hotlist 最新一期" data-link-href="https://ainews.luhuidev.com/archive/">回到 AI Hotlist 最新一期</a>
+        
+          <a href="/vol/28/" data-track="internal_link_click" data-link-label="阅读最新一期（Vol. 28）" data-link-href="https://ainews.luhuidev.com/vol/28/">阅读最新一期（Vol. 28）</a>
+        
+      </section>
+
+      <div class="issue-end">
+        <div class="issue-end-dot"></div>
+        <div class="issue-end-dot"></div>
+        <div class="issue-end-dot"></div>
+        <p class="m-0 text-xs font-semibold uppercase tracking-[0.28em]">End of Brief</p>
+        <p class="mt-2 mb-0 text-[11px]">See you next week</p>
+      </div>
+
+      <footer class="issue-footer" aria-label="site footer">
+        <span class="issue-footer-brand">AI Hotlist</span>
+        <span class="issue-footer-links">
+          <a href="/home/">首页</a>
+          <a href="/blog/">更新日志</a>
+          <a href="/archive/">归档</a>
+        </span>
+        <span class="issue-footer-version"><a href="/blog/">v1.1.0</a> · © 2026</span>
+      </footer>
+
+      <a class="issue-theme-button fixed bottom-6 right-6 z-40 h-12 w-12 p-0 hover:scale-110 active:scale-90" href="#" aria-label="返回顶部">
+        <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4 H20"/><path d="M12 20 V9"/><path d="M7 14 L12 9 L17 14"/></svg>
+      </a>
+    </div>
+  </div>
+
+<script>
+  function pushDataLayer(eventName, payload) {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push(Object.assign({ event: eventName }, payload || {}));
+  }
+
+  (function attachTracking() {
+    pushDataLayer("hotlist_page_view", {
+      page_type: "issue_detail",
+      issue_vol: "Vol. 15",
+      issue_date: "2026-03-28"
+    });
+
+    document.addEventListener("click", (event) => {
+      const anchor = event.target.closest("a[href]");
+      if (!anchor) return;
+
+      const trackType = anchor.dataset.track;
+      if (trackType === "news_item_click") {
+        pushDataLayer("news_item_click", {
+          item_title: anchor.dataset.itemTitle || "",
+          item_media: anchor.dataset.itemMedia || "",
+          item_index: Number(anchor.dataset.itemIndex || "0"),
+          href: anchor.href
+        });
+        return;
+      }
+
+      if (trackType === "toc_click") {
+        pushDataLayer("toc_click", {
+          target_id: anchor.dataset.targetId || "",
+          target_title: anchor.dataset.targetTitle || ""
+        });
+        return;
+      }
+
+      if (trackType === "internal_link_click") {
+        pushDataLayer("internal_link_click", {
+          link_label: anchor.dataset.linkLabel || "",
+          href: anchor.dataset.linkHref || anchor.href
+        });
+      }
+    });
+  })();
+
+  (function attachThemeToggle() {
+    const themes = [
+      { id: "classic", label: "Classic" },
+      { id: "medium", label: "Medium" },
+      { id: "signal", label: "Signal Flash" }
+    ];
+    const root = document.documentElement;
+    const button = document.getElementById("theme-toggle");
+    const label = document.getElementById("theme-toggle-label");
+    const storageKey = "ai-hotlist-theme";
+    let toastTimer = null;
+
+    function showToast(message) {
+      let toast = document.getElementById("theme-toast");
+      if (!toast) {
+        toast = document.createElement("div");
+        toast.id = "theme-toast";
+        toast.className = "theme-toast fixed bottom-24 left-1/2 z-[60] -translate-x-1/2 rounded-full px-4 py-2 text-xs font-semibold opacity-0 pointer-events-none transition-opacity duration-200";
+        document.body.appendChild(toast);
+      }
+
+      toast.textContent = message;
+      toast.classList.remove("opacity-0");
+      toast.classList.add("opacity-100");
+
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => {
+        toast.classList.remove("opacity-100");
+        toast.classList.add("opacity-0");
+      }, 1200);
+    }
+
+    function applyTheme(themeId, options) {
+      const nextTheme = themes.find((theme) => theme.id === themeId) || themes[0];
+      root.dataset.theme = nextTheme.id;
+      if (label) {
+        label.textContent = nextTheme.label;
+      }
+      try {
+        localStorage.setItem(storageKey, nextTheme.id);
+      } catch (_err) {
+      }
+
+      if (!(options && options.silent)) {
+        showToast("已切换到 " + nextTheme.label + " 主题");
+        pushDataLayer("theme_toggle", {
+          issue_vol: "Vol. 15",
+          issue_date: "2026-03-28",
+          theme_id: nextTheme.id
+        });
+      }
+    }
+
+    let initialTheme = themes[0].id;
+    try {
+      const savedTheme = localStorage.getItem(storageKey);
+      if (themes.some((theme) => theme.id === savedTheme)) {
+        initialTheme = savedTheme;
+      }
+    } catch (_err) {
+    }
+    applyTheme(initialTheme, { silent: true });
+
+    if (!button) return;
+    button.addEventListener("click", () => {
+      const currentIndex = themes.findIndex((theme) => theme.id === root.dataset.theme);
+      const nextIndex = currentIndex >= 0 ? (currentIndex + 1) % themes.length : 0;
+      applyTheme(themes[nextIndex].id);
+      button.animate(
+        [
+          { transform: "scale(1) rotate(0deg)" },
+          { transform: "scale(1.04) rotate(-5deg)" },
+          { transform: "scale(1.02) rotate(4deg)" },
+          { transform: "scale(1) rotate(0deg)" }
+        ],
+        { duration: 280, easing: "ease-out" }
+      );
+    });
+  })();
+</script>
+</body>
+</html>
