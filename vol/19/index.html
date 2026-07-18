@@ -1,0 +1,1410 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="classic">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>AI 周报 | Vol. 19 | AI Hotlist</title>
+  <meta name="description" content="AI Hotlist Vol. 19（2026-04-25）精选 AI 热点与来源，覆盖模型、产品与产业动态。"/>
+  <meta property="og:title" content="AI 周报 | Vol. 19 | AI Hotlist"/>
+  <meta property="og:description" content="AI Hotlist Vol. 19（2026-04-25）精选 AI 热点与来源，覆盖模型、产品与产业动态。"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:url" content="https://ainews.luhuidev.com/vol/19/"/>
+  <meta property="og:image" content="https://ainews.luhuidev.com/images/social/vol-19.png"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="AI 周报 | Vol. 19 | AI Hotlist"/>
+  <meta name="twitter:description" content="AI Hotlist Vol. 19（2026-04-25）精选 AI 热点与来源，覆盖模型、产品与产业动态。"/>
+  <meta name="twitter:image" content="https://ainews.luhuidev.com/images/social/vol-19.png"/>
+  <link rel="icon" href="/favicon.ico" sizes="any"/>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+  <link rel="canonical" href="https://ainews.luhuidev.com/vol/19/"/>
+  
+  <link rel="alternate" hreflang="zh-CN" href="https://ainews.luhuidev.com/vol/19/"/>
+  
+  <link rel="alternate" hreflang="x-default" href="https://ainews.luhuidev.com/vol/19/"/>
+  
+  
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":"AI 周报 | Vol. 19 | AI Hotlist","description":"AI Hotlist Vol. 19（2026-04-25）精选 AI 热点与来源，覆盖模型、产品与产业动态。","inLanguage":"zh-CN","datePublished":"2026-04-25T00:00:00+08:00","dateModified":"2026-04-25T00:00:00+08:00","author":{"@type":"Person","name":"@Luhui Dev 出品，精选 AI 领域技术发展与产品动态，提供一份连续阅读的周度观察。"},"publisher":{"@type":"Organization","name":"AI Hotlist"},"mainEntityOfPage":"https://ainews.luhuidev.com/vol/19/","image":["https://ainews.luhuidev.com/images/social/vol-19.png"],"isPartOf":{"@type":"CreativeWorkSeries","name":"AI Hotlist"}}</script>
+  
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListOrder":"https://schema.org/ItemListOrderAscending","numberOfItems":12,"itemListElement":[{"@type":"ListItem","position":1,"name":"OpenAI 发布 GPT-5.5：面向真实工作流与 Agent 的旗舰模型继续拉高上限","url":"https://x.com/OpenAI/status/2047376561205325845"},{"@type":"ListItem","position":2,"name":"DeepSeek-V4 Pro 与 Flash 同步开源：1M 上下文和极致定价把开源阵营推到新高度","url":"https://x.com/ArtificialAnlys/status/2047735160544841953"},{"@type":"ListItem","position":3,"name":"OpenAI 推出 GPT-Image-2：图像生成从“好看”转向高可控生产力工具","url":"https://x.com/OpenAI/status/2046670977145372771"},{"@type":"ListItem","position":4,"name":"Google 同时推进 TPU v8 与 Gemini Enterprise Agent Platform：算力和企业 Agent 平台开始一体化下注","url":"https://x.com/GoogleDeepMind/status/2046983340524269713"},{"@type":"ListItem","position":5,"name":"月之暗面开源 Kimi K2.6：长程编码与多 Agent 集群能力继续刷新开源上限","url":"https://x.com/vllm_project/status/2046251287206035759"},{"@type":"ListItem","position":6,"name":"Gemini Deep Research 升级为更可编排的 API：研究型 Agent 正在成为可调用基础能力","url":"https://x.com/Google/status/2046627647208259835"},{"@type":"ListItem","position":7,"name":"Hugging Face 推出 ml-intern：开源 Agent 开始尝试自动化“后训练研究循环”","url":"https://x.com/akseljoonas/status/2046543093856412100"},{"@type":"ListItem","position":8,"name":"DeepMind 发布 Decoupled DiLoCo：跨数据中心预训练的韧性与低通信成本成为新焦点","url":"https://x.com/Ar_Douillard/status/2047329942547968171"},{"@type":"ListItem","position":9,"name":"腾讯混元推出 Hy3 Preview：快慢思考融合的 MoE 架构继续押注高难推理与 Agent 编码","url":"https://mp.weixin.qq.com/s/QQY8jvdfbKcGynGJdOH2Nw"},{"@type":"ListItem","position":10,"name":"字节发布 Seed3D 2.0：3D 生成从演示可看迈向生产可用","url":"https://mp.weixin.qq.com/s/_9vggNLz0ehs_g0k8q709g"},{"@type":"ListItem","position":11,"name":"百灵 Ling-2.6-Flash 揭晓：高效长上下文与低 Token 成本开始成为新卖点","url":"https://mp.weixin.qq.com/s/84MbxoQR7GOjOb-ekV8e-w"},{"@type":"ListItem","position":12,"name":"StepAudio 2.5 ASR 发布：语音识别进入“大模型加速 + 长音频转写”新阶段","url":"https://mp.weixin.qq.com/s/jGeJxEsGHaLNT00BoqcTZw?scene=1"}]}</script>
+  
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Hotlist","item":"https://ainews.luhuidev.com/"},{"@type":"ListItem","position":2,"name":"Archive","item":"https://ainews.luhuidev.com/archive/"},{"@type":"ListItem","position":3,"name":"Vol. 19","item":"https://ainews.luhuidev.com/vol/19/"}]}</script>
+  
+  
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+    new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
+    "https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,"script","dataLayer","GTM-P966QWVP");
+  </script>
+  
+
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans:wght@400;500;700&family=Noto+Serif+SC:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+  <style>
+        :root {
+      color-scheme: light;
+      --page-bg: #f8f8f5;
+      --page-gradient: linear-gradient(180deg, #f8f8f5 0%, #f8f8f5 100%);
+      --shell-bg: #f8f8f5;
+      --shell-border: #ecebe1;
+      --header-bg: rgba(248, 248, 245, 0.92);
+      --surface: #ffffff;
+      --surface-alt: rgba(249, 245, 6, 0.08);
+      --text-main: #181811;
+      --text-muted: #8c8b5f;
+      --accent: #f9f506;
+      --accent-soft: rgba(249, 245, 6, 0.16);
+      --button-text: #000000;
+      --shadow: 0 24px 64px rgba(24, 24, 17, 0.08);
+      --headline-font: "Manrope", "Noto Sans", sans-serif;
+      --body-font: "Manrope", "Noto Sans", sans-serif;
+      --radius-shell: 28px;
+      --radius-card: 20px;
+      --highlight: rgba(249, 245, 6, 0.4);
+      --number-color: #b59f05;
+    }
+
+    html[data-theme="medium"] {
+      --page-bg: #f6f1e8;
+      --page-gradient: linear-gradient(180deg, #f9f6f0 0%, #f2ece2 100%);
+      --shell-bg: #fffdf9;
+      --shell-border: rgba(26, 26, 26, 0.12);
+      --header-bg: rgba(255, 253, 249, 0.94);
+      --surface: #fffdf9;
+      --surface-alt: #f5f0e7;
+      --text-main: #1d1a17;
+      --text-muted: #6a6258;
+      --accent: #1d1a17;
+      --accent-soft: rgba(29, 26, 23, 0.06);
+      --button-text: #ffffff;
+      --shadow: 0 22px 60px rgba(29, 26, 23, 0.07);
+      --headline-font: "Source Serif 4", "Noto Serif SC", serif;
+      --body-font: "Source Serif 4", "Noto Serif SC", serif;
+      --radius-shell: 18px;
+      --radius-card: 8px;
+      --highlight: rgba(29, 26, 23, 0.08);
+      --number-color: #1d1a17;
+    }
+
+    html[data-theme="signal"] {
+      --page-bg: #fff5e8;
+      --page-gradient: radial-gradient(circle at top left, rgba(255, 140, 66, 0.24), transparent 28%), radial-gradient(circle at top right, rgba(36, 101, 255, 0.12), transparent 30%), linear-gradient(180deg, #fff9f1 0%, #fff1df 100%);
+      --shell-bg: rgba(255, 251, 246, 0.96);
+      --shell-border: rgba(50, 31, 17, 0.12);
+      --header-bg: rgba(255, 250, 243, 0.92);
+      --surface: #fffdf9;
+      --surface-alt: #fff0db;
+      --text-main: #23160d;
+      --text-muted: #7a5c45;
+      --accent: #ff8c42;
+      --accent-soft: rgba(255, 140, 66, 0.18);
+      --button-text: #ffffff;
+      --shadow: 0 28px 76px rgba(103, 61, 27, 0.13);
+      --headline-font: "Space Grotesk", "Noto Sans", sans-serif;
+      --body-font: "Manrope", "Noto Sans", sans-serif;
+      --radius-shell: 30px;
+      --radius-card: 24px;
+      --highlight: rgba(255, 140, 66, 0.24);
+      --number-color: #ff8c42;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-height: 100dvh;
+      background: var(--page-gradient), var(--page-bg);
+      color: var(--text-main);
+      font-family: var(--body-font);
+      transition: background-color 200ms ease, color 200ms ease;
+    }
+    a { color: inherit; }
+    .hl-icon {
+      display: inline-block;
+      flex-shrink: 0;
+      vertical-align: -3px;
+      color: inherit;
+    }
+    .sr-only,
+    .seo-only-links {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+    .seo-only-links a { pointer-events: none; }
+    .issue-shell {
+      background: var(--shell-bg);
+      border: 1px solid var(--shell-border);
+      border-radius: var(--radius-shell);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+    .issue-header {
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 14px 18px;
+      border-bottom: 1px solid var(--shell-border);
+      background: var(--header-bg);
+      backdrop-filter: blur(14px);
+    }
+    .issue-icon-button,
+    .issue-theme-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      border: 0;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: transform 180ms ease, background-color 180ms ease;
+    }
+    .issue-icon-button {
+      width: 40px;
+      height: 40px;
+      background: transparent;
+      color: var(--text-main);
+    }
+    .issue-icon-button:hover { background: var(--accent-soft); }
+    .issue-theme-button {
+      padding: 10px 14px;
+      background: var(--accent);
+      color: var(--button-text);
+      font-size: 14px;
+      font-weight: 700;
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+    }
+    .issue-theme-button:hover { transform: translateY(-1px); }
+    .issue-hero {
+      padding: 24px 20px 8px;
+    }
+    .issue-badge {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      padding: 6px 12px;
+      background: var(--accent);
+      color: var(--button-text);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+    .issue-meta {
+      color: var(--text-muted);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+    .issue-headline {
+      margin: 18px 0 0;
+      color: var(--text-main);
+      font-family: var(--headline-font);
+      font-size: clamp(2rem, 5vw, 4rem);
+      font-weight: 700;
+      line-height: 0.98;
+      letter-spacing: -0.04em;
+    }
+    .issue-highlight {
+      background: linear-gradient(180deg, transparent 58%, var(--highlight) 58%);
+      padding: 0 0.08em;
+    }
+    .issue-author {
+      display: none;
+      margin-top: 18px;
+      color: var(--text-muted);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+    html[data-theme="classic"] .issue-author {
+      display: block;
+    }
+    .theme-panel { display: none; }
+    html[data-theme="classic"] .theme-panel-classic,
+    html[data-theme="medium"] .theme-panel-medium,
+    html[data-theme="signal"] .theme-panel-signal {
+      display: block;
+    }
+    .issue-end {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px 0 28px;
+      color: var(--text-muted);
+      opacity: 0.72;
+    }
+    .issue-end-dot {
+      width: 4px;
+      height: 4px;
+      margin-bottom: 8px;
+      border-radius: 999px;
+      background: var(--text-muted);
+    }
+    .theme-toast {
+      background: var(--text-main);
+      color: var(--surface);
+    }
+    .issue-footer {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 24px 20px 32px;
+      border-top: 1px solid var(--shell-border);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      color: var(--text-muted);
+    }
+    .issue-footer-brand {
+      font-weight: 800;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--text-main);
+    }
+    .issue-footer-links {
+      display: inline-flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .issue-footer-links a,
+    .issue-footer-version a {
+      color: var(--text-muted);
+      text-decoration: none;
+      border-bottom: 1px dotted var(--text-muted);
+      padding-bottom: 1px;
+    }
+    .issue-footer-links a:hover,
+    .issue-footer-version a:hover {
+      color: var(--text-main);
+      border-bottom-color: var(--text-main);
+    }
+
+        .classic-layout {
+      padding: 16px 20px 28px;
+    }
+    .classic-grid {
+      display: grid;
+      grid-template-columns: 300px minmax(0, 1fr);
+      gap: 24px;
+      align-items: start;
+    }
+    .classic-sidebar {
+      position: sticky;
+      top: 84px;
+      border: 1px solid var(--shell-border);
+      border-radius: var(--radius-card);
+      background: var(--surface);
+      overflow: hidden;
+    }
+    .classic-sidebar-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 11px 14px;
+      border-bottom: 1px solid var(--shell-border);
+      background: var(--surface-alt);
+      color: var(--text-muted);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+    .classic-toc-link {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 6px 14px;
+      text-decoration: none;
+      transition: background-color 180ms ease;
+    }
+    .classic-toc-link:hover { background: var(--accent-soft); }
+    .classic-toc-num {
+      color: var(--number-color);
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 11px;
+      font-weight: 800;
+      line-height: 1.4;
+      flex: 0 0 auto;
+    }
+    .classic-card-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+    .classic-card {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      padding: 20px;
+      border: 1px solid var(--shell-border);
+      border-radius: var(--radius-card);
+      background: var(--surface);
+      text-decoration: none;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.03);
+      transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
+    }
+    .classic-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 16px 34px rgba(0, 0, 0, 0.08);
+      background: var(--accent-soft);
+    }
+    .classic-card-title {
+      font-size: 24px;
+      line-height: 1.12;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+    }
+    .classic-card-summary {
+      color: var(--text-muted);
+      font-size: 14px;
+      line-height: 1.8;
+    }
+    .classic-card-footer {
+      margin-top: auto;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+        .medium-layout {
+      padding: 20px 24px 44px;
+    }
+    .medium-topstrip {
+      display: block;
+      padding: 0 0 18px;
+      border-bottom: 1px solid var(--shell-border);
+    }
+    .medium-story-label {
+      color: var(--text-muted);
+      font-family: "Manrope", "Noto Sans", sans-serif;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .medium-dek {
+      margin: 2px 0 0;
+      max-width: 46rem;
+      color: var(--text-muted);
+      font-size: 18px;
+      line-height: 1.95;
+    }
+    .medium-main {
+      display: grid;
+      grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr);
+      gap: 28px;
+      margin-top: 26px;
+      align-items: start;
+    }
+    .medium-lead-stack {
+      display: grid;
+      gap: 22px;
+    }
+    .medium-story {
+      color: inherit;
+      text-decoration: none;
+      border-top: 1px solid var(--shell-border);
+      padding-top: 18px;
+      transition: transform 180ms ease, opacity 180ms ease;
+    }
+    .medium-story:first-child {
+      border-top: 0;
+      padding-top: 0;
+    }
+    .medium-story:hover {
+      transform: translateY(-2px);
+    }
+    .medium-story-title {
+      margin: 8px 0 0;
+      font-family: "Noto Serif SC", "Source Serif 4", serif;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+      text-decoration: underline;
+      text-decoration-color: transparent;
+      text-decoration-thickness: 1.5px;
+      text-underline-offset: 0.16em;
+      transition: text-decoration-color 180ms ease;
+    }
+    .medium-story:hover .medium-story-title {
+      text-decoration-color: rgba(29, 26, 23, 0.45);
+    }
+    .medium-story-body {
+      margin: 12px 0 0;
+      color: var(--text-main);
+      font-size: 16px;
+      line-height: 1.95;
+    }
+    .medium-lead .medium-story-title {
+      font-size: clamp(2rem, 3.6vw, 3.2rem);
+      line-height: 1.14;
+    }
+    .medium-lead .medium-story-body {
+      font-size: 17px;
+      line-height: 2;
+    }
+    .medium-rail {
+      display: grid;
+      gap: 18px;
+      padding-left: 24px;
+      border-left: 1px solid var(--shell-border);
+    }
+    .medium-rail .medium-story-title {
+      font-size: 28px;
+      line-height: 1.18;
+    }
+    .medium-rail .medium-story-body {
+      font-size: 15px;
+      line-height: 1.9;
+    }
+    .medium-briefs {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 20px 28px;
+      margin-top: 34px;
+      padding-top: 24px;
+      border-top: 1px solid var(--shell-border);
+    }
+    .medium-brief .medium-story-title {
+      font-size: 24px;
+      line-height: 1.2;
+    }
+    .medium-brief .medium-story-body {
+      font-size: 15px;
+      line-height: 1.86;
+    }
+
+        .signal-layout {
+      padding: 20px 20px 28px;
+    }
+    .signal-intro {
+      padding: 0 0 18px;
+      border-bottom: 1px solid var(--shell-border);
+    }
+    .signal-intro p {
+      margin: 10px 0 0;
+      max-width: 40rem;
+      color: var(--text-muted);
+      font-size: 15px;
+      line-height: 1.78;
+    }
+    .signal-caption {
+      color: var(--text-muted);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+    .signal-list {
+      display: grid;
+      gap: 0;
+      margin-top: 18px;
+    }
+    .signal-item {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 72px;
+      gap: 16px;
+      align-items: start;
+      padding: 18px 0;
+      border-top: 1px solid var(--shell-border);
+      text-decoration: none;
+      transition: transform 180ms ease;
+    }
+    .signal-item:first-child {
+      border-top: 0;
+      padding-top: 0;
+    }
+    .signal-item:hover {
+      transform: translateY(-2px);
+    }
+    .signal-item-index {
+      color: var(--accent);
+      font-family: "Space Grotesk", "Noto Sans", sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 1;
+      letter-spacing: -0.04em;
+      text-align: right;
+    }
+    .signal-item-copy {
+      display: grid;
+      gap: 8px;
+    }
+    .signal-item-title {
+      margin: 0;
+      font-family: "Space Grotesk", "Noto Sans", sans-serif;
+      font-size: 20px;
+      line-height: 1.24;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      text-decoration: underline;
+      text-decoration-color: transparent;
+      text-decoration-thickness: 1.5px;
+      text-underline-offset: 0.15em;
+      transition: text-decoration-color 180ms ease;
+    }
+    .signal-item:hover .signal-item-title {
+      text-decoration-color: rgba(255, 140, 66, 0.55);
+    }
+    .signal-micro {
+      color: var(--text-muted);
+      font-size: 13px;
+      line-height: 1.72;
+    }
+
+        @media (max-width: 1024px) {
+      .classic-grid {
+        grid-template-columns: 1fr;
+      }
+      .classic-sidebar {
+        position: static;
+      }
+      .classic-card-grid,
+      .medium-main,
+      .medium-briefs {
+        grid-template-columns: 1fr;
+      }
+      .medium-rail {
+        padding-left: 0;
+        border-left: 0;
+        border-top: 1px solid var(--shell-border);
+        padding-top: 20px;
+      }
+      .signal-item {
+        grid-template-columns: minmax(0, 1fr) 56px;
+        gap: 14px;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .issue-shell { border-radius: 0; }
+      .issue-header { padding: 12px 14px; }
+      .issue-theme-button { padding: 9px 12px; font-size: 13px; }
+      .issue-hero,
+      .classic-layout,
+      .medium-layout,
+      .signal-layout { padding-left: 14px; padding-right: 14px; }
+      .signal-item {
+        grid-template-columns: minmax(0, 1fr) 48px;
+        gap: 12px;
+      }
+      .signal-item-index {
+        font-size: 20px;
+      }
+      .signal-item-title {
+        font-size: 18px;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+  
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P966QWVP" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  
+  <div class="min-h-screen px-0 md:px-6 md:py-6">
+    <div class="issue-shell mx-auto min-h-screen w-full max-w-6xl md:min-h-[calc(100dvh-3rem)]">
+      <div class="issue-header">
+        <a class="issue-icon-button" href="/home/" aria-label="home">
+          <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 11 L12 4 L20.5 11"/><path d="M5.5 10 L5.5 20 L18.5 20 L18.5 10"/><path d="M10 20 L10 14 L14 14 L14 20"/></svg>
+        </a>
+        <div class="min-w-0 px-2 text-center">
+          <h2 class="truncate text-base font-semibold md:text-lg">AI Hotlist</h2>
+        </div>
+        <button id="theme-toggle" class="issue-theme-button" type="button" aria-label="切换主题">
+          <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="8" cy="9" r="1.4" fill="currentColor" stroke="none"/><circle cx="12" cy="7.5" r="1.4" fill="currentColor" stroke="none"/><circle cx="16" cy="9" r="1.4" fill="currentColor" stroke="none"/><circle cx="9" cy="14.8" r="1.4" fill="currentColor" stroke="none"/><circle cx="14.6" cy="15.2" r="1.4" fill="currentColor" stroke="none"/></svg>
+          <span id="theme-toggle-label">Classic</span>
+        </button>
+      </div>
+
+      <header class="issue-hero">
+        <div class="flex flex-wrap items-center gap-2">
+          <span class="issue-badge">2026 | 04.19 - 04.25</span>
+          <span class="issue-meta">Vol. 19</span>
+        </div>
+        <h1 class="issue-headline">AI一周资讯 <span class="issue-highlight">精华</span></h1>
+        <div class="issue-author">@Luhui Dev 出品，精选 AI 领域技术发展与产品动态，提供一份连续阅读的周度观察。</div>
+        <nav class="sr-only" aria-label="Issue pager">
+          
+            <a rel="prev" href="/vol/20/">更新一期</a>
+          
+          
+            <a rel="next" href="/vol/18/">更早一期</a>
+          
+        </nav>
+      </header>
+
+      <section class="theme-panel theme-panel-classic">
+  <div class="classic-layout">
+    <div class="classic-grid">
+      <aside class="classic-sidebar">
+        <div class="classic-sidebar-header">
+          <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6 H20"/><path d="M8 12 H20"/><path d="M8 18 H20"/><circle cx="4" cy="6" r="1.4" fill="currentColor" stroke="none"/><circle cx="4" cy="12" r="1.4" fill="currentColor" stroke="none"/><circle cx="4" cy="18" r="1.4" fill="currentColor" stroke="none"/></svg>
+          <span>快速浏览</span>
+        </div>
+        <div>
+          
+            
+            <a class="classic-toc-link" href="#item-0" data-track="toc_click" data-target-id="item-0" data-target-title="OpenAI 发布 GPT-5.5：面向真实工作流与 Agent 的旗舰模型继续拉高上限">
+              <span class="classic-toc-num">01</span>
+              <span class="text-sm font-medium leading-5">OpenAI 发布 GPT-5.5：面向真实工作流与 Agent 的旗舰模型继续拉高上限</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-1" data-track="toc_click" data-target-id="item-1" data-target-title="DeepSeek-V4 Pro 与 Flash 同步开源：1M 上下文和极致定价把开源阵营推到新高度">
+              <span class="classic-toc-num">02</span>
+              <span class="text-sm font-medium leading-5">DeepSeek-V4 Pro 与 Flash 同步开源：1M 上下文和极致定价把开源阵营推到新高度</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-2" data-track="toc_click" data-target-id="item-2" data-target-title="OpenAI 推出 GPT-Image-2：图像生成从“好看”转向高可控生产力工具">
+              <span class="classic-toc-num">03</span>
+              <span class="text-sm font-medium leading-5">OpenAI 推出 GPT-Image-2：图像生成从“好看”转向高可控生产力工具</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-3" data-track="toc_click" data-target-id="item-3" data-target-title="Google 同时推进 TPU v8 与 Gemini Enterprise Agent Platform：算力和企业 Agent 平台开始一体化下注">
+              <span class="classic-toc-num">04</span>
+              <span class="text-sm font-medium leading-5">Google 同时推进 TPU v8 与 Gemini Enterprise Agent Platform：算力和企业 Agent 平台开始一体化下注</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-4" data-track="toc_click" data-target-id="item-4" data-target-title="月之暗面开源 Kimi K2.6：长程编码与多 Agent 集群能力继续刷新开源上限">
+              <span class="classic-toc-num">05</span>
+              <span class="text-sm font-medium leading-5">月之暗面开源 Kimi K2.6：长程编码与多 Agent 集群能力继续刷新开源上限</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-5" data-track="toc_click" data-target-id="item-5" data-target-title="Gemini Deep Research 升级为更可编排的 API：研究型 Agent 正在成为可调用基础能力">
+              <span class="classic-toc-num">06</span>
+              <span class="text-sm font-medium leading-5">Gemini Deep Research 升级为更可编排的 API：研究型 Agent 正在成为可调用基础能力</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-6" data-track="toc_click" data-target-id="item-6" data-target-title="Hugging Face 推出 ml-intern：开源 Agent 开始尝试自动化“后训练研究循环”">
+              <span class="classic-toc-num">07</span>
+              <span class="text-sm font-medium leading-5">Hugging Face 推出 ml-intern：开源 Agent 开始尝试自动化“后训练研究循环”</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-7" data-track="toc_click" data-target-id="item-7" data-target-title="DeepMind 发布 Decoupled DiLoCo：跨数据中心预训练的韧性与低通信成本成为新焦点">
+              <span class="classic-toc-num">08</span>
+              <span class="text-sm font-medium leading-5">DeepMind 发布 Decoupled DiLoCo：跨数据中心预训练的韧性与低通信成本成为新焦点</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-8" data-track="toc_click" data-target-id="item-8" data-target-title="腾讯混元推出 Hy3 Preview：快慢思考融合的 MoE 架构继续押注高难推理与 Agent 编码">
+              <span class="classic-toc-num">09</span>
+              <span class="text-sm font-medium leading-5">腾讯混元推出 Hy3 Preview：快慢思考融合的 MoE 架构继续押注高难推理与 Agent 编码</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-9" data-track="toc_click" data-target-id="item-9" data-target-title="字节发布 Seed3D 2.0：3D 生成从演示可看迈向生产可用">
+              <span class="classic-toc-num">10</span>
+              <span class="text-sm font-medium leading-5">字节发布 Seed3D 2.0：3D 生成从演示可看迈向生产可用</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-10" data-track="toc_click" data-target-id="item-10" data-target-title="百灵 Ling-2.6-Flash 揭晓：高效长上下文与低 Token 成本开始成为新卖点">
+              <span class="classic-toc-num">11</span>
+              <span class="text-sm font-medium leading-5">百灵 Ling-2.6-Flash 揭晓：高效长上下文与低 Token 成本开始成为新卖点</span>
+            </a>
+          
+            
+            <a class="classic-toc-link" href="#item-11" data-track="toc_click" data-target-id="item-11" data-target-title="StepAudio 2.5 ASR 发布：语音识别进入“大模型加速 + 长音频转写”新阶段">
+              <span class="classic-toc-num">12</span>
+              <span class="text-sm font-medium leading-5">StepAudio 2.5 ASR 发布：语音识别进入“大模型加速 + 长音频转写”新阶段</span>
+            </a>
+          
+        </div>
+      </aside>
+
+      <main>
+        <div class="classic-card-grid">
+          
+            
+            <a href="https://x.com/OpenAI/status/2047376561205325845" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-0" data-track="news_item_click" data-item-title="OpenAI 发布 GPT-5.5：面向真实工作流与 Agent 的旗舰模型继续拉高上限" data-item-media="OpenAI" data-item-index="1">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">OpenAI</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-04-24</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">OpenAI 发布 GPT-5.5：面向真实工作流与 Agent 的旗舰模型继续拉高上限</h3>
+              
+                <p class="classic-card-summary">GPT-5.5 本周成为最受关注的模型发布之一，覆盖 ChatGPT、Codex 等产品面，并在长上下文、代码与知识工作场景继续强化。它的重要性不只是分数提升，而是 OpenAI 正在把旗舰模型进一步对准“真实工作流里的可用性”和长期 Agent 运行能力。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://x.com/ArtificialAnlys/status/2047735160544841953" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-1" data-track="news_item_click" data-item-title="DeepSeek-V4 Pro 与 Flash 同步开源：1M 上下文和极致定价把开源阵营推到新高度" data-item-media="ArtificialAnlys" data-item-index="2">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">ArtificialAnlys</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-04-25</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">DeepSeek-V4 Pro 与 Flash 同步开源：1M 上下文和极致定价把开源阵营推到新高度</h3>
+              
+                <p class="classic-card-summary">DeepSeek 在 GPT-5.5 发布后迅速给出 V4 系列预览版，包含 Pro 与 Flash 两档模型，均支持 1M 超长上下文，并打出极具冲击力的价格与 MIT 许可。这个发布值得排在前列，因为它同时改变了开源模型能力边界、商用成本预期和国产大模型的话语权。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://x.com/OpenAI/status/2046670977145372771" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-2" data-track="news_item_click" data-item-title="OpenAI 推出 GPT-Image-2：图像生成从“好看”转向高可控生产力工具" data-item-media="OpenAI" data-item-index="3">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">OpenAI</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-04-22</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">OpenAI 推出 GPT-Image-2：图像生成从“好看”转向高可控生产力工具</h3>
+              
+                <p class="classic-card-summary">GPT-Image-2 正式进入 API 与 ChatGPT，被认为在文字渲染、版式控制、编辑一致性和多语言支持上有明显提升。它值得关注，因为图像模型竞争正在从视觉风格转向可直接用于广告、海报、界面和文档资产生产的稳定能力。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://x.com/GoogleDeepMind/status/2046983340524269713" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-3" data-track="news_item_click" data-item-title="Google 同时推进 TPU v8 与 Gemini Enterprise Agent Platform：算力和企业 Agent 平台开始一体化下注" data-item-media="GoogleDeepMind" data-item-index="4">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">GoogleDeepMind</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-04-23</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">Google 同时推进 TPU v8 与 Gemini Enterprise Agent Platform：算力和企业 Agent 平台开始一体化下注</h3>
+              
+                <p class="classic-card-summary">Google 在 Cloud Next 一边发布第八代 TPU 训练与推理系统，一边把 Vertex AI 演进成更明确的企业 Agent 平台。这个组合动作的关键不是单点新品，而是谷歌正在把模型、基础设施和企业治理能力打包成更完整的商业闭环。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://x.com/vllm_project/status/2046251287206035759" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-4" data-track="news_item_click" data-item-title="月之暗面开源 Kimi K2.6：长程编码与多 Agent 集群能力继续刷新开源上限" data-item-media="vllm_project" data-item-index="5">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">vllm_project</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-04-21</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">月之暗面开源 Kimi K2.6：长程编码与多 Agent 集群能力继续刷新开源上限</h3>
+              
+                <p class="classic-card-summary">Kimi K2.6 以长时间自主编码、超长任务执行和多 Agent 协作能力成为本周最强开源模型之一，并快速获得多平台接入支持。它值得重点关注，因为开源模型正在更快补齐从单轮问答到复杂任务执行的关键差距。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://x.com/Google/status/2046627647208259835" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-5" data-track="news_item_click" data-item-title="Gemini Deep Research 升级为更可编排的 API：研究型 Agent 正在成为可调用基础能力" data-item-media="Google" data-item-index="6">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">Google</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-04-22</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">Gemini Deep Research 升级为更可编排的 API：研究型 Agent 正在成为可调用基础能力</h3>
+              
+                <p class="classic-card-summary">Google 将 Deep Research 和 Deep Research Max 进一步开放为 API 级能力，支持协作式规划、MCP 接入和多模态输入。这个方向的意义在于，复杂研究流程不再只是聊天产品的高级功能，而开始成为开发者可复用的工作流模块。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://x.com/akseljoonas/status/2046543093856412100" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-6" data-track="news_item_click" data-item-title="Hugging Face 推出 ml-intern：开源 Agent 开始尝试自动化“后训练研究循环”" data-item-media="akseljoonas" data-item-index="7">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">akseljoonas</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-04-22</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">Hugging Face 推出 ml-intern：开源 Agent 开始尝试自动化“后训练研究循环”</h3>
+              
+                <p class="classic-card-summary">ml-intern 把读论文、追踪引用、整理数据集和构建实验环路整合进一个开放 Agent 系统，代表了更接近研究助理的自动化路线。它值得关注，因为开源社区开始把 Agent 从“帮你写一段代码”推进到“替你推进一个研究过程”。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://x.com/Ar_Douillard/status/2047329942547968171" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-7" data-track="news_item_click" data-item-title="DeepMind 发布 Decoupled DiLoCo：跨数据中心预训练的韧性与低通信成本成为新焦点" data-item-media="Ar_Douillard" data-item-index="8">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">Ar_Douillard</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-04-24</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">DeepMind 发布 Decoupled DiLoCo：跨数据中心预训练的韧性与低通信成本成为新焦点</h3>
+              
+                <p class="classic-card-summary">Decoupled DiLoCo 关注的是全球分布式训练在异构硬件和不稳定网络下如何继续高效运行，这类工作属于长期被低估的模型基础设施创新。它值得入选，因为未来顶级模型竞争不只看算法和数据，也取决于谁能更稳定地组织全球算力。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://mp.weixin.qq.com/s/QQY8jvdfbKcGynGJdOH2Nw" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-8" data-track="news_item_click" data-item-title="腾讯混元推出 Hy3 Preview：快慢思考融合的 MoE 架构继续押注高难推理与 Agent 编码" data-item-media="腾讯" data-item-index="9">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">腾讯</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-04-23</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">腾讯混元推出 Hy3 Preview：快慢思考融合的 MoE 架构继续押注高难推理与 Agent 编码</h3>
+              
+                <p class="classic-card-summary">Hy3 Preview 被定位为腾讯重建训练、强化学习和基础设施体系后的关键成果，强调快慢思考融合、长上下文和小程序级代码生成能力。它值得关注，因为国内头部模型厂商正在重新投入“底层能力重做”而不是表层功能追赶。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://mp.weixin.qq.com/s/_9vggNLz0ehs_g0k8q709g" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-9" data-track="news_item_click" data-item-title="字节发布 Seed3D 2.0：3D 生成从演示可看迈向生产可用" data-item-media="字节跳动Seed" data-item-index="10">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">字节跳动Seed</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-04-23</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">字节发布 Seed3D 2.0：3D 生成从演示可看迈向生产可用</h3>
+              
+                <p class="classic-card-summary">Seed3D 2.0 在几何、纹理和下游可编辑能力上继续推进，并加入部件拆分、关节建模和场景组合等更接近生产流程的能力。它的重要性在于，3D 生成正在从单次效果展示转向真正可进入工业和内容工作流的资产生产。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://mp.weixin.qq.com/s/84MbxoQR7GOjOb-ekV8e-w" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-10" data-track="news_item_click" data-item-title="百灵 Ling-2.6-Flash 揭晓：高效长上下文与低 Token 成本开始成为新卖点" data-item-media="百灵大模型" data-item-index="11">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">百灵大模型</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-04-22</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">百灵 Ling-2.6-Flash 揭晓：高效长上下文与低 Token 成本开始成为新卖点</h3>
+              
+                <p class="classic-card-summary">Ling-2.6-Flash 用 MLA 与线性注意力混合结构，把推理速度、长上下文和 Token 成本做成了同一套产品叙事。对于市场来说，这类模型的价值在于把“够强”与“够省”放到同一张桌子上重新排序。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+            
+            <a href="https://mp.weixin.qq.com/s/jGeJxEsGHaLNT00BoqcTZw?scene=1" target="_blank" rel="noopener noreferrer" class="classic-card" id="item-11" data-track="news_item_click" data-item-title="StepAudio 2.5 ASR 发布：语音识别进入“大模型加速 + 长音频转写”新阶段" data-item-media="阶跃星辰" data-item-index="12">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="issue-badge px-2.5 py-1 text-[10px]">阶跃星辰</span>
+                  <span class="text-xs font-medium" style="color: var(--text-muted);">2026-04-24</span>
+                </div>
+              </div>
+              <h3 class="classic-card-title">StepAudio 2.5 ASR 发布：语音识别进入“大模型加速 + 长音频转写”新阶段</h3>
+              
+                <p class="classic-card-summary">StepAudio 2.5 ASR 把大模型推理加速方法引入 ASR，在速度、时延和成本上同时给出大幅改善，并支持更长音频一次性转写。它值得进入本期榜单，因为语音赛道正在从模型效果竞争走向真正可规模部署的系统能力竞争。</p>
+              
+              <span class="classic-card-footer">
+                <span>Read Source</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 6 L19 12 L13 18"/></svg>
+              </span>
+            </a>
+          
+        </div>
+      </main>
+    </div>
+  </div>
+</section>
+
+      <section class="theme-panel theme-panel-medium">
+  <div class="medium-layout">
+    
+    
+    
+    <div class="medium-topstrip">
+      <div>
+        <p class="medium-dek">@Luhui Dev 出品，精选 AI 领域技术发展与产品动态，提供一份连续阅读的周度观察。</p>
+      </div>
+    </div>
+
+    <div class="medium-main">
+      <div class="medium-lead-stack">
+        
+          <a href="https://x.com/OpenAI/status/2047376561205325845" target="_blank" rel="noopener noreferrer" class="medium-story medium-lead" data-track="news_item_click" data-item-title="OpenAI 发布 GPT-5.5：面向真实工作流与 Agent 的旗舰模型继续拉高上限" data-item-media="OpenAI" data-item-index="1">
+            <div class="medium-story-label">01 · OpenAI · 2026-04-24</div>
+            <h3 class="medium-story-title">OpenAI 发布 GPT-5.5：面向真实工作流与 Agent 的旗舰模型继续拉高上限</h3>
+            
+              <p class="medium-story-body">GPT-5.5 本周成为最受关注的模型发布之一，覆盖 ChatGPT、Codex 等产品面，并在长上下文、代码与知识工作场景继续强化。它的重要性不只是分数提升，而是 OpenAI 正在把旗舰模型进一步对准“真实工作流里的可用性”和长期 Agent 运行能力。</p>
+            
+          </a>
+        
+          <a href="https://x.com/ArtificialAnlys/status/2047735160544841953" target="_blank" rel="noopener noreferrer" class="medium-story medium-lead" data-track="news_item_click" data-item-title="DeepSeek-V4 Pro 与 Flash 同步开源：1M 上下文和极致定价把开源阵营推到新高度" data-item-media="ArtificialAnlys" data-item-index="2">
+            <div class="medium-story-label">02 · ArtificialAnlys · 2026-04-25</div>
+            <h3 class="medium-story-title">DeepSeek-V4 Pro 与 Flash 同步开源：1M 上下文和极致定价把开源阵营推到新高度</h3>
+            
+              <p class="medium-story-body">DeepSeek 在 GPT-5.5 发布后迅速给出 V4 系列预览版，包含 Pro 与 Flash 两档模型，均支持 1M 超长上下文，并打出极具冲击力的价格与 MIT 许可。这个发布值得排在前列，因为它同时改变了开源模型能力边界、商用成本预期和国产大模型的话语权。</p>
+            
+          </a>
+        
+      </div>
+
+      <aside class="medium-rail">
+        
+          
+          
+          <a href="https://x.com/OpenAI/status/2046670977145372771" target="_blank" rel="noopener noreferrer" class="medium-story" data-track="news_item_click" data-item-title="OpenAI 推出 GPT-Image-2：图像生成从“好看”转向高可控生产力工具" data-item-media="OpenAI" data-item-index="3">
+            <div class="medium-story-label">03 · OpenAI · 2026-04-22</div>
+            <h3 class="medium-story-title">OpenAI 推出 GPT-Image-2：图像生成从“好看”转向高可控生产力工具</h3>
+            
+              <p class="medium-story-body">GPT-Image-2 正式进入 API 与 ChatGPT，被认为在文字渲染、版式控制、编辑一致性和多语言支持上有明显提升。它值得关注，因为图像模型竞争正在从视觉风格转向可直接用于广告、海报、界面和文档资产生产的稳定能力。</p>
+            
+          </a>
+        
+          
+          
+          <a href="https://x.com/GoogleDeepMind/status/2046983340524269713" target="_blank" rel="noopener noreferrer" class="medium-story" data-track="news_item_click" data-item-title="Google 同时推进 TPU v8 与 Gemini Enterprise Agent Platform：算力和企业 Agent 平台开始一体化下注" data-item-media="GoogleDeepMind" data-item-index="4">
+            <div class="medium-story-label">04 · GoogleDeepMind · 2026-04-23</div>
+            <h3 class="medium-story-title">Google 同时推进 TPU v8 与 Gemini Enterprise Agent Platform：算力和企业 Agent 平台开始一体化下注</h3>
+            
+              <p class="medium-story-body">Google 在 Cloud Next 一边发布第八代 TPU 训练与推理系统，一边把 Vertex AI 演进成更明确的企业 Agent 平台。这个组合动作的关键不是单点新品，而是谷歌正在把模型、基础设施和企业治理能力打包成更完整的商业闭环。</p>
+            
+          </a>
+        
+          
+          
+          <a href="https://x.com/vllm_project/status/2046251287206035759" target="_blank" rel="noopener noreferrer" class="medium-story" data-track="news_item_click" data-item-title="月之暗面开源 Kimi K2.6：长程编码与多 Agent 集群能力继续刷新开源上限" data-item-media="vllm_project" data-item-index="5">
+            <div class="medium-story-label">05 · vllm_project · 2026-04-21</div>
+            <h3 class="medium-story-title">月之暗面开源 Kimi K2.6：长程编码与多 Agent 集群能力继续刷新开源上限</h3>
+            
+              <p class="medium-story-body">Kimi K2.6 以长时间自主编码、超长任务执行和多 Agent 协作能力成为本周最强开源模型之一，并快速获得多平台接入支持。它值得重点关注，因为开源模型正在更快补齐从单轮问答到复杂任务执行的关键差距。</p>
+            
+          </a>
+        
+          
+          
+          <a href="https://x.com/Google/status/2046627647208259835" target="_blank" rel="noopener noreferrer" class="medium-story" data-track="news_item_click" data-item-title="Gemini Deep Research 升级为更可编排的 API：研究型 Agent 正在成为可调用基础能力" data-item-media="Google" data-item-index="6">
+            <div class="medium-story-label">06 · Google · 2026-04-22</div>
+            <h3 class="medium-story-title">Gemini Deep Research 升级为更可编排的 API：研究型 Agent 正在成为可调用基础能力</h3>
+            
+              <p class="medium-story-body">Google 将 Deep Research 和 Deep Research Max 进一步开放为 API 级能力，支持协作式规划、MCP 接入和多模态输入。这个方向的意义在于，复杂研究流程不再只是聊天产品的高级功能，而开始成为开发者可复用的工作流模块。</p>
+            
+          </a>
+        
+      </aside>
+    </div>
+
+    <div class="medium-briefs">
+      
+        
+        
+        
+        <a href="https://x.com/akseljoonas/status/2046543093856412100" target="_blank" rel="noopener noreferrer" class="medium-story medium-brief" data-track="news_item_click" data-item-title="Hugging Face 推出 ml-intern：开源 Agent 开始尝试自动化“后训练研究循环”" data-item-media="akseljoonas" data-item-index="7">
+          <div class="medium-story-label">07 · akseljoonas · 2026-04-22</div>
+          <h3 class="medium-story-title">Hugging Face 推出 ml-intern：开源 Agent 开始尝试自动化“后训练研究循环”</h3>
+          
+            <p class="medium-story-body">ml-intern 把读论文、追踪引用、整理数据集和构建实验环路整合进一个开放 Agent 系统，代表了更接近研究助理的自动化路线。它值得关注，因为开源社区开始把 Agent 从“帮你写一段代码”推进到“替你推进一个研究…</p>
+          
+        </a>
+      
+        
+        
+        
+        <a href="https://x.com/Ar_Douillard/status/2047329942547968171" target="_blank" rel="noopener noreferrer" class="medium-story medium-brief" data-track="news_item_click" data-item-title="DeepMind 发布 Decoupled DiLoCo：跨数据中心预训练的韧性与低通信成本成为新焦点" data-item-media="Ar_Douillard" data-item-index="8">
+          <div class="medium-story-label">08 · Ar_Douillard · 2026-04-24</div>
+          <h3 class="medium-story-title">DeepMind 发布 Decoupled DiLoCo：跨数据中心预训练的韧性与低通信成本成为新焦点</h3>
+          
+            <p class="medium-story-body">Decoupled DiLoCo 关注的是全球分布式训练在异构硬件和不稳定网络下如何继续高效运行，这类工作属于长期被低估的模型基础设施创新。它值得入选，因为未来顶级模型竞争不只看算法和数据，也取决于谁能更稳定地组织全球算…</p>
+          
+        </a>
+      
+        
+        
+        
+        <a href="https://mp.weixin.qq.com/s/QQY8jvdfbKcGynGJdOH2Nw" target="_blank" rel="noopener noreferrer" class="medium-story medium-brief" data-track="news_item_click" data-item-title="腾讯混元推出 Hy3 Preview：快慢思考融合的 MoE 架构继续押注高难推理与 Agent 编码" data-item-media="腾讯" data-item-index="9">
+          <div class="medium-story-label">09 · 腾讯 · 2026-04-23</div>
+          <h3 class="medium-story-title">腾讯混元推出 Hy3 Preview：快慢思考融合的 MoE 架构继续押注高难推理与 Agent 编码</h3>
+          
+            <p class="medium-story-body">Hy3 Preview 被定位为腾讯重建训练、强化学习和基础设施体系后的关键成果，强调快慢思考融合、长上下文和小程序级代码生成能力。它值得关注，因为国内头部模型厂商正在重新投入“底层能力重做”而不是表层功能追赶。</p>
+          
+        </a>
+      
+        
+        
+        
+        <a href="https://mp.weixin.qq.com/s/_9vggNLz0ehs_g0k8q709g" target="_blank" rel="noopener noreferrer" class="medium-story medium-brief" data-track="news_item_click" data-item-title="字节发布 Seed3D 2.0：3D 生成从演示可看迈向生产可用" data-item-media="字节跳动Seed" data-item-index="10">
+          <div class="medium-story-label">10 · 字节跳动Seed · 2026-04-23</div>
+          <h3 class="medium-story-title">字节发布 Seed3D 2.0：3D 生成从演示可看迈向生产可用</h3>
+          
+            <p class="medium-story-body">Seed3D 2.0 在几何、纹理和下游可编辑能力上继续推进，并加入部件拆分、关节建模和场景组合等更接近生产流程的能力。它的重要性在于，3D 生成正在从单次效果展示转向真正可进入工业和内容工作流的资产生产。</p>
+          
+        </a>
+      
+        
+        
+        
+        <a href="https://mp.weixin.qq.com/s/84MbxoQR7GOjOb-ekV8e-w" target="_blank" rel="noopener noreferrer" class="medium-story medium-brief" data-track="news_item_click" data-item-title="百灵 Ling-2.6-Flash 揭晓：高效长上下文与低 Token 成本开始成为新卖点" data-item-media="百灵大模型" data-item-index="11">
+          <div class="medium-story-label">11 · 百灵大模型 · 2026-04-22</div>
+          <h3 class="medium-story-title">百灵 Ling-2.6-Flash 揭晓：高效长上下文与低 Token 成本开始成为新卖点</h3>
+          
+            <p class="medium-story-body">Ling-2.6-Flash 用 MLA 与线性注意力混合结构，把推理速度、长上下文和 Token 成本做成了同一套产品叙事。对于市场来说，这类模型的价值在于把“够强”与“够省”放到同一张桌子上重新排序。</p>
+          
+        </a>
+      
+        
+        
+        
+        <a href="https://mp.weixin.qq.com/s/jGeJxEsGHaLNT00BoqcTZw?scene=1" target="_blank" rel="noopener noreferrer" class="medium-story medium-brief" data-track="news_item_click" data-item-title="StepAudio 2.5 ASR 发布：语音识别进入“大模型加速 + 长音频转写”新阶段" data-item-media="阶跃星辰" data-item-index="12">
+          <div class="medium-story-label">12 · 阶跃星辰 · 2026-04-24</div>
+          <h3 class="medium-story-title">StepAudio 2.5 ASR 发布：语音识别进入“大模型加速 + 长音频转写”新阶段</h3>
+          
+            <p class="medium-story-body">StepAudio 2.5 ASR 把大模型推理加速方法引入 ASR，在速度、时延和成本上同时给出大幅改善，并支持更长音频一次性转写。它值得进入本期榜单，因为语音赛道正在从模型效果竞争走向真正可规模部署的系统能力竞争。</p>
+          
+        </a>
+      
+    </div>
+  </div>
+</section>
+
+      <section class="theme-panel theme-panel-signal">
+  <div class="signal-layout">
+    <div class="signal-intro">
+      <p>@Luhui Dev 出品，精选 AI 领域技术发展与产品动态，提供一份连续阅读的周度观察。</p>
+    </div>
+
+    <div class="signal-list">
+      
+        <a href="https://x.com/OpenAI/status/2047376561205325845" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="OpenAI 发布 GPT-5.5：面向真实工作流与 Agent 的旗舰模型继续拉高上限" data-item-media="OpenAI" data-item-index="1">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">OpenAI 发布 GPT-5.5：面向真实工作流与 Agent 的旗舰模型继续拉高上限</h3>
+            
+              <p class="signal-micro">GPT-5.5 本周成为最受关注的模型发布之一，覆盖 ChatGPT、Codex 等产品面，并在长上下文、代码与知识工作场景继续强化。它的重要性不只是分数提升，而是 OpenAI 正在把旗舰模型进一步对准“真实工作流里的可用性”和长期 Agent 运行能力。</p>
+            
+          </div>
+          <div class="signal-item-index">01</div>
+        </a>
+      
+        <a href="https://x.com/ArtificialAnlys/status/2047735160544841953" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="DeepSeek-V4 Pro 与 Flash 同步开源：1M 上下文和极致定价把开源阵营推到新高度" data-item-media="ArtificialAnlys" data-item-index="2">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">DeepSeek-V4 Pro 与 Flash 同步开源：1M 上下文和极致定价把开源阵营推到新高度</h3>
+            
+              <p class="signal-micro">DeepSeek 在 GPT-5.5 发布后迅速给出 V4 系列预览版，包含 Pro 与 Flash 两档模型，均支持 1M 超长上下文，并打出极具冲击力的价格与 MIT 许可。这个发布值得排在前列，因为它同时改变了开源模型能力边界、商用成本预期和国产大模型的话语权。</p>
+            
+          </div>
+          <div class="signal-item-index">02</div>
+        </a>
+      
+        <a href="https://x.com/OpenAI/status/2046670977145372771" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="OpenAI 推出 GPT-Image-2：图像生成从“好看”转向高可控生产力工具" data-item-media="OpenAI" data-item-index="3">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">OpenAI 推出 GPT-Image-2：图像生成从“好看”转向高可控生产力工具</h3>
+            
+              <p class="signal-micro">GPT-Image-2 正式进入 API 与 ChatGPT，被认为在文字渲染、版式控制、编辑一致性和多语言支持上有明显提升。它值得关注，因为图像模型竞争正在从视觉风格转向可直接用于广告、海报、界面和文档资产生产的稳定能力。</p>
+            
+          </div>
+          <div class="signal-item-index">03</div>
+        </a>
+      
+        <a href="https://x.com/GoogleDeepMind/status/2046983340524269713" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="Google 同时推进 TPU v8 与 Gemini Enterprise Agent Platform：算力和企业 Agent 平台开始一体化下注" data-item-media="GoogleDeepMind" data-item-index="4">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">Google 同时推进 TPU v8 与 Gemini Enterprise Agent Platform：算力和企业 Agent 平台开始一体化下注</h3>
+            
+              <p class="signal-micro">Google 在 Cloud Next 一边发布第八代 TPU 训练与推理系统，一边把 Vertex AI 演进成更明确的企业 Agent 平台。这个组合动作的关键不是单点新品，而是谷歌正在把模型、基础设施和企业治理能力打包成更完整的商业闭环。</p>
+            
+          </div>
+          <div class="signal-item-index">04</div>
+        </a>
+      
+        <a href="https://x.com/vllm_project/status/2046251287206035759" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="月之暗面开源 Kimi K2.6：长程编码与多 Agent 集群能力继续刷新开源上限" data-item-media="vllm_project" data-item-index="5">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">月之暗面开源 Kimi K2.6：长程编码与多 Agent 集群能力继续刷新开源上限</h3>
+            
+              <p class="signal-micro">Kimi K2.6 以长时间自主编码、超长任务执行和多 Agent 协作能力成为本周最强开源模型之一，并快速获得多平台接入支持。它值得重点关注，因为开源模型正在更快补齐从单轮问答到复杂任务执行的关键差距。</p>
+            
+          </div>
+          <div class="signal-item-index">05</div>
+        </a>
+      
+        <a href="https://x.com/Google/status/2046627647208259835" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="Gemini Deep Research 升级为更可编排的 API：研究型 Agent 正在成为可调用基础能力" data-item-media="Google" data-item-index="6">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">Gemini Deep Research 升级为更可编排的 API：研究型 Agent 正在成为可调用基础能力</h3>
+            
+              <p class="signal-micro">Google 将 Deep Research 和 Deep Research Max 进一步开放为 API 级能力，支持协作式规划、MCP 接入和多模态输入。这个方向的意义在于，复杂研究流程不再只是聊天产品的高级功能，而开始成为开发者可复用的工作流模块。</p>
+            
+          </div>
+          <div class="signal-item-index">06</div>
+        </a>
+      
+        <a href="https://x.com/akseljoonas/status/2046543093856412100" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="Hugging Face 推出 ml-intern：开源 Agent 开始尝试自动化“后训练研究循环”" data-item-media="akseljoonas" data-item-index="7">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">Hugging Face 推出 ml-intern：开源 Agent 开始尝试自动化“后训练研究循环”</h3>
+            
+              <p class="signal-micro">ml-intern 把读论文、追踪引用、整理数据集和构建实验环路整合进一个开放 Agent 系统，代表了更接近研究助理的自动化路线。它值得关注，因为开源社区开始把 Agent 从“帮你写一段代码”推进到“替你推进一个研究过程”。</p>
+            
+          </div>
+          <div class="signal-item-index">07</div>
+        </a>
+      
+        <a href="https://x.com/Ar_Douillard/status/2047329942547968171" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="DeepMind 发布 Decoupled DiLoCo：跨数据中心预训练的韧性与低通信成本成为新焦点" data-item-media="Ar_Douillard" data-item-index="8">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">DeepMind 发布 Decoupled DiLoCo：跨数据中心预训练的韧性与低通信成本成为新焦点</h3>
+            
+              <p class="signal-micro">Decoupled DiLoCo 关注的是全球分布式训练在异构硬件和不稳定网络下如何继续高效运行，这类工作属于长期被低估的模型基础设施创新。它值得入选，因为未来顶级模型竞争不只看算法和数据，也取决于谁能更稳定地组织全球算力。</p>
+            
+          </div>
+          <div class="signal-item-index">08</div>
+        </a>
+      
+        <a href="https://mp.weixin.qq.com/s/QQY8jvdfbKcGynGJdOH2Nw" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="腾讯混元推出 Hy3 Preview：快慢思考融合的 MoE 架构继续押注高难推理与 Agent 编码" data-item-media="腾讯" data-item-index="9">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">腾讯混元推出 Hy3 Preview：快慢思考融合的 MoE 架构继续押注高难推理与 Agent 编码</h3>
+            
+              <p class="signal-micro">Hy3 Preview 被定位为腾讯重建训练、强化学习和基础设施体系后的关键成果，强调快慢思考融合、长上下文和小程序级代码生成能力。它值得关注，因为国内头部模型厂商正在重新投入“底层能力重做”而不是表层功能追赶。</p>
+            
+          </div>
+          <div class="signal-item-index">09</div>
+        </a>
+      
+        <a href="https://mp.weixin.qq.com/s/_9vggNLz0ehs_g0k8q709g" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="字节发布 Seed3D 2.0：3D 生成从演示可看迈向生产可用" data-item-media="字节跳动Seed" data-item-index="10">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">字节发布 Seed3D 2.0：3D 生成从演示可看迈向生产可用</h3>
+            
+              <p class="signal-micro">Seed3D 2.0 在几何、纹理和下游可编辑能力上继续推进，并加入部件拆分、关节建模和场景组合等更接近生产流程的能力。它的重要性在于，3D 生成正在从单次效果展示转向真正可进入工业和内容工作流的资产生产。</p>
+            
+          </div>
+          <div class="signal-item-index">10</div>
+        </a>
+      
+        <a href="https://mp.weixin.qq.com/s/84MbxoQR7GOjOb-ekV8e-w" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="百灵 Ling-2.6-Flash 揭晓：高效长上下文与低 Token 成本开始成为新卖点" data-item-media="百灵大模型" data-item-index="11">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">百灵 Ling-2.6-Flash 揭晓：高效长上下文与低 Token 成本开始成为新卖点</h3>
+            
+              <p class="signal-micro">Ling-2.6-Flash 用 MLA 与线性注意力混合结构，把推理速度、长上下文和 Token 成本做成了同一套产品叙事。对于市场来说，这类模型的价值在于把“够强”与“够省”放到同一张桌子上重新排序。</p>
+            
+          </div>
+          <div class="signal-item-index">11</div>
+        </a>
+      
+        <a href="https://mp.weixin.qq.com/s/jGeJxEsGHaLNT00BoqcTZw?scene=1" target="_blank" rel="noopener noreferrer" class="signal-item" data-track="news_item_click" data-item-title="StepAudio 2.5 ASR 发布：语音识别进入“大模型加速 + 长音频转写”新阶段" data-item-media="阶跃星辰" data-item-index="12">
+          <div class="signal-item-copy">
+            <h3 class="signal-item-title">StepAudio 2.5 ASR 发布：语音识别进入“大模型加速 + 长音频转写”新阶段</h3>
+            
+              <p class="signal-micro">StepAudio 2.5 ASR 把大模型推理加速方法引入 ASR，在速度、时延和成本上同时给出大幅改善，并支持更长音频一次性转写。它值得进入本期榜单，因为语音赛道正在从模型效果竞争走向真正可规模部署的系统能力竞争。</p>
+            
+          </div>
+          <div class="signal-item-index">12</div>
+        </a>
+      
+    </div>
+  </div>
+</section>
+
+
+      <section class="seo-only-links" aria-label="Related pages for SEO">
+        
+          <a href="/home/" data-track="internal_link_click" data-link-label="查看 AI 一周资讯历史归档" data-link-href="https://ainews.luhuidev.com/home/">查看 AI 一周资讯历史归档</a>
+        
+          <a href="/archive/" data-track="internal_link_click" data-link-label="回到 AI Hotlist 最新一期" data-link-href="https://ainews.luhuidev.com/archive/">回到 AI Hotlist 最新一期</a>
+        
+          <a href="/vol/31/" data-track="internal_link_click" data-link-label="阅读最新一期（Vol. 31）" data-link-href="https://ainews.luhuidev.com/vol/31/">阅读最新一期（Vol. 31）</a>
+        
+      </section>
+
+      <div class="issue-end">
+        <div class="issue-end-dot"></div>
+        <div class="issue-end-dot"></div>
+        <div class="issue-end-dot"></div>
+        <p class="m-0 text-xs font-semibold uppercase tracking-[0.28em]">End of Brief</p>
+        <p class="mt-2 mb-0 text-[11px]">See you next week</p>
+      </div>
+
+      <footer class="issue-footer" aria-label="site footer">
+        <span class="issue-footer-brand">AI Hotlist</span>
+        <span class="issue-footer-links">
+          <a href="/home/">首页</a>
+          <a href="/blog/">更新日志</a>
+          <a href="/archive/">归档</a>
+        </span>
+        <span class="issue-footer-version"><a href="/blog/">v1.1.0</a> · © 2026</span>
+      </footer>
+
+      <a class="issue-theme-button fixed bottom-6 right-6 z-40 h-12 w-12 p-0 hover:scale-110 active:scale-90" href="#" aria-label="返回顶部">
+        <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4 H20"/><path d="M12 20 V9"/><path d="M7 14 L12 9 L17 14"/></svg>
+      </a>
+    </div>
+  </div>
+
+<script>
+  function pushDataLayer(eventName, payload) {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push(Object.assign({ event: eventName }, payload || {}));
+  }
+
+  (function attachTracking() {
+    pushDataLayer("hotlist_page_view", {
+      page_type: "issue_detail",
+      issue_vol: "Vol. 19",
+      issue_date: "2026-04-25"
+    });
+
+    document.addEventListener("click", (event) => {
+      const anchor = event.target.closest("a[href]");
+      if (!anchor) return;
+
+      const trackType = anchor.dataset.track;
+      if (trackType === "news_item_click") {
+        pushDataLayer("news_item_click", {
+          item_title: anchor.dataset.itemTitle || "",
+          item_media: anchor.dataset.itemMedia || "",
+          item_index: Number(anchor.dataset.itemIndex || "0"),
+          href: anchor.href
+        });
+        return;
+      }
+
+      if (trackType === "toc_click") {
+        pushDataLayer("toc_click", {
+          target_id: anchor.dataset.targetId || "",
+          target_title: anchor.dataset.targetTitle || ""
+        });
+        return;
+      }
+
+      if (trackType === "internal_link_click") {
+        pushDataLayer("internal_link_click", {
+          link_label: anchor.dataset.linkLabel || "",
+          href: anchor.dataset.linkHref || anchor.href
+        });
+      }
+    });
+  })();
+
+  (function attachThemeToggle() {
+    const themes = [
+      { id: "classic", label: "Classic" },
+      { id: "medium", label: "Medium" },
+      { id: "signal", label: "Signal Flash" }
+    ];
+    const root = document.documentElement;
+    const button = document.getElementById("theme-toggle");
+    const label = document.getElementById("theme-toggle-label");
+    const storageKey = "ai-hotlist-theme";
+    let toastTimer = null;
+
+    function showToast(message) {
+      let toast = document.getElementById("theme-toast");
+      if (!toast) {
+        toast = document.createElement("div");
+        toast.id = "theme-toast";
+        toast.className = "theme-toast fixed bottom-24 left-1/2 z-[60] -translate-x-1/2 rounded-full px-4 py-2 text-xs font-semibold opacity-0 pointer-events-none transition-opacity duration-200";
+        document.body.appendChild(toast);
+      }
+
+      toast.textContent = message;
+      toast.classList.remove("opacity-0");
+      toast.classList.add("opacity-100");
+
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => {
+        toast.classList.remove("opacity-100");
+        toast.classList.add("opacity-0");
+      }, 1200);
+    }
+
+    function applyTheme(themeId, options) {
+      const nextTheme = themes.find((theme) => theme.id === themeId) || themes[0];
+      root.dataset.theme = nextTheme.id;
+      if (label) {
+        label.textContent = nextTheme.label;
+      }
+      try {
+        localStorage.setItem(storageKey, nextTheme.id);
+      } catch (_err) {
+      }
+
+      if (!(options && options.silent)) {
+        showToast("已切换到 " + nextTheme.label + " 主题");
+        pushDataLayer("theme_toggle", {
+          issue_vol: "Vol. 19",
+          issue_date: "2026-04-25",
+          theme_id: nextTheme.id
+        });
+      }
+    }
+
+    let initialTheme = themes[0].id;
+    try {
+      const savedTheme = localStorage.getItem(storageKey);
+      if (themes.some((theme) => theme.id === savedTheme)) {
+        initialTheme = savedTheme;
+      }
+    } catch (_err) {
+    }
+    applyTheme(initialTheme, { silent: true });
+
+    if (!button) return;
+    button.addEventListener("click", () => {
+      const currentIndex = themes.findIndex((theme) => theme.id === root.dataset.theme);
+      const nextIndex = currentIndex >= 0 ? (currentIndex + 1) % themes.length : 0;
+      applyTheme(themes[nextIndex].id);
+      button.animate(
+        [
+          { transform: "scale(1) rotate(0deg)" },
+          { transform: "scale(1.04) rotate(-5deg)" },
+          { transform: "scale(1.02) rotate(4deg)" },
+          { transform: "scale(1) rotate(0deg)" }
+        ],
+        { duration: 280, easing: "ease-out" }
+      );
+    });
+  })();
+</script>
+</body>
+</html>
