@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="classic">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>AI Hotlist 更新日志 · 项目 changelog 与博客 | AI Hotlist</title>
+  <meta name="description" content="AI Hotlist 的产品更新日志与博客：记录每个重要版本的变化与背后的设计决策。"/>
+  <meta property="og:title" content="AI Hotlist 更新日志 · 项目 changelog 与博客 | AI Hotlist"/>
+  <meta property="og:description" content="AI Hotlist 的产品更新日志与博客：记录每个重要版本的变化与背后的设计决策。"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://ainews.luhuidev.com/blog/"/>
+  <meta property="og:image" content="https://ainews.luhuidev.com/images/social/blog.png"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="AI Hotlist 更新日志 · 项目 changelog 与博客 | AI Hotlist"/>
+  <meta name="twitter:description" content="AI Hotlist 的产品更新日志与博客：记录每个重要版本的变化与背后的设计决策。"/>
+  <meta name="twitter:image" content="https://ainews.luhuidev.com/images/social/blog.png"/>
+  <link rel="icon" href="/favicon.ico" sizes="any"/>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+  <link rel="canonical" href="https://ainews.luhuidev.com/blog/"/>
+  
+  <link rel="alternate" hreflang="zh-CN" href="https://ainews.luhuidev.com/blog/"/>
+  
+  <link rel="alternate" hreflang="x-default" href="https://ainews.luhuidev.com/blog/"/>
+  
+  
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Blog","name":"AI Hotlist Changelog & Blog","url":"https://ainews.luhuidev.com/blog/","description":"AI Hotlist 的产品更新日志与博客：记录每个重要版本的变化与背后的设计决策。","inLanguage":"zh-CN","publisher":{"@type":"Organization","name":"AI Hotlist"},"blogPost":[{"@type":"BlogPosting","headline":"v1.1.0 · 给周刊加了一张正式的首页","url":"https://ainews.luhuidev.com/blog/v1-1-0-homepage-and-visual-system/","datePublished":"2026-05-17T00:00:00+08:00","author":{"@type":"Organization","name":"AI Hotlist"}}]}</script>
+  
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Hotlist","item":"https://ainews.luhuidev.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://ainews.luhuidev.com/blog/"}]}</script>
+  
+  
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+    new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
+    "https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,"script","dataLayer","GTM-P966QWVP");
+  </script>
+  
+
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans:wght@400;500;700&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+
+  <style>
+        :root {
+      color-scheme: light;
+      --page-bg: #f8f8f5;
+      --page-gradient: linear-gradient(180deg, #f8f8f5 0%, #f8f8f5 100%);
+      --shell-bg: #f8f8f5;
+      --shell-border: #ecebe1;
+      --header-bg: rgba(248, 248, 245, 0.92);
+      --surface: #ffffff;
+      --surface-alt: rgba(249, 245, 6, 0.08);
+      --text-main: #181811;
+      --text-muted: #8c8b5f;
+      --accent: #f9f506;
+      --accent-soft: rgba(249, 245, 6, 0.16);
+      --button-text: #000000;
+      --shadow: 0 24px 64px rgba(24, 24, 17, 0.08);
+      --headline-font: "Manrope", "Noto Sans", sans-serif;
+      --body-font: "Manrope", "Noto Sans", sans-serif;
+      --radius-shell: 28px;
+      --radius-card: 20px;
+      --highlight: rgba(249, 245, 6, 0.4);
+      --number-color: #b59f05;
+    }
+
+    html[data-theme="medium"] {
+      --page-bg: #f6f1e8;
+      --page-gradient: linear-gradient(180deg, #f9f6f0 0%, #f2ece2 100%);
+      --shell-bg: #fffdf9;
+      --shell-border: rgba(26, 26, 26, 0.12);
+      --header-bg: rgba(255, 253, 249, 0.94);
+      --surface: #fffdf9;
+      --surface-alt: #f5f0e7;
+      --text-main: #1d1a17;
+      --text-muted: #6a6258;
+      --accent: #1d1a17;
+      --accent-soft: rgba(29, 26, 23, 0.06);
+      --button-text: #ffffff;
+      --shadow: 0 22px 60px rgba(29, 26, 23, 0.07);
+      --headline-font: "Source Serif 4", "Noto Serif SC", serif;
+      --body-font: "Source Serif 4", "Noto Serif SC", serif;
+      --radius-shell: 18px;
+      --radius-card: 8px;
+      --highlight: rgba(29, 26, 23, 0.08);
+      --number-color: #1d1a17;
+    }
+
+    html[data-theme="signal"] {
+      --page-bg: #fff5e8;
+      --page-gradient: radial-gradient(circle at top left, rgba(255, 140, 66, 0.24), transparent 28%), radial-gradient(circle at top right, rgba(36, 101, 255, 0.12), transparent 30%), linear-gradient(180deg, #fff9f1 0%, #fff1df 100%);
+      --shell-bg: rgba(255, 251, 246, 0.96);
+      --shell-border: rgba(50, 31, 17, 0.12);
+      --header-bg: rgba(255, 250, 243, 0.92);
+      --surface: #fffdf9;
+      --surface-alt: #fff0db;
+      --text-main: #23160d;
+      --text-muted: #7a5c45;
+      --accent: #ff8c42;
+      --accent-soft: rgba(255, 140, 66, 0.18);
+      --button-text: #ffffff;
+      --shadow: 0 28px 76px rgba(103, 61, 27, 0.13);
+      --headline-font: "Space Grotesk", "Noto Sans", sans-serif;
+      --body-font: "Manrope", "Noto Sans", sans-serif;
+      --radius-shell: 30px;
+      --radius-card: 24px;
+      --highlight: rgba(255, 140, 66, 0.24);
+      --number-color: #ff8c42;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-height: 100dvh;
+      background: var(--page-gradient), var(--page-bg);
+      color: var(--text-main);
+      font-family: var(--body-font);
+      transition: background-color 200ms ease, color 200ms ease;
+    }
+    a { color: inherit; }
+    .hl-icon {
+      display: inline-block;
+      flex-shrink: 0;
+      vertical-align: -3px;
+      color: inherit;
+    }
+    .sr-only,
+    .seo-only-links {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+    .seo-only-links a { pointer-events: none; }
+    .issue-shell {
+      background: var(--shell-bg);
+      border: 1px solid var(--shell-border);
+      border-radius: var(--radius-shell);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+    .issue-header {
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 14px 18px;
+      border-bottom: 1px solid var(--shell-border);
+      background: var(--header-bg);
+      backdrop-filter: blur(14px);
+    }
+    .issue-icon-button,
+    .issue-theme-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      border: 0;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: transform 180ms ease, background-color 180ms ease;
+    }
+    .issue-icon-button {
+      width: 40px;
+      height: 40px;
+      background: transparent;
+      color: var(--text-main);
+    }
+    .issue-icon-button:hover { background: var(--accent-soft); }
+    .issue-theme-button {
+      padding: 10px 14px;
+      background: var(--accent);
+      color: var(--button-text);
+      font-size: 14px;
+      font-weight: 700;
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+    }
+    .issue-theme-button:hover { transform: translateY(-1px); }
+    .issue-hero {
+      padding: 24px 20px 8px;
+    }
+    .issue-badge {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      padding: 6px 12px;
+      background: var(--accent);
+      color: var(--button-text);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+    .issue-meta {
+      color: var(--text-muted);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+    .issue-headline {
+      margin: 18px 0 0;
+      color: var(--text-main);
+      font-family: var(--headline-font);
+      font-size: clamp(2rem, 5vw, 4rem);
+      font-weight: 700;
+      line-height: 0.98;
+      letter-spacing: -0.04em;
+    }
+    .issue-highlight {
+      background: linear-gradient(180deg, transparent 58%, var(--highlight) 58%);
+      padding: 0 0.08em;
+    }
+    .issue-author {
+      display: none;
+      margin-top: 18px;
+      color: var(--text-muted);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+    html[data-theme="classic"] .issue-author {
+      display: block;
+    }
+    .theme-panel { display: none; }
+    html[data-theme="classic"] .theme-panel-classic,
+    html[data-theme="medium"] .theme-panel-medium,
+    html[data-theme="signal"] .theme-panel-signal {
+      display: block;
+    }
+    .issue-end {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px 0 28px;
+      color: var(--text-muted);
+      opacity: 0.72;
+    }
+    .issue-end-dot {
+      width: 4px;
+      height: 4px;
+      margin-bottom: 8px;
+      border-radius: 999px;
+      background: var(--text-muted);
+    }
+    .theme-toast {
+      background: var(--text-main);
+      color: var(--surface);
+    }
+    .issue-footer {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 24px 20px 32px;
+      border-top: 1px solid var(--shell-border);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      color: var(--text-muted);
+    }
+    .issue-footer-brand {
+      font-weight: 800;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--text-main);
+    }
+    .issue-footer-links {
+      display: inline-flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .issue-footer-links a,
+    .issue-footer-version a {
+      color: var(--text-muted);
+      text-decoration: none;
+      border-bottom: 1px dotted var(--text-muted);
+      padding-bottom: 1px;
+    }
+    .issue-footer-links a:hover,
+    .issue-footer-version a:hover {
+      color: var(--text-main);
+      border-bottom-color: var(--text-main);
+    }
+
+        /* Blog (index + post) styles. Tokens come from partials/issue-styles-base.ejs. */
+
+    .blog-shell {
+      background: var(--shell-bg);
+      border: 1px solid var(--shell-border);
+      border-radius: 0;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+    @media (min-width: 768px) {
+      .blog-shell { border-radius: var(--radius-shell); }
+    }
+
+    .blog-header {
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 14px 18px;
+      border-bottom: 1px solid var(--shell-border);
+      background: var(--header-bg);
+      backdrop-filter: blur(14px);
+    }
+    .blog-icon-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 999px;
+      background: transparent;
+      color: var(--text-main);
+      text-decoration: none;
+      transition: background-color 180ms ease;
+    }
+    .blog-icon-button:hover { background: var(--accent-soft); }
+    .blog-page-title {
+      margin: 0;
+      font-family: var(--headline-font);
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      color: var(--text-main);
+    }
+    .blog-page-count {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 36px;
+      height: 28px;
+      padding: 0 10px;
+      border-radius: 999px;
+      background: var(--surface-alt);
+      color: var(--text-muted);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+    }
+
+    /* Index — intro hero */
+    .blog-intro {
+      padding: 56px 24px 24px;
+    }
+    @media (min-width: 768px) {
+      .blog-intro { padding: 80px 40px 32px; }
+    }
+    .blog-eyebrow {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.32em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin: 0 0 22px;
+    }
+    .blog-headline {
+      margin: 0;
+      font-family: var(--headline-font);
+      font-size: clamp(2rem, 5vw, 3.6rem);
+      font-weight: 800;
+      line-height: 1;
+      letter-spacing: -0.04em;
+      color: var(--text-main);
+      max-width: 22ch;
+    }
+    .blog-highlight {
+      background: linear-gradient(180deg, transparent 58%, var(--highlight) 58%);
+      padding: 0 0.08em;
+    }
+    .blog-intro-subhead {
+      margin: 24px 0 0;
+      max-width: 44ch;
+      font-size: 15px;
+      font-weight: 450;
+      line-height: 1.7;
+      color: var(--text-muted);
+    }
+
+    /* Index — post list rows */
+    .blog-list {
+      padding: 24px 24px 56px;
+    }
+    @media (min-width: 768px) {
+      .blog-list { padding: 32px 40px 96px; }
+    }
+    .blog-list-inner {
+      display: flex;
+      flex-direction: column;
+      border-top: 1px solid var(--shell-border);
+    }
+    .blog-row {
+      position: relative;
+      display: block;
+      padding: 28px 4px;
+      border-bottom: 1px solid var(--shell-border);
+      text-decoration: none;
+      color: var(--text-main);
+      transition: padding-left 200ms ease;
+    }
+    .blog-row::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -1px;
+      height: 2px;
+      width: 0;
+      background: var(--accent);
+      transition: width 240ms ease;
+    }
+    .blog-row:hover::before { width: 100%; }
+    .blog-row:hover { padding-left: 14px; }
+    .blog-row-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 14px;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+    .blog-row-version {
+      display: inline-flex;
+      align-items: center;
+      padding: 5px 10px;
+      background: var(--accent);
+      color: var(--button-text);
+      border-radius: 999px;
+      letter-spacing: 0.08em;
+    }
+    .blog-row-type {
+      display: inline-flex;
+      align-items: center;
+      padding: 5px 10px;
+      border: 1px solid var(--shell-border);
+      border-radius: 999px;
+      color: var(--text-main);
+      letter-spacing: 0.12em;
+    }
+    .blog-row-date {
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: none;
+    }
+    .blog-row-title {
+      margin: 0 0 10px;
+      font-family: var(--headline-font);
+      font-size: clamp(1.25rem, 2.2vw, 1.65rem);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.25;
+      color: var(--text-main);
+    }
+    .blog-row-summary {
+      margin: 0;
+      font-size: 14px;
+      font-weight: 450;
+      line-height: 1.65;
+      color: var(--text-muted);
+      max-width: 60ch;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    /* Empty state (when no posts) */
+    .blog-empty {
+      padding: 64px 24px 96px;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 14px;
+      font-weight: 450;
+    }
+
+    /* Post detail */
+    .blog-post-hero {
+      padding: 48px 24px 24px;
+    }
+    @media (min-width: 768px) {
+      .blog-post-hero { padding: 72px 40px 32px; }
+    }
+    .blog-post-meta {
+      display: inline-flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 22px;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+    .blog-post-version {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 12px;
+      background: var(--accent);
+      color: var(--button-text);
+      border-radius: 999px;
+      letter-spacing: 0.1em;
+    }
+    .blog-post-type {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 12px;
+      border: 1px solid var(--shell-border);
+      border-radius: 999px;
+      color: var(--text-main);
+      letter-spacing: 0.16em;
+    }
+    .blog-post-date {
+      letter-spacing: 0.12em;
+      text-transform: none;
+      font-weight: 600;
+    }
+    .blog-post-title {
+      margin: 0 0 24px;
+      font-family: var(--headline-font);
+      font-size: clamp(2.1rem, 5vw, 3.8rem);
+      font-weight: 800;
+      letter-spacing: -0.045em;
+      line-height: 1;
+      color: var(--text-main);
+    }
+    .blog-post-summary {
+      margin: 0;
+      max-width: 46ch;
+      font-size: 16px;
+      font-weight: 450;
+      line-height: 1.7;
+      color: var(--text-muted);
+    }
+    .blog-post-read {
+      margin: 24px 0 0;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    /* Post body (markdown render) */
+    .blog-post-body {
+      padding: 32px 24px 56px;
+      max-width: 760px;
+      margin: 0 auto;
+      color: var(--text-main);
+      font-size: 16px;
+      font-weight: 450;
+      line-height: 1.75;
+      letter-spacing: 0.01em;
+    }
+    @media (min-width: 768px) {
+      .blog-post-body { padding: 40px 40px 80px; }
+    }
+    .blog-post-body > * + * { margin-top: 1.2em; }
+    .blog-post-body h2 {
+      margin: 2em 0 0.6em;
+      font-family: var(--headline-font);
+      font-size: 1.6rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+      color: var(--text-main);
+    }
+    .blog-post-body h2:first-child { margin-top: 0; }
+    .blog-post-body h3 {
+      margin: 1.8em 0 0.4em;
+      font-family: var(--headline-font);
+      font-size: 1.18rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      color: var(--text-main);
+    }
+    .blog-post-body h4 {
+      margin: 1.4em 0 0.4em;
+      font-size: 14px;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+    .blog-post-body p {
+      margin: 0;
+      color: var(--text-main);
+    }
+    .blog-post-body a {
+      color: var(--text-main);
+      text-decoration: none;
+      border-bottom: 1px solid var(--text-main);
+      transition: background-color 160ms ease;
+    }
+    .blog-post-body a:hover {
+      background: var(--highlight);
+    }
+    .blog-post-body strong { font-weight: 800; }
+    .blog-post-body em { font-style: italic; }
+    .blog-post-body code {
+      padding: 2px 6px;
+      background: var(--surface-alt);
+      border-radius: 4px;
+      font-family: "JetBrains Mono", "SFMono-Regular", ui-monospace, monospace;
+      font-size: 0.88em;
+      color: var(--text-main);
+    }
+    .blog-post-body pre {
+      margin: 1.4em 0;
+      padding: 18px 20px;
+      background: var(--text-main);
+      color: var(--page-bg);
+      border-radius: var(--radius-card);
+      overflow-x: auto;
+      font-size: 13.5px;
+      line-height: 1.6;
+    }
+    .blog-post-body pre code {
+      padding: 0;
+      background: transparent;
+      color: inherit;
+      border-radius: 0;
+      font-size: 13.5px;
+    }
+    .blog-post-body ul,
+    .blog-post-body ol {
+      margin: 0;
+      padding-left: 1.4em;
+    }
+    .blog-post-body ul li,
+    .blog-post-body ol li {
+      margin: 0.4em 0;
+      padding-left: 0.2em;
+    }
+    .blog-post-body ul li::marker {
+      color: var(--text-muted);
+    }
+    .blog-post-body blockquote {
+      margin: 1.4em 0;
+      padding: 4px 0 4px 20px;
+      border-left: 3px solid var(--accent);
+      color: var(--text-main);
+      font-style: italic;
+    }
+    .blog-post-body blockquote p { margin: 0; }
+    .blog-post-body hr {
+      margin: 2.4em 0;
+      border: 0;
+      height: 1px;
+      background: var(--shell-border);
+    }
+    .blog-post-body table {
+      width: 100%;
+      margin: 1.6em 0;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+    .blog-post-body thead th {
+      padding: 10px 12px;
+      text-align: left;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      border-bottom: 1px solid var(--shell-border);
+    }
+    .blog-post-body tbody td {
+      padding: 12px;
+      border-bottom: 1px solid var(--shell-border);
+      vertical-align: top;
+      color: var(--text-main);
+    }
+    .blog-post-body tbody tr:last-child td { border-bottom: 0; }
+
+    /* Post pager (prev/next) */
+    .blog-post-pager {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      padding: 32px 24px;
+      border-top: 1px solid var(--shell-border);
+    }
+    @media (min-width: 768px) {
+      .blog-post-pager { padding: 40px; }
+    }
+    .blog-post-pager a {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      padding: 20px;
+      background: var(--surface);
+      border: 1px solid var(--shell-border);
+      border-radius: var(--radius-card);
+      text-decoration: none;
+      color: var(--text-main);
+      transition: transform 200ms ease, box-shadow 200ms ease;
+    }
+    .blog-post-pager a:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow);
+    }
+    .blog-post-pager-label {
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+    .blog-post-pager-title {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.4;
+      color: var(--text-main);
+    }
+    .blog-post-pager .next { text-align: right; align-items: flex-end; }
+
+    /* End mark + footer (shared between index and post) */
+    .blog-end {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 16px 0 24px;
+      color: var(--text-muted);
+      opacity: 0.72;
+    }
+    .blog-end-dot {
+      width: 4px;
+      height: 4px;
+      margin-bottom: 8px;
+      border-radius: 999px;
+      background: var(--text-muted);
+    }
+    .blog-end-label {
+      margin: 0;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+    }
+
+    .blog-footer {
+      padding: 28px 24px 36px;
+      border-top: 1px solid var(--shell-border);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 14px;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      color: var(--text-muted);
+    }
+    @media (min-width: 768px) {
+      .blog-footer { padding: 36px 40px 44px; }
+    }
+    .blog-footer-brand {
+      font-weight: 800;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--text-main);
+    }
+    .blog-footer-links {
+      display: inline-flex;
+      align-items: center;
+      gap: 18px;
+    }
+    .blog-footer-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      border-bottom: 1px dotted var(--text-muted);
+      padding-bottom: 1px;
+    }
+    .blog-footer-links a:hover {
+      color: var(--text-main);
+      border-bottom-color: var(--text-main);
+    }
+
+  </style>
+</head>
+
+<body>
+  
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P966QWVP" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  
+
+  <div style="min-height:100vh; padding:0;">
+    <div style="padding:0;" class="md:px-6 md:py-6">
+      <div class="blog-shell mx-auto w-full max-w-6xl">
+
+        <header class="blog-header">
+          <a class="blog-icon-button" href="/home/" aria-label="home">
+            <svg xmlns="http://www.w3.org/2000/svg" class="hl-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 11 L12 4 L20.5 11"/><path d="M5.5 10 L5.5 20 L18.5 20 L18.5 10"/><path d="M10 20 L10 14 L14 14 L14 20"/></svg>
+          </a>
+          <h2 class="blog-page-title">更新日志 · Blog</h2>
+          <span class="blog-page-count">1</span>
+        </header>
+
+        <section class="blog-intro">
+          <p class="blog-eyebrow">Changelog / Blog</p>
+          <h1 class="blog-headline">每次重要更新的<br/><span class="blog-highlight">来龙去脉</span></h1>
+          <p class="blog-intro-subhead">记录 AI Hotlist 从一个想法演进为一份周刊的全过程。每个 MINOR 以上的版本都会留下一篇正式说明 —— 既给读者交代变化，也作为项目自己的备忘。</p>
+        </section>
+
+        <section class="blog-list" aria-label="所有文章">
+          
+            <div class="blog-list-inner">
+              
+                <a class="blog-row" href="/blog/v1-1-0-homepage-and-visual-system/" data-track="blog_row_click" data-blog-slug="v1-1-0-homepage-and-visual-system">
+                  <div class="blog-row-meta">
+                    
+                      <span class="blog-row-version">v1.1.0</span>
+                    
+                    <span class="blog-row-type">Changelog</span>
+                    <span class="blog-row-date">2026-05-17</span>
+                  </div>
+                  <h3 class="blog-row-title">v1.1.0 · 给周刊加了一张正式的首页</h3>
+                  <p class="blog-row-summary">AI Hotlist 现在有了独立首页 —— 把这本周刊在做什么、写给谁、怎么订阅一次讲清楚。最新一期仍然在根路径秒看，老链接照旧能用。</p>
+                </a>
+              
+            </div>
+          
+        </section>
+
+        <div class="blog-end" aria-hidden="true">
+          <div class="blog-end-dot"></div>
+          <div class="blog-end-dot"></div>
+          <div class="blog-end-dot"></div>
+          <p class="blog-end-label">End of List</p>
+        </div>
+
+        <footer class="blog-footer">
+          <span class="blog-footer-brand">AI Hotlist</span>
+          <span class="blog-footer-links">
+            <a href="/">最新一期</a>
+            <a href="/home/">首页</a>
+            <a href="/archive/">归档</a>
+          </span>
+          <span>v1.1.0 · © 2026</span>
+        </footer>
+
+      </div>
+    </div>
+  </div>
+
+  <section class="seo-only-links" aria-label="Related pages for SEO">
+    
+      <a href="/home/" data-track="internal_link_click" data-link-label="AI 技术周刊首页" data-link-href="https://ainews.luhuidev.com/home/">AI 技术周刊首页</a>
+    
+      <a href="/archive/" data-track="internal_link_click" data-link-label="查看历史归档" data-link-href="https://ainews.luhuidev.com/archive/">查看历史归档</a>
+    
+  </section>
+
+  <script>
+    function pushDataLayer(eventName, payload) {
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push(Object.assign({ event: eventName }, payload || {}));
+    }
+    pushDataLayer("hotlist_page_view", { page_type: "blog_index", post_count: 1 });
+    document.addEventListener("click", (event) => {
+      const anchor = event.target.closest("a[data-track]");
+      if (!anchor) return;
+      const trackType = anchor.dataset.track;
+      if (!trackType) return;
+      const payload = {};
+      Object.keys(anchor.dataset).forEach((key) => {
+        if (key === "track") return;
+        payload[key] = anchor.dataset[key];
+      });
+      if (anchor.href) payload.href = anchor.href;
+      pushDataLayer(trackType, payload);
+    });
+  </script>
+</body>
+</html>
